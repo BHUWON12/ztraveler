@@ -6,7 +6,13 @@ from redis.commands.search.field import (
     VectorField,
 )
 from redis.commands.search.field import TextField, NumericField, TagField, VectorField
-from redis.commands.search.indexDefinition import IndexDefinition, IndexType
+try:
+    # redis >= 5.x
+    from redis.commands.search.index_definition import IndexDefinition, IndexType
+except ModuleNotFoundError:
+    # redis <= 4.x
+    from redis.commands.search.indexDefinition import IndexDefinition, IndexType
+
 
 
 

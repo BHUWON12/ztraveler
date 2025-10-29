@@ -1,21 +1,46 @@
+# -------------------------------------------------------------
+# 🚀 Cloud Build Pipeline for GCP Cloud Run Deployment
+# Service: ztraveler-backend
+# Region:  us-central1
+# Repo:    Artifact Registry → ztraveler-repo
+# -------------------------------------------------------------
+
 steps:
+  # 🏗️ Step 1 – Build Docker image
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'us-central1-docker.pkg.dev/$PROJECT_ID/ztraveler-repo/ztraveler-backend', '.']
+    args:
+      - build
+      - '-t'
+      - 'us-central1-docker.pkg.dev/$PROJECT_ID/ztraveler-repo/ztraveler-backend:$COMMIT_SHA'
+      - '.'
+
+  # 📦 Step 2 – Push image to Artifact Registry
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'us-central1-docker.pkg.dev/$PROJECT_ID/ztraveler-repo/ztraveler-backend']
+    args:
+      - push
+      - 'us-central1-docker.pkg.dev/$PROJECT_ID/ztraveler-repo/ztraveler-backend:$COMMIT_SHA'
+
+  # ☁️ Step 3 – Deploy to Cloud Run
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
     args:
       - run
       - deploy
       - ztraveler-backend
-      - --image
-      - us-central1-docker.pkg.dev/$PROJECT_ID/ztraveler-repo/ztraveler-backend
-      - --platform
+      - '--image'
+      - 'us-central1-docker.pkg.dev/$PROJECT_ID/ztraveler-repo/ztraveler-backend:$COMMIT_SHA'
+      - '--platform'
       - managed
-      - --region
+      - '--region'
       - us-central1
-      - --allow-unauthenticated
-      - --set-env-vars
-      - GOOGLE_API_KEY=your_gemini_key,MONGO_URI=your_mongodb_uri,REDIS_URL=your_redis_url
+      - '--allow-unauthenticated'
+      - '--port'
+      - '8080'
+      - '--set-env-vars'
+      - >
+        GOOGLE_API_KEY=your_gemini_key,
+        MONGO_URI=your_mongodb_uri,
+        REDIS_URL=your_redis_url
+
 images:
-  - us-central1-docker.pkg.dev/$PROJECT_ID/ztraveler-repo/ztraveler-backend
+  - 'us-central1-docker.pkg.dev/$PROJECT_ID/ztraveler-repo/ztraveler-backend:$COMMIT_SHA'

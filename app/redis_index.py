@@ -5,8 +5,10 @@ from redis.commands.search.field import (
     TagField,
     VectorField,
 )
-from redis.commands.search.index_definition import IndexDefinition, IndexType
-from app.config import settings
+from redis.commands.search.field import TextField, NumericField, TagField, VectorField
+from redis.commands.search.indexDefinition import IndexDefinition, IndexType
+
+
 
 # -----------------------------
 # Constants

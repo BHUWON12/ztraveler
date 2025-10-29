@@ -1,15 +1,10 @@
-# FastAPI stack
 fastapi==0.115.0
 uvicorn==0.30.6
 pydantic==2.9.2
 python-dotenv==1.0.1
-
-# Databases
 motor==3.5.1
 redis==5.0.8
-numpy==2.1.1
-
-# LangChain + Gemini AI
+numpy==1.26.4
 langchain==0.3.3
 langchain-google-genai==1.0.6
 google-generativeai==0.8.3

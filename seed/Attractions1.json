@@ -1,0 +1,202 @@
+[
+  {
+    "id": "A062",
+    "name": "A'arif Fort",
+    "cityName": "Hail",
+    "category": "historical site",
+    "entry_fee": 50,
+    "description": "A historic mud-brick fortress perched on a hilltop, offering panoramic views of Hail city."
+  },
+  {
+    "id": "A063",
+    "name": "Jubbah Rock Carvings",
+    "cityName": "Hail",
+    "category": "historical site",
+    "entry_fee": 90,
+    "description": "A UNESCO World Heritage site featuring ancient petroglyphs and inscriptions on sandstone formations."
+  },
+  {
+    "id": "A064",
+    "name": "Yanbu Al-Bahr (Old Town)",
+    "cityName": "Yanbu",
+    "category": "historical site",
+    "entry_fee": 0,
+    "description": "The historic heart of Yanbu, with restored traditional Hijazi buildings and a bustling souq."
+  },
+  {
+    "id": "A065",
+    "name": "Royal Commission Beach",
+    "cityName": "Yanbu",
+    "category": "beach",
+    "entry_fee": 0,
+    "description": "A pristine and well-maintained public beach known for its clear waters and family-friendly facilities."
+  },
+  {
+    "id": "A066",
+    "name": "Rijal Almaa Heritage Village",
+    "cityName": "Abha",
+    "category": "historical site",
+    "entry_fee": 70,
+    "description": "A unique village in the Asir region with distinctive tall stone fortresses, now a museum."
+  },
+  {
+    "id": "A067",
+    "name": "King Abdulaziz Center for World Culture (Ithra)",
+    "cityName": "Dhahran",
+    "category": "museum",
+    "entry_fee": 100,
+    "description": "A modern architectural marvel housing a museum, library, cinema, and theater."
+  },
+  {
+    "id": "A068",
+    "name": "Al Ahsa Oasis",
+    "cityName": "Al-Ahsa",
+    "category": "nature reserve",
+    "entry_fee": 0,
+    "description": "A UNESCO World Heritage site and the largest palm oasis in the world, with springs and canals."
+  },
+  {
+    "id": "A069",
+    "name": "Fayfa Mountains",
+    "cityName": "Jizan",
+    "category": "nature reserve",
+    "entry_fee": 0,
+    "description": "Steep, terraced mountains known as the 'Neighbor of the Moon' for their high altitude and green landscapes."
+  },
+  {
+    "id": "A070",
+    "name": "Wadi Lajab",
+    "cityName": "Jizan",
+    "category": "nature reserve",
+    "entry_fee": 0,
+    "description": "A stunning canyon with a freshwater stream running through it, often called the 'paradise in the desert'."
+  },
+  {
+    "id": "A071",
+    "name": "Umluj Beach",
+    "cityName": "Umluj",
+    "category": "beach",
+    "entry_fee": 0,
+    "description": "Often called the 'Maldives of Saudi Arabia' for its white sandy beaches and clear turquoise waters."
+  },
+  {
+    "id": "A072",
+    "name": "Jabal al-Lawz",
+    "cityName": "Tabuk",
+    "category": "nature reserve",
+    "entry_fee": 0,
+    "description": "The 'Mountain of Almonds', one of the tallest peaks in Saudi Arabia, known to get snowfall in winter."
+  },
+  {
+    "id": "A073",
+    "name": "Maghaer Shuaib (Caves of Jethro)",
+    "cityName": "Tabuk",
+    "category": "historical site",
+    "entry_fee": 60,
+    "description": "An ancient archaeological site near Al-Bada' with Nabatean tombs carved into sandstone."
+  },
+  {
+    "id": "A074",
+    "name": "Boulevard City",
+    "cityName": "Riyadh",
+    "category": "theme park",
+    "entry_fee": 150,
+    "description": "A permanent, large-scale entertainment zone with global experiences, restaurants, and events."
+  },
+  {
+    "id": "A075",
+    "name": "Riyadh Zoo",
+    "cityName": "Riyadh",
+    "category": "park",
+    "entry_fee": 20,
+    "description": "A large zoo housing over 1,500 animals from around the world in a spacious park setting."
+  },
+  {
+    "id": "A076",
+    "name": "Hima Cultural Area",
+    "cityName": "Najran",
+    "category": "historical site",
+    "entry_fee": 90,
+    "description": "A UNESCO World Heritage site with a vast collection of rock art and inscriptions dating back 7,000 years."
+  },
+  {
+    "id": "A077",
+    "name": "Amarah Palace (Najran Fort)",
+    "cityName": "Najran",
+    "category": "historical site",
+    "entry_fee": 40,
+    "description": "A historic mud-brick palace in the center of Najran, now a museum showcasing the region's history."
+  },
+  {
+    "id": "A078",
+    "name": "Red Sea Mall",
+    "cityName": "Jeddah",
+    "category": "shopping mall",
+    "entry_fee": 0,
+    "description": "One of Jeddah's largest malls, featuring a wide range of international brands, a cinema, and a large food court."
+  },
+  {
+    "id": "A079",
+    "name": "Mall of Arabia",
+    "cityName": "Jeddah",
+    "category": "shopping mall",
+    "entry_fee": 0,
+    "description": "A popular shopping destination with a unique design, extensive retail options, and family entertainment."
+  },
+  {
+    "id": "A080",
+    "name": "Boulevard World",
+    "cityName": "Riyadh",
+    "category": "theme park",
+    "entry_fee": 180,
+    "description": "A seasonal entertainment zone (part of Riyadh Season) with pavilions representing different countries."
+  },
+  {
+    "id": "A081",
+    "name": "Al-Muftaha Historical Village",
+    "cityName": "Abha",
+    "category": "art gallery",
+    "entry_fee": 0,
+    "description": "A cultural center in Abha with traditional buildings, art galleries, and craft shops."
+  },
+  {
+    "id": "A082",
+    "name": "Haql Shipwreck Beach",
+    "cityName": "Tabuk",
+    "category": "beach",
+    "entry_fee": 0,
+    "description": "A scenic beach on the Gulf of Aqaba, famous for the half-submerged wreckage of a cargo ship."
+  },
+  {
+    "id": "A083",
+    "name": "Al Soudah Park",
+    "cityName": "Abha",
+    "category": "park",
+    "entry_fee": 20,
+    "description": "Located in Saudi Arabia's highest mountains, offering cool weather, dense juniper forests, and cable car rides."
+  },
+  {
+    "id": "A084",
+    "name": "Yanbu Lake Park",
+    "cityName": "Yanbu",
+    "category": "park",
+    "entry_fee": 0,
+    "description": "A beautiful public park with a large artificial lake, green lawns, and children's play areas."
+  },
+  {
+    "id": "A085",
+    "name": "Hisma Desert",
+    "cityName": "Tabuk",
+    "category": "nature reserve",
+    "entry_fee": 0,
+    "description": "A stunning desert region with dramatic red sandstone formations, often compared to Wadi Rum."
+  },
+  {
+    "id": "A086",
+    "name": "Al Qarah Mountain",
+    "cityName": "Al-Ahsa",
+    "category": "landmark",
+    "entry_fee": 50,
+    "description": "A unique limestone hill with a network of caves and canyons, offering guided tours and cool air."
+  }
+]

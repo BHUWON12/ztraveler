@@ -1,0 +1,202 @@
+[
+  {
+    "hotelId": "H111",
+    "hotelName": "The Ritz-Carlton, Riyadh Palace",
+    "cityName": "Riyadh",
+    "description": "An opulent palace hotel offering regal suites, lush gardens, and unparalleled service.",
+    "price": 3100,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H112",
+    "hotelName": "Jeddah Hilton",
+    "cityName": "Jeddah",
+    "description": "A landmark hotel on the Corniche with sweeping Red Sea views and executive lounges.",
+    "price": 1800,
+    "rating": 4.5
+  },
+  {
+    "hotelId": "H113",
+    "hotelName": "Al Khozama Hotel",
+    "cityName": "Riyadh",
+    "description": "A classic Riyadh hotel known for its heritage, central location, and fine dining.",
+    "price": 1400,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H114",
+    "hotelName": "Mövenpick Hotel Dammam",
+    "cityName": "Dammam",
+    "description": "Modern business hotel located in the city center, offering Swiss hospitality.",
+    "price": 1200,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H115",
+    "hotelName": "Anjum Hotel Makkah",
+    "cityName": "Mecca",
+    "description": "A massive hotel offering thousands of rooms with a private walkway to the Grand Mosque.",
+    "price": 1600,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H116",
+    "hotelName": "Elaf Taiba Hotel",
+    "cityName": "Medina",
+    "description": "Located directly opposite the Prophet's Mosque, offering convenience and comfort.",
+    "price": 1550,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H117",
+    "hotelName": "InterContinental Al Ahsa",
+    "cityName": "Al Ahsa",
+    "description": "Set in a 6-hectare oasis, this hotel features lush gardens and lagoon-style pools.",
+    "price": 1450,
+    "rating": 4.5
+  },
+  {
+    "hotelId": "H118",
+    "hotelName": "Boudl Al Balad",
+    "cityName": "Jeddah",
+    "description": "Serviced apartments in the historic Al-Balad district, perfect for families.",
+    "price": 850,
+    "rating": 4.0
+  },
+  {
+    "hotelId": "H119",
+    "hotelName": "Hilton Garden Inn Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "A reliable and modern hotel for business travelers, close to the Corniche.",
+    "price": 950,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H120",
+    "hotelName": "Four Seasons Hotel Riyadh",
+    "cityName": "Riyadh",
+    "description": "Located in the iconic Kingdom Centre, offering stunning city views and a sky-high spa.",
+    "price": 2900,
+    "rating": 4.8
+  },
+  {
+    "hotelId": "H121",
+    "hotelName": "Shaza Makkah",
+    "cityName": "Mecca",
+    "description": "A contemporary interpretation of silk road elegance, with direct Haram views.",
+    "price": 2150,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H122",
+    "hotelName": "Coral Hotel Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "Boutique hotel with personalized service and a rooftop pool in the city center.",
+    "price": 1050,
+    "rating": 4.1
+  },
+  {
+    "hotelId": "H123",
+    "hotelName": "Gassim Marriott Hotel",
+    "cityName": "Buraydah",
+    "description": "The premier luxury hotel in the Gassim region, ideal for business and events.",
+    "price": 1300,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H124",
+    "hotelName": "Millennium Al Aqeeq Madinah",
+    "cityName": "Medina",
+    "description": "A 5-star hotel with two restaurants, just steps from the Prophet's Mosque.",
+    "price": 1700,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H125",
+    "hotelName": "Warwick Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "Elegant hotel with spacious rooms and a health club, close to Al Rashid Mall.",
+    "price": 1250,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H126",
+    "hotelName": "The St. Regis Jeddah",
+    "cityName": "Jeddah",
+    "description": "Bespoke luxury on the waterfront, featuring the signature St. Regis Butler Service.",
+    "price": 3300,
+    "rating": 5.0
+  },
+  {
+    "hotelId": "H127",
+    "hotelName": "Mercure Khamis Mushayt",
+    "cityName": "Abha",
+    "description": "Comfortable hotel in the sister city of Abha, known for its cool climate and military base.",
+    "price": 700,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H128",
+    "hotelName": "Hyatt Regency Makkah",
+    "cityName": "Mecca",
+    "description": "Part of the Jabal Omar complex, offering direct access and clear views of the Holy Mosque.",
+    "price": 2000,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H129",
+    "hotelName": "Cantonal Hotel by Warwick",
+    "cityName": "Riyadh",
+    "description": "A modern, stylish hotel in the Olaya district, perfect for urban explorers.",
+    "price": 1100,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H130",
+    "hotelName": "Radisson Blu Hotel, Yanbu",
+    "cityName": "Yanbu",
+    "description": "A beautiful beachfront resort hotel perfect for diving and relaxation.",
+    "price": 900,
+    "rating": 4.1
+  },
+  {
+    "hotelId": "H131",
+    "hotelName": "Aman Gati Hotel, Al-Ula",
+    "cityName": "Al-Ula",
+    "description": "A serene, ultra-luxury tented camp set within a secluded desert canyon.",
+    "price": 4500,
+    "rating": 5.0
+  },
+  {
+    "hotelId": "H132",
+    "hotelName": "Hilton Riyadh Hotel & Residences",
+    "cityName": "Riyadh",
+    "description": "A vast complex with multiple dining options, connected to the Granada Mall.",
+    "price": 1900,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H133",
+    "hotelName": "Residence Inn by Marriott Jizan",
+    "cityName": "Jizan",
+    "description": "All-suite hotel with kitchens, designed for extended stays in the port city.",
+    "price": 800,
+    "rating": 4.0
+  },
+  {
+    "hotelId": "H134",
+    "hotelName": "Le Méridien Makkah",
+    "cityName": "Mecca",
+    "description": "A well-located hotel offering partial Haram views and a comfortable stay for pilgrims.",
+    "price": 1350,
+    "rating": 4.1
+  },
+  {
+    "hotelId": "H135",
+    "hotelName": "Swiss Spirit Hotel & Suites Tabuk",
+    "cityName": "Tabuk",
+    "description": "Contemporary hotel with a focus on value and comfort for visitors to Tabuk.",
+    "price": 650,
+    "rating": 3.8
+  }
+]

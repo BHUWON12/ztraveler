@@ -1,0 +1,802 @@
+[
+  {
+    "id": "E111",
+    "name": "NEOM Future of Living Symposium",
+    "cityName": "NEOM",
+    "type": "symposium",
+    "date": "2026-10-05T09:00:00.000+00:00",
+    "description": "A forward-thinking symposium on sustainable urbanism, AI-driven cities, and the future of human habitation."
+  },
+  {
+    "id": "E112",
+    "name": "Hail International Desert Sculpture Exhibition",
+    "cityName": "Hail",
+    "type": "art show",
+    "date": "2027-03-20T10:00:00.000+00:00",
+    "description": "Artists from around the globe create large-scale sculptures that interact with the majestic desert landscape of Hail."
+  },
+  {
+    "id": "E113",
+    "name": "Riyadh FinTech Forward Summit",
+    "cityName": "Riyadh",
+    "type": "summit",
+    "date": "2026-11-09T09:30:00.000+00:00",
+    "description": "The premier FinTech event in the region, focusing on blockchain, digital banking, and investment technologies."
+  },
+  {
+    "id": "E114",
+    "name": "Farasan Islands Freediving Championship",
+    "cityName": "Farasan Islands",
+    "type": "sports",
+    "date": "2027-04-15T08:00:00.000+00:00",
+    "description": "World-class freedivers compete in the pristine coral reefs of the Farasan Islands Marine Sanctuary."
+  },
+  {
+    "id": "E115",
+    "name": "Jeddah Smart Ports & Logistics Hackathon",
+    "cityName": "Jeddah",
+    "type": "hackathon",
+    "date": "2026-05-22T09:00:00.000+00:00",
+    "description": "A 48-hour intensive hackathon to develop innovative solutions for maritime logistics and port automation."
+  },
+  {
+    "id": "E116",
+    "name": "Asir Highlands Trail Biking Race",
+    "cityName": "Abha",
+    "type": "sports",
+    "date": "2026-08-28T07:00:00.000+00:00",
+    "description": "A challenging mountain biking competition across the scenic and rugged terrain of the Asir highlands."
+  },
+  {
+    "id": "E117",
+    "name": "Al Jouf Olive Harvest Festival",
+    "cityName": "Sakaka",
+    "type": "food festival",
+    "date": "2026-11-20T11:00:00.000+00:00",
+    "description": "Celebrating the region's ancient olive traditions with olive oil tastings, pressing demonstrations, and local cuisine."
+  },
+  {
+    "id": "E118",
+    "name": "Dhahran Energy Tech Conference (DhaET)",
+    "cityName": "Dhahran",
+    "type": "conference",
+    "date": "2027-02-08T10:00:00.000+00:00",
+    "description": "Hosted near major industry players, this conference explores digitalization and AI in the energy sector."
+  },
+  {
+    "id": "E119",
+    "name": "Al-Ula Archaeological Field School",
+    "cityName": "Al-Ula",
+    "type": "workshop",
+    "date": "2027-01-18T08:30:00.000+00:00",
+    "description": "An immersive, hands-on workshop for students and enthusiasts to participate in a live archaeological dig."
+  },
+  {
+    "id": "E120",
+    "name": "Riyadh International Poetry Slam",
+    "cityName": "Riyadh",
+    "type": "cultural",
+    "date": "2026-04-12T19:30:00.000+00:00",
+    "description": "A dynamic competition where poets perform their original work in a vibrant, engaging atmosphere."
+  },
+  {
+    "id": "E121",
+    "name": "KAUST Marine Science Open Day",
+    "cityName": "Thuwal",
+    "type": "exhibition",
+    "date": "2026-03-04T10:00:00.000+00:00",
+    "description": "King Abdullah University of Science and Technology opens its doors to showcase cutting-edge Red Sea research."
+  },
+  {
+    "id": "E122",
+    "name": "Jubail Industrial Art Festival",
+    "cityName": "Jubail",
+    "type": "festival",
+    "date": "2026-12-04T16:00:00.000+00:00",
+    "description": "An innovative art festival where artists repurpose industrial materials into stunning public art installations."
+  },
+  {
+    "id": "E123",
+    "name": "Najran Petroglyph & Rock Art Tour",
+    "cityName": "Najran",
+    "type": "cultural",
+    "date": "2026-02-22T09:00:00.000+00:00",
+    "description": "A guided expedition to the ancient rock art sites of Bir Hima, exploring thousands of years of history."
+  },
+  {
+    "id": "E124",
+    "name": "Al Khobar Cybersecurity Conclave",
+    "cityName": "Al Khobar",
+    "type": "conference",
+    "date": "2027-05-10T09:00:00.000+00:00",
+    "description": "A critical gathering of cybersecurity experts to discuss digital defense strategies for corporate infrastructure."
+  },
+  {
+    "id": "E125",
+    "name": "Yanbu Waterfront Lantern Festival",
+    "cityName": "Yanbu",
+    "type": "festival",
+    "date": "2027-03-26T19:00:00.000+00:00",
+    "description": "A visually spectacular evening where thousands of floating lanterns are released over the Red Sea."
+  },
+  {
+    "id": "E126",
+    "name": "Riyadh Space & Astronomy Expo",
+    "cityName": "Riyadh",
+    "type": "exhibition",
+    "date": "2027-01-25T11:00:00.000+00:00",
+    "description": "Explore the cosmos with VR space missions, telescope viewings, and presentations from international space agencies."
+  },
+  {
+    "id": "E127",
+    "name": "Jeddah Indie Music Showcase",
+    "cityName": "Jeddah",
+    "type": "concert",
+    "date": "2026-10-16T20:00:00.000+00:00",
+    "description": "A festival dedicated to promoting emerging independent musicians and bands from across the Kingdom."
+  },
+  {
+    "id": "E128",
+    "name": "Diriyah Arabian Horse Auction",
+    "cityName": "Riyadh",
+    "type": "auction",
+    "date": "2027-03-06T18:00:00.000+00:00",
+    "description": "A prestigious auction featuring some of the finest purebred Arabian horses, held in historic Diriyah."
+  },
+  {
+    "id": "E129",
+    "name": "Al Ahsa Oasis Handicrafts Fair",
+    "cityName": "Al Ahsa",
+    "type": "exhibition",
+    "date": "2026-12-11T15:00:00.000+00:00",
+    "description": "A vibrant market showcasing the unique traditional crafts of the Al-Ahsa region, from pottery to weaving."
+  },
+  {
+    "id": "E130",
+    "name": "NEOM International Drone Racing Grand Prix",
+    "cityName": "NEOM",
+    "type": "sports",
+    "date": "2026-11-27T19:00:00.000+00:00",
+    "description": "Top pilots navigate high-speed drones through a futuristic, neon-lit course in the heart of NEOM."
+  },
+  {
+    "id": "E131",
+    "name": "Dammam Petrochemical Futures Forum",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2027-06-07T09:30:00.000+00:00",
+    "description": "An industry forum on innovation, sustainability, and market trends in the global petrochemical sector."
+  },
+  {
+    "id": "E132",
+    "name": "Taif Aromatic Plants & Perfumery Workshop",
+    "cityName": "Taif",
+    "type": "workshop",
+    "date": "2027-04-24T10:00:00.000+00:00",
+    "description": "Learn the art of traditional perfume making and distillation using the famous roses and aromatic herbs of Taif."
+  },
+  {
+    "id": "E133",
+    "name": "Riyadh E-Sports Arena Inauguration",
+    "cityName": "Riyadh",
+    "type": "esports",
+    "date": "2026-09-18T18:00:00.000+00:00",
+    "description": "The grand opening of a state-of-the-art esports arena, featuring exhibition matches by world champion teams."
+  },
+  {
+    "id": "E134",
+    "name": "Jeddah Classic Film Retrospective",
+    "cityName": "Jeddah",
+    "type": "film festival",
+    "date": "2027-02-15T19:00:00.000+00:00",
+    "description": "A festival celebrating the golden age of Arab and international cinema with restored classic film screenings."
+  },
+  {
+    "id": "E135",
+    "name": "Empty Quarter Endurance Rally",
+    "cityName": "Shaybah",
+    "type": "sports",
+    "date": "2027-01-10T06:00:00.000+00:00",
+    "description": "A grueling multi-day off-road race that tests the limits of drivers and vehicles in the vast Rub' al Khali desert."
+  },
+  {
+    "id": "E136",
+    "name": "Madinah Sacred Geometry Art Workshop",
+    "cityName": "Madinah",
+    "type": "workshop",
+    "date": "2026-10-26T14:00:00.000+00:00",
+    "description": "An artistic and spiritual workshop exploring the principles of Islamic geometric patterns in design."
+  },
+  {
+    "id": "E137",
+    "name": "Al Khobar Women in Leadership Summit",
+    "cityName": "Al Khobar",
+    "type": "summit",
+    "date": "2027-03-08T09:00:00.000+00:00",
+    "description": "An empowering summit featuring talks and workshops from inspiring female leaders in business and technology."
+  },
+  {
+    "id": "E138",
+    "name": "Jeddah Waterfront Carnival",
+    "cityName": "Jeddah",
+    "type": "festival",
+    "date": "2027-05-01T17:00:00.000+00:00",
+    "description": "A family-friendly carnival along the corniche with amusement rides, street performers, and food stalls."
+  },
+  {
+    "id": "E139",
+    "name": "Riyadh Global Logistics & Supply Chain Expo",
+    "cityName": "Riyadh",
+    "type": "exhibition",
+    "date": "2026-09-14T10:00:00.000+00:00",
+    "description": "Connecting global logistics providers with businesses to explore the future of shipping, warehousing, and delivery."
+  },
+  {
+    "id": "E140",
+    "name": "Abha Fog Festival",
+    "cityName": "Abha",
+    "type": "festival",
+    "date": "2026-08-01T18:00:00.000+00:00",
+    "description": "A unique festival celebrating the cool, misty climate of Abha with cultural events and light shows in the fog."
+  },
+  {
+    "id": "E141",
+    "name": "Buraidah Culinary Arts Week",
+    "cityName": "Buraydah",
+    "type": "food festival",
+    "date": "2027-01-22T16:00:00.000+00:00",
+    "description": "A week dedicated to the rich cuisine of the Qassim region, with a special focus on dates in savory and sweet dishes."
+  },
+  {
+    "id": "E142",
+    "name": "Jeddah Red Sea Tourism Investment Forum",
+    "cityName": "Jeddah",
+    "type": "conference",
+    "date": "2026-11-23T09:30:00.000+00:00",
+    "description": "A forum for investors and developers to explore opportunities in Saudi Arabia's booming Red Sea tourism sector."
+  },
+  {
+    "id": "E143",
+    "name": "KAUST Robotics Showcase",
+    "cityName": "Thuwal",
+    "type": "exhibition",
+    "date": "2026-11-05T11:00:00.000+00:00",
+    "description": "An exhibition of the latest advancements in robotics and AI from KAUST labs, including autonomous systems."
+  },
+  {
+    "id": "E144",
+    "name": "AlUla Ancient Kingdoms Light & Sound Show",
+    "cityName": "Al-Ula",
+    "type": "art show",
+    "date": "2026-12-18T19:30:00.000+00:00",
+    "description": "A spectacular nightly show that projects the history of the Dadanite and Lihyanite kingdoms onto ancient rock faces."
+  },
+  {
+    "id": "E145",
+    "name": "Riyadh Calligraffiti Art Exhibition",
+    "cityName": "Riyadh",
+    "type": "exhibition",
+    "date": "2027-02-26T18:00:00.000+00:00",
+    "description": "A modern art show blending traditional calligraphy with contemporary graffiti and street art styles."
+  },
+  {
+    "id": "E146",
+    "name": "Jeddah Beach Volleyball International Open",
+    "cityName": "Jeddah",
+    "type": "sports",
+    "date": "2026-10-09T14:00:00.000+00:00",
+    "description": "Professional beach volleyball teams from around the world compete on the shores of the Red Sea."
+  },
+  {
+    "id": "E147",
+    "name": "Madinah Digital Islamic Library Initiative Launch",
+    "cityName": "Madinah",
+    "type": "cultural",
+    "date": "2027-03-15T10:00:00.000+00:00",
+    "description": "The official launch of a major online portal providing access to rare Islamic manuscripts and scholarly texts."
+  },
+  {
+    "id": "E148",
+    "name": "Tabuk Endurance Horse Race",
+    "cityName": "Tabuk",
+    "type": "sports",
+    "date": "2027-02-19T06:30:00.000+00:00",
+    "description": "A 120km endurance race for horses and riders, set against the dramatic desert landscapes of Tabuk."
+  },
+  {
+    "id": "E149",
+    "name": "Riyadh International Padel Championship",
+    "cityName": "Riyadh",
+    "type": "sports",
+    "date": "2026-11-13T17:00:00.000+00:00",
+    "description": "A professional padel tournament attracting top-ranked players to compete for the Riyadh Masters title."
+  },
+  {
+    "id": "E150",
+    "name": "Al Khobar Financial Literacy Workshop",
+    "cityName": "Al Khobar",
+    "type": "workshop",
+    "date": "2027-01-30T10:00:00.000+00:00",
+    "description": "A practical workshop for the public on personal finance, investing, and wealth management strategies."
+  },
+  {
+    "id": "E151",
+    "name": "Red Sea International Kitesurfing Open",
+    "cityName": "NEOM",
+    "type": "sports",
+    "date": "2027-06-11T12:00:00.000+00:00",
+    "description": "A premier kitesurfing competition featuring freestyle and racing events in the perfect wind conditions of the Red Sea."
+  },
+  {
+    "id": "E152",
+    "name": "Dammam Maritime Museum Anniversary Gala",
+    "cityName": "Dammam",
+    "type": "cultural",
+    "date": "2027-04-05T19:00:00.000+00:00",
+    "description": "A special gala celebrating the history of seafaring in the Arabian Gulf with new exhibits and guest speakers."
+  },
+  {
+    "id": "E153",
+    "name": "Jeddah Corniche Skateboarding Jam",
+    "cityName": "Jeddah",
+    "type": "sports",
+    "date": "2026-12-05T15:00:00.000+00:00",
+    "description": "An open skateboarding competition and community event at the Jeddah waterfront skatepark."
+  },
+  {
+    "id": "E154",
+    "name": "Riyadh World of Coffee & Tea Expo",
+    "cityName": "Riyadh",
+    "type": "exhibition",
+    "date": "2027-05-14T11:00:00.000+00:00",
+    "description": "An international trade fair for coffee and tea enthusiasts and professionals, from bean to cup."
+  },
+  {
+    "id": "E155",
+    "name": "AlUla Luxury Camping & Adventure Travel Expo",
+    "cityName": "Al-Ula",
+    "type": "exhibition",
+    "date": "2026-11-06T12:00:00.000+00:00",
+    "description": "Showcasing the latest in glamping, eco-lodges, and adventure travel experiences in spectacular settings."
+  },
+  {
+    "id": "E156",
+    "name": "Mecca Hajj & Umrah Services Conference",
+    "cityName": "Mecca",
+    "type": "conference",
+    "date": "2027-02-01T10:00:00.000+00:00",
+    "description": "A conference for companies and organizations involved in providing services for Hajj and Umrah pilgrims."
+  },
+  {
+    "id": "E157",
+    "name": "Abha Mountain Climbing Festival",
+    "cityName": "Abha",
+    "type": "festival",
+    "date": "2027-07-23T08:00:00.000+00:00",
+    "description": "A festival for rock climbing enthusiasts of all levels, with guided climbs and competitions on Jabal Sawda."
+  },
+  {
+    "id": "E158",
+    "name": "Jeddah Seafood Gastronomy Festival",
+    "cityName": "Jeddah",
+    "type": "food festival",
+    "date": "2027-04-01T18:00:00.000+00:00",
+    "description": "Top chefs create innovative dishes celebrating the diverse and fresh seafood of the Red Sea."
+  },
+  {
+    "id": "E159",
+    "name": "Riyadh International Animation Festival",
+    "cityName": "Riyadh",
+    "type": "film festival",
+    "date": "2027-06-21T13:00:00.000+00:00",
+    "description": "A festival showcasing animated films from around the world, with workshops for aspiring animators."
+  },
+  {
+    "id": "E160",
+    "name": "Jizan Winter Cultural Fiesta",
+    "cityName": "Jizan",
+    "type": "festival",
+    "date": "2027-01-08T16:00:00.000+00:00",
+    "description": "A vibrant festival celebrating the unique culture, dance, and music of the Jizan region."
+  },
+  {
+    "id": "E161",
+    "name": "Al-Balad Historical Reenactment Week",
+    "cityName": "Jeddah",
+    "type": "cultural",
+    "date": "2026-11-16T18:00:00.000+00:00",
+    "description": "Actors and storytellers bring the ancient port of Al-Balad to life, reenacting historical events and daily life."
+  },
+  {
+    "id": "E162",
+    "name": "Riyadh Urban Gardening & Green Living Expo",
+    "cityName": "Riyadh",
+    "type": "exhibition",
+    "date": "2027-03-19T10:00:00.000+00:00",
+    "description": "An expo focused on sustainable living, with workshops on balcony gardening, composting, and vertical farming."
+  },
+  {
+    "id": "E163",
+    "name": "Dammam International Kite Flying Festival",
+    "cityName": "Dammam",
+    "type": "festival",
+    "date": "2027-02-12T14:00:00.000+00:00",
+    "description": "A colorful family event on the Dammam corniche where professional kite flyers display giant, artistic kites."
+  },
+  {
+    "id": "E164",
+    "name": "Madinah Islamic Manuscripts Exhibition",
+    "cityName": "Madinah",
+    "type": "exhibition",
+    "date": "2027-05-24T11:00:00.000+00:00",
+    "description": "A rare exhibition of beautifully preserved and illuminated Quranic manuscripts and scientific texts."
+  },
+  {
+    "id": "E165",
+    "name": "Al Khobar Real Estate Technology Forum",
+    "cityName": "Al Khobar",
+    "type": "conference",
+    "date": "2026-10-19T09:30:00.000+00:00",
+    "description": "A forum on 'PropTech', exploring how technology is transforming real estate design, sales, and management."
+  },
+  {
+    "id": "E166",
+    "name": "Jeddah Red Sea Coral Reef Conservation Summit",
+    "cityName": "Jeddah",
+    "type": "summit",
+    "date": "2027-09-20T09:00:00.000+00:00",
+    "description": "A summit of marine biologists and policymakers dedicated to preserving the unique coral ecosystems of the Red Sea."
+  },
+  {
+    "id": "E167",
+    "name": "Riyadh Veterinary Medicine Conference",
+    "cityName": "Riyadh",
+    "type": "conference",
+    "date": "2026-10-27T09:00:00.000+00:00",
+    "description": "A professional conference for veterinarians focusing on advancements in equine medicine and falcon health."
+  },
+  {
+    "id": "E168",
+    "name": "Jeddah Graphic Novel & Comics Convention",
+    "cityName": "Jeddah",
+    "type": "convention",
+    "date": "2027-05-28T12:00:00.000+00:00",
+    "description": "A convention for comic book and graphic novel fans, featuring local and international artists and writers."
+  },
+  {
+    "id": "E169",
+    "name": "Riyadh Vintage Car Rally",
+    "cityName": "Riyadh",
+    "type": "rally",
+    "date": "2027-02-05T09:00:00.000+00:00",
+    "description": "A parade and rally of beautifully maintained classic cars driving from Riyadh's city center to historic Diriyah."
+  },
+  {
+    "id": "E170",
+    "name": "Taif International Honey Competition",
+    "cityName": "Taif",
+    "type": "competition",
+    "date": "2026-07-30T10:00:00.000+00:00",
+    "description": "Beekeepers from around the world submit their finest honey for judging at this sweet festival."
+  },
+  {
+    "id": "E171",
+    "name": "Al-Ula Desert Cinema Festival",
+    "cityName": "Al-Ula",
+    "type": "film festival",
+    "date": "2027-11-19T19:00:00.000+00:00",
+    "description": "An outdoor film festival where movies are screened under the stars against the stunning backdrop of Al-Ula's rock formations."
+  },
+  {
+    "id": "E172",
+    "name": "Riyadh International Book Fair for Children",
+    "cityName": "Riyadh",
+    "type": "exhibition",
+    "date": "2027-04-20T10:00:00.000+00:00",
+    "description": "A book fair dedicated to children's literature, with storytelling sessions, author signings, and interactive workshops."
+  },
+  {
+    "id": "E173",
+    "name": "Dammam Industrial Automation Expo",
+    "cityName": "Dammam",
+    "type": "exhibition",
+    "date": "2027-09-13T09:30:00.000+00:00",
+    "description": "Showcasing the latest in robotics, IIoT (Industrial Internet of Things), and automation for manufacturing."
+  },
+  {
+    "id": "E174",
+    "name": "Jeddah International Jewelry Salon",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2027-11-08T16:00:00.000+00:00",
+    "description": "An exclusive salon for high-end jewelry designers and brands to showcase their latest collections to elite clientele."
+  },
+  {
+    "id": "E175",
+    "name": "Al Khobar International Food Festival",
+    "cityName": "Al Khobar",
+    "type": "food festival",
+    "date": "2027-03-04T17:00:00.000+00:00",
+    "description": "A celebration of global cuisine with food stalls, celebrity chef demonstrations, and tasting events on the corniche."
+  },
+  {
+    "id": "E176",
+    "name": "Abha Traditional Archery Contest",
+    "cityName": "Abha",
+    "type": "sports",
+    "date": "2027-08-14T15:00:00.000+00:00",
+    "description": "A competition celebrating the heritage and skill of traditional archery, set in the green hills of Asir."
+  },
+  {
+    "id": "E177",
+    "name": "Riyadh AI in Education Summit",
+    "cityName": "Riyadh",
+    "type": "summit",
+    "date": "2027-08-23T09:00:00.000+00:00",
+    "description": "A summit for educators and technologists on integrating artificial intelligence into personalized learning."
+  },
+  {
+    "id": "E178",
+    "name": "Hail Desert Astronomy Camp",
+    "cityName": "Hail",
+    "type": "workshop",
+    "date": "2026-12-21T18:00:00.000+00:00",
+    "description": "A weekend camping trip deep in the desert for unparalleled stargazing with expert astronomers."
+  },
+  {
+    "id": "E179",
+    "name": "Jeddah Fashion Incubator Showcase",
+    "cityName": "Jeddah",
+    "type": "fashion show",
+    "date": "2027-04-28T19:00:00.000+00:00",
+    "description": "A runway show featuring the debut collections of the next generation of talented Saudi fashion designers."
+  },
+  {
+    "id": "E180",
+    "name": "Al-Hasa Date Palm Festival",
+    "cityName": "Al Ahsa",
+    "type": "festival",
+    "date": "2027-08-06T10:00:00.000+00:00",
+    "description": "A festival celebrating the cultural significance of the date palm in the world's largest oasis."
+  },
+  {
+    "id": "E181",
+    "name": "Riyadh Philanthropy and Social Impact Forum",
+    "cityName": "Riyadh",
+    "type": "forum",
+    "date": "2027-10-18T09:30:00.000+00:00",
+    "description": "A forum connecting NGOs, corporations, and philanthropists to drive sustainable social change."
+  },
+  {
+    "id": "E182",
+    "name": "NEOM Sustainable Agriculture Conference",
+    "cityName": "NEOM",
+    "type": "conference",
+    "date": "2027-09-27T10:00:00.000+00:00",
+    "description": "Focusing on vertical farming, desalination for agriculture, and food security technologies of the future."
+  },
+  {
+    "id": "E183",
+    "name": "Dammam International Boat and Marine Show",
+    "cityName": "Dammam",
+    "type": "exhibition",
+    "date": "2027-10-06T11:00:00.000+00:00",
+    "description": "A premier show for marine lifestyle, featuring luxury yachts, fishing boats, and watersports equipment."
+  },
+  {
+    "id": "E184",
+    "name": "Jeddah International Comedy Festival",
+    "cityName": "Jeddah",
+    "type": "festival",
+    "date": "2027-06-03T20:30:00.000+00:00",
+    "description": "A week-long festival featuring stand-up performances from top international and regional comedians."
+  },
+  {
+    "id": "E185",
+    "name": "Riyadh Virtual Reality (VR) World Expo",
+    "cityName": "Riyadh",
+    "type": "exhibition",
+    "date": "2027-11-22T12:00:00.000+00:00",
+    "description": "An immersive expo where visitors can experience the latest in VR gaming, education, and simulation technology."
+  },
+  {
+    "id": "E186",
+    "name": "Al-Ula Traditional Weaving and Crafts Workshop",
+    "cityName": "Al-Ula",
+    "type": "workshop",
+    "date": "2027-01-29T10:00:00.000+00:00",
+    "description": "Learn the ancient art of Sadu weaving from local artisans in the historic old town of Al-Ula."
+  },
+  {
+    "id": "E187",
+    "name": "Al Khobar Contemporary Art Biennale",
+    "cityName": "Al Khobar",
+    "type": "art show",
+    "date": "2028-02-10T11:00:00.000+00:00",
+    "description": "A major international exhibition of contemporary art, held every two years, focusing on emerging themes and artists."
+  },
+  {
+    "id": "E188",
+    "name": "Jeddah International Pet Show & Competition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2027-10-22T14:00:00.000+00:00",
+    "description": "A fun event for pet lovers, featuring agility competitions, breed showcases, and the latest in pet care products."
+  },
+  {
+    "id": "E189",
+    "name": "Riyadh Future of Mobility Conference",
+    "cityName": "Riyadh",
+    "type": "conference",
+    "date": "2028-01-17T09:00:00.000+00:00",
+    "description": "Exploring electric vehicles, autonomous driving, hyperloop technology, and the future of urban transport."
+  },
+  {
+    "id": "E190",
+    "name": "Madinah International Qirat Competition",
+    "cityName": "Madinah",
+    "type": "competition",
+    "date": "2027-12-06T19:00:00.000+00:00",
+    "description": "A prestigious competition that brings together the world's best Quran reciters to showcase their artistry."
+  },
+  {
+    "id": "E191",
+    "name": "Dammam Industrial Heritage Tour",
+    "cityName": "Dammam",
+    "type": "cultural",
+    "date": "2027-11-13T09:00:00.000+00:00",
+    "description": "A guided tour exploring the history of the oil industry and the industrial development of the Eastern Province."
+  },
+  {
+    "id": "E192",
+    "name": "Riyadh International Gaming Festival (Gamers Con)",
+    "cityName": "Riyadh",
+    "type": "convention",
+    "date": "2027-08-12T12:00:00.000+00:00",
+    "description": "The largest gaming convention in the region, featuring esports tournaments, new game demos, and developer panels."
+  },
+  {
+    "id": "E193",
+    "name": "Taif Fruit Picking Festival",
+    "cityName": "Taif",
+    "type": "festival",
+    "date": "2027-08-20T09:00:00.000+00:00",
+    "description": "A family-friendly festival where visitors can pick their own pomegranates, figs, and grapes at local farms."
+  },
+  {
+    "id": "E194",
+    "name": "Jeddah International Medical Tourism Expo",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2028-03-20T10:00:00.000+00:00",
+    "description": "Connecting international hospitals and wellness centers with patients seeking world-class medical treatments."
+  },
+  {
+    "id": "E195",
+    "name": "Al-Ula Hot Air Balloon Glow Show",
+    "cityName": "Al-Ula",
+    "type": "show",
+    "date": "2028-02-18T18:30:00.000+00:00",
+    "description": "A magical evening where tethered hot air balloons are illuminated in sync with music against the desert twilight."
+  },
+  {
+    "id": "E196",
+    "name": "Riyadh International Defense and Security Expo",
+    "cityName": "Riyadh",
+    "type": "exhibition",
+    "date": "2028-03-06T09:00:00.000+00:00",
+    "description": "A major global exhibition showcasing the latest technologies in the defense, aerospace, and security sectors."
+  },
+  {
+    "id": "E197",
+    "name": "Abha Paragliding Accuracy World Cup",
+    "cityName": "Abha",
+    "type": "sports",
+    "date": "2027-08-22T13:00:00.000+00:00",
+    "description": "An official leg of the Paragliding World Cup where pilots compete by landing on precise targets."
+  },
+  {
+    "id": "E198",
+    "name": "Al Khobar Startup Pitch Competition",
+    "cityName": "Al Khobar",
+    "type": "competition",
+    "date": "2027-11-29T18:00:00.000+00:00",
+    "description": "Early-stage startups pitch their ideas to a panel of venture capitalists for a chance to win seed funding."
+  },
+  {
+    "id": "E199",
+    "name": "Jeddah International Red Sea Photo Contest",
+    "cityName": "Jeddah",
+    "type": "competition",
+    "date": "2028-01-15T19:00:00.000+00:00",
+    "description": "An awards ceremony and exhibition showcasing the best underwater and coastal photography of the Red Sea."
+  },
+  {
+    "id": "E200",
+    "name": "Riyadh Global AI Ethics Forum",
+    "cityName": "Riyadh",
+    "type": "forum",
+    "date": "2027-10-11T09:30:00.000+00:00",
+    "description": "A critical forum discussing the ethical implications, governance, and responsible development of artificial intelligence."
+  },
+  {
+    "id": "E201",
+    "name": "NEOM Marine Biology Research Symposium",
+    "cityName": "NEOM",
+    "type": "symposium",
+    "date": "2028-04-17T09:00:00.000+00:00",
+    "description": "Leading researchers present findings on the unique and resilient coral reef ecosystems of the northern Red Sea."
+  },
+  {
+    "id": "E202",
+    "name": "Riyadh International Franchise Expo",
+    "cityName": "Riyadh",
+    "type": "exhibition",
+    "date": "2028-02-07T10:00:00.000+00:00",
+    "description": "Connecting entrepreneurs with leading international brands and franchise opportunities."
+  },
+  {
+    "id": "E203",
+    "name": "Jeddah International Luxury Wedding Fair",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2028-03-13T16:00:00.000+00:00",
+    "description": "A premier fair for wedding planning, showcasing luxury venues, designers, and services."
+  },
+  {
+    "id": "E204",
+    "name": "Dammam Youth Robotics Challenge",
+    "cityName": "Dammam",
+    "type": "competition",
+    "date": "2028-04-22T09:00:00.000+00:00",
+    "description": "A competition for school and university students to design, build, and compete with their own robots."
+  },
+  {
+    "id": "E205",
+    "name": "AlUla International Film Music Festival",
+    "cityName": "Al-Ula",
+    "type": "festival",
+    "date": "2028-02-24T19:30:00.000+00:00",
+    "description": "A festival celebrating the art of film scores, with live orchestra performances of iconic movie soundtracks in Maraya Hall."
+  },
+  {
+    "id": "E206",
+    "name": "Riyadh Green Building and Sustainability Expo",
+    "cityName": "Riyadh",
+    "type": "exhibition",
+    "date": "2027-09-06T10:00:00.000+00:00",
+    "description": "Showcasing sustainable construction materials, renewable energy solutions, and green building technologies."
+  },
+  {
+    "id": "E207",
+    "name": "Taif Mountain Hiking and Camping Retreat",
+    "cityName": "Taif",
+    "type": "retreat",
+    "date": "2027-10-29T14:00:00.000+00:00",
+    "description": "A guided weekend retreat for hiking and camping enthusiasts in the beautiful Al Hada mountains."
+  },
+  {
+    "id": "E208",
+    "name": "Jeddah International Art Therapy Conference",
+    "cityName": "Jeddah",
+    "type": "conference",
+    "date": "2028-05-15T09:30:00.000+00:00",
+    "description": "A conference for mental health professionals on the therapeutic applications of art in clinical practice."
+  },
+  {
+    "id": "E209",
+    "name": "Al Khobar Design Week",
+    "cityName": "Al Khobar",
+    "type": "festival",
+    "date": "2027-11-01T11:00:00.000+00:00",
+    "description": "A city-wide celebration of design, from graphic and interior to product design, with workshops and exhibitions."
+  },
+  {
+    "id": "E210",
+    "name": "Riyadh International Halal Food & Beverage Expo",
+    "cityName": "Riyadh",
+    "type": "exhibition",
+    "date": "2027-11-15T10:30:00.000+00:00",
+    "description": "A major trade show for the global Halal industry, connecting producers, distributors, and buyers."
+  }
+]

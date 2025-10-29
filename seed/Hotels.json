@@ -1,0 +1,4002 @@
+[
+  {
+    "hotelId": "H136",
+    "hotelName": "Novotel Boutique Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 1653,
+    "rating": 3.0
+  },
+  {
+    "hotelId": "H137",
+    "hotelName": "Fairmont Residency AlUla",
+    "cityName": "AlUla",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1853,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H138",
+    "hotelName": "Marriott Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 2467,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H139",
+    "hotelName": "Golden Tulip Suites Riyadh",
+    "cityName": "Riyadh",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 2467,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H140",
+    "hotelName": "Coral Jazan",
+    "cityName": "Jazan",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 2089,
+    "rating": 3.6
+  },
+  {
+    "hotelId": "H141",
+    "hotelName": "Novotel Tower Hail",
+    "cityName": "Hail",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 285,
+    "rating": 3.8
+  },
+  {
+    "hotelId": "H142",
+    "hotelName": "Park Inn Medina",
+    "cityName": "Medina",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1279,
+    "rating": 3.7
+  },
+  {
+    "hotelId": "H143",
+    "hotelName": "Golden Tulip Resort Hail",
+    "cityName": "Hail",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 274,
+    "rating": 4.1
+  },
+  {
+    "hotelId": "H144",
+    "hotelName": "Coral Tower Buraidah",
+    "cityName": "Buraidah",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1071,
+    "rating": 4.5
+  },
+  {
+    "hotelId": "H145",
+    "hotelName": "Crowne Plaza Medina",
+    "cityName": "Medina",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1423,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H146",
+    "hotelName": "Sheraton Jeddah",
+    "cityName": "Jeddah",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 2369,
+    "rating": 4.5
+  },
+  {
+    "hotelId": "H147",
+    "hotelName": "Four Points Villa Buraidah",
+    "cityName": "Buraidah",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 522,
+    "rating": 3.7
+  },
+  {
+    "hotelId": "H148",
+    "hotelName": "Crowne Plaza Jazan",
+    "cityName": "Jazan",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1244,
+    "rating": 5.0
+  },
+  {
+    "hotelId": "H149",
+    "hotelName": "Hilton Boutique Jazan",
+    "cityName": "Jazan",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 1611,
+    "rating": 3.8
+  },
+  {
+    "hotelId": "H150",
+    "hotelName": "Golden Tulip Lodge Jazan",
+    "cityName": "Jazan",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1039,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H151",
+    "hotelName": "Holiday Inn Plaza Najran",
+    "cityName": "Najran",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 1594,
+    "rating": 3.8
+  },
+  {
+    "hotelId": "H152",
+    "hotelName": "Fairmont Villa Yanbu",
+    "cityName": "Yanbu",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 2110,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H153",
+    "hotelName": "Marriott Grand Mecca",
+    "cityName": "Mecca",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1290,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H154",
+    "hotelName": "Fairmont Palace Jazan",
+    "cityName": "Jazan",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1814,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H155",
+    "hotelName": "Rosewood Hotel Taif",
+    "cityName": "Taif",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 997,
+    "rating": 4.1
+  },
+  {
+    "hotelId": "H156",
+    "hotelName": "Park Inn Lodge AlUla",
+    "cityName": "AlUla",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 370,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H157",
+    "hotelName": "Marriott Resort Jeddah",
+    "cityName": "Jeddah",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 1678,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H158",
+    "hotelName": "Marriott Residency Tabuk",
+    "cityName": "Tabuk",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1327,
+    "rating": 3.7
+  },
+  {
+    "hotelId": "H159",
+    "hotelName": "Park Inn Residency Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 2229,
+    "rating": 3.4
+  },
+  {
+    "hotelId": "H160",
+    "hotelName": "Ibis Hotel Dammam",
+    "cityName": "Dammam",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 303,
+    "rating": 3.1
+  },
+  {
+    "hotelId": "H161",
+    "hotelName": "Ibis Inn Riyadh",
+    "cityName": "Riyadh",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 1224,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H162",
+    "hotelName": "Ibis Oasis Riyadh",
+    "cityName": "Riyadh",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 882,
+    "rating": 4.1
+  },
+  {
+    "hotelId": "H163",
+    "hotelName": "Hyatt Regency Tower Jeddah",
+    "cityName": "Jeddah",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1066,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H164",
+    "hotelName": "Radisson Blu Buraidah",
+    "cityName": "Buraidah",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 1940,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H165",
+    "hotelName": "Crowne Plaza Najran",
+    "cityName": "Najran",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 2181,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H166",
+    "hotelName": "Fairmont Suites Tabuk",
+    "cityName": "Tabuk",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 2222,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H167",
+    "hotelName": "Radisson Blu Boutique Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1208,
+    "rating": 4.1
+  },
+  {
+    "hotelId": "H168",
+    "hotelName": "Fairmont Plaza Yanbu",
+    "cityName": "Yanbu",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 2431,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H169",
+    "hotelName": "Novotel Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 399,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H170",
+    "hotelName": "Marriott Jazan",
+    "cityName": "Jazan",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 2223,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H171",
+    "hotelName": "Four Points Lodge Yanbu",
+    "cityName": "Yanbu",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 907,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H172",
+    "hotelName": "Four Points Mecca",
+    "cityName": "Mecca",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 365,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H173",
+    "hotelName": "InterContinental Tabuk",
+    "cityName": "Tabuk",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 2377,
+    "rating": 3.7
+  },
+  {
+    "hotelId": "H174",
+    "hotelName": "Swiss Spirit Tabuk",
+    "cityName": "Tabuk",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 2356,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H175",
+    "hotelName": "Crowne Plaza Tabuk",
+    "cityName": "Tabuk",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 1554,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H176",
+    "hotelName": "Ibis Residency Jazan",
+    "cityName": "Jazan",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 328,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H177",
+    "hotelName": "Le Méridien Oasis Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 1081,
+    "rating": 3.4
+  },
+  {
+    "hotelId": "H178",
+    "hotelName": "Swiss Spirit Plaza AlUla",
+    "cityName": "AlUla",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 1777,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H179",
+    "hotelName": "Hyatt Regency Inn Medina",
+    "cityName": "Medina",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 1261,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H180",
+    "hotelName": "Hilton Abha",
+    "cityName": "Abha",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1741,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H181",
+    "hotelName": "Golden Tulip Lodge Tabuk",
+    "cityName": "Tabuk",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 2196,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H182",
+    "hotelName": "Hyatt Regency Suites Jazan",
+    "cityName": "Jazan",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 467,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H183",
+    "hotelName": "InterContinental Boutique Medina",
+    "cityName": "Medina",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 303,
+    "rating": 3.7
+  },
+  {
+    "hotelId": "H184",
+    "hotelName": "Swiss Spirit Tabuk",
+    "cityName": "Tabuk",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 744,
+    "rating": 4.1
+  },
+  {
+    "hotelId": "H185",
+    "hotelName": "Le Méridien Resort Jazan",
+    "cityName": "Jazan",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 2072,
+    "rating": 4.1
+  },
+  {
+    "hotelId": "H186",
+    "hotelName": "Holiday Inn Villa Hail",
+    "cityName": "Hail",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 2241,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H187",
+    "hotelName": "Radisson Blu Oasis Taif",
+    "cityName": "Taif",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 415,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H188",
+    "hotelName": "Holiday Inn Villa AlUla",
+    "cityName": "AlUla",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1223,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H189",
+    "hotelName": "Coral Medina",
+    "cityName": "Medina",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 691,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H190",
+    "hotelName": "Four Points Grand Taif",
+    "cityName": "Taif",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 765,
+    "rating": 3.8
+  },
+  {
+    "hotelId": "H191",
+    "hotelName": "Four Points Suites Jeddah",
+    "cityName": "Jeddah",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 1825,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H192",
+    "hotelName": "The Ritz-Carlton Abha",
+    "cityName": "Abha",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1628,
+    "rating": 4.0
+  },
+  {
+    "hotelId": "H193",
+    "hotelName": "Marriott Oasis Medina",
+    "cityName": "Medina",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1530,
+    "rating": 3.7
+  },
+  {
+    "hotelId": "H194",
+    "hotelName": "Ibis Medina",
+    "cityName": "Medina",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 1620,
+    "rating": 4.1
+  },
+  {
+    "hotelId": "H195",
+    "hotelName": "Fairmont Abha",
+    "cityName": "Abha",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1600,
+    "rating": 4.0
+  },
+  {
+    "hotelId": "H196",
+    "hotelName": "Hilton Suites Jazan",
+    "cityName": "Jazan",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 1874,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H197",
+    "hotelName": "Coral Suites Buraidah",
+    "cityName": "Buraidah",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 951,
+    "rating": 3.8
+  },
+  {
+    "hotelId": "H198",
+    "hotelName": "Hilton AlUla",
+    "cityName": "AlUla",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 382,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H199",
+    "hotelName": "Holiday Inn Hotel AlUla",
+    "cityName": "AlUla",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 370,
+    "rating": 4.8
+  },
+  {
+    "hotelId": "H200",
+    "hotelName": "Crowne Plaza Suites Dammam",
+    "cityName": "Dammam",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1020,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H201",
+    "hotelName": "InterContinental Medina",
+    "cityName": "Medina",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 1699,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H202",
+    "hotelName": "Crowne Plaza Hotel Dammam",
+    "cityName": "Dammam",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1085,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H203",
+    "hotelName": "Golden Tulip AlUla",
+    "cityName": "AlUla",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 1536,
+    "rating": 3.1
+  },
+  {
+    "hotelId": "H204",
+    "hotelName": "Fairmont Dammam",
+    "cityName": "Dammam",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1899,
+    "rating": 3.7
+  },
+  {
+    "hotelId": "H205",
+    "hotelName": "Fairmont Plaza Medina",
+    "cityName": "Medina",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 1390,
+    "rating": 3.7
+  },
+  {
+    "hotelId": "H206",
+    "hotelName": "Rosewood Jazan",
+    "cityName": "Jazan",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1771,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H207",
+    "hotelName": "Hyatt Regency Taif",
+    "cityName": "Taif",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1313,
+    "rating": 3.7
+  },
+  {
+    "hotelId": "H208",
+    "hotelName": "Marriott Mecca",
+    "cityName": "Mecca",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 1314,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H209",
+    "hotelName": "The Ritz-Carlton Inn AlUla",
+    "cityName": "AlUla",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 2359,
+    "rating": 4.1
+  },
+  {
+    "hotelId": "H210",
+    "hotelName": "Crowne Plaza Tabuk",
+    "cityName": "Tabuk",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1955,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H211",
+    "hotelName": "Rosewood Tower Abha",
+    "cityName": "Abha",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 424,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H212",
+    "hotelName": "Hilton Riyadh",
+    "cityName": "Riyadh",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 1333,
+    "rating": 3.6
+  },
+  {
+    "hotelId": "H213",
+    "hotelName": "Hilton Riyadh",
+    "cityName": "Riyadh",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 1434,
+    "rating": 4.8
+  },
+  {
+    "hotelId": "H214",
+    "hotelName": "Hyatt Regency Palace Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 2443,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H215",
+    "hotelName": "Coral Jeddah",
+    "cityName": "Jeddah",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 595,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H216",
+    "hotelName": "Ibis Lodge Riyadh",
+    "cityName": "Riyadh",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 567,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H217",
+    "hotelName": "Novotel Riyadh",
+    "cityName": "Riyadh",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1014,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H218",
+    "hotelName": "Coral Grand Riyadh",
+    "cityName": "Riyadh",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 414,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H219",
+    "hotelName": "Le Méridien Mecca",
+    "cityName": "Mecca",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 865,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H220",
+    "hotelName": "Sheraton Palace Medina",
+    "cityName": "Medina",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 2026,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H221",
+    "hotelName": "Crowne Plaza Taif",
+    "cityName": "Taif",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1254,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H222",
+    "hotelName": "Mövenpick Palace Jeddah",
+    "cityName": "Jeddah",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1013,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H223",
+    "hotelName": "Rosewood Plaza Tabuk",
+    "cityName": "Tabuk",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 2296,
+    "rating": 4.0
+  },
+  {
+    "hotelId": "H224",
+    "hotelName": "Golden Tulip Dammam",
+    "cityName": "Dammam",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1963,
+    "rating": 3.6
+  },
+  {
+    "hotelId": "H225",
+    "hotelName": "Fairmont Suites Jeddah",
+    "cityName": "Jeddah",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 1584,
+    "rating": 4.1
+  },
+  {
+    "hotelId": "H226",
+    "hotelName": "Rosewood Grand Mecca",
+    "cityName": "Mecca",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 1190,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H227",
+    "hotelName": "Hyatt Regency Najran",
+    "cityName": "Najran",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 354,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H228",
+    "hotelName": "Sheraton Resort Hail",
+    "cityName": "Hail",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 535,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H229",
+    "hotelName": "Park Inn Medina",
+    "cityName": "Medina",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 671,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H230",
+    "hotelName": "Park Inn Villa Mecca",
+    "cityName": "Mecca",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 877,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H231",
+    "hotelName": "Holiday Inn Medina",
+    "cityName": "Medina",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 566,
+    "rating": 5.0
+  },
+  {
+    "hotelId": "H232",
+    "hotelName": "Mövenpick Oasis Dammam",
+    "cityName": "Dammam",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 1710,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H233",
+    "hotelName": "Radisson Blu Plaza Yanbu",
+    "cityName": "Yanbu",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1154,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H234",
+    "hotelName": "Holiday Inn Residency Tabuk",
+    "cityName": "Tabuk",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 1600,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H235",
+    "hotelName": "Ibis Jazan",
+    "cityName": "Jazan",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 282,
+    "rating": 3.7
+  },
+  {
+    "hotelId": "H236",
+    "hotelName": "Hilton Oasis Mecca",
+    "cityName": "Mecca",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 2064,
+    "rating": 4.5
+  },
+  {
+    "hotelId": "H237",
+    "hotelName": "Hyatt Regency Residency Jeddah",
+    "cityName": "Jeddah",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 1541,
+    "rating": 3.0
+  },
+  {
+    "hotelId": "H238",
+    "hotelName": "Le Méridien Yanbu",
+    "cityName": "Yanbu",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1521,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H239",
+    "hotelName": "Park Inn Taif",
+    "cityName": "Taif",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 1869,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H240",
+    "hotelName": "Park Inn Residency Jeddah",
+    "cityName": "Jeddah",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1094,
+    "rating": 4.0
+  },
+  {
+    "hotelId": "H241",
+    "hotelName": "Four Points Jazan",
+    "cityName": "Jazan",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 1440,
+    "rating": 4.0
+  },
+  {
+    "hotelId": "H242",
+    "hotelName": "Four Points Buraidah",
+    "cityName": "Buraidah",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 1882,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H243",
+    "hotelName": "Marriott AlUla",
+    "cityName": "AlUla",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 441,
+    "rating": 4.5
+  },
+  {
+    "hotelId": "H244",
+    "hotelName": "Mövenpick Suites Jazan",
+    "cityName": "Jazan",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1895,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H245",
+    "hotelName": "Crowne Plaza Buraidah",
+    "cityName": "Buraidah",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 1560,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H246",
+    "hotelName": "Fairmont Najran",
+    "cityName": "Najran",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 1524,
+    "rating": 5.0
+  },
+  {
+    "hotelId": "H247",
+    "hotelName": "Rosewood Resort Abha",
+    "cityName": "Abha",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1718,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H248",
+    "hotelName": "Four Points Inn Medina",
+    "cityName": "Medina",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 2059,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H249",
+    "hotelName": "Radisson Blu Mecca",
+    "cityName": "Mecca",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1109,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H250",
+    "hotelName": "Rosewood Inn Buraidah",
+    "cityName": "Buraidah",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 1992,
+    "rating": 3.6
+  },
+  {
+    "hotelId": "H251",
+    "hotelName": "Fairmont Plaza Buraidah",
+    "cityName": "Buraidah",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 395,
+    "rating": 4.0
+  },
+  {
+    "hotelId": "H252",
+    "hotelName": "Rosewood Medina",
+    "cityName": "Medina",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 627,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H253",
+    "hotelName": "Radisson Blu Jazan",
+    "cityName": "Jazan",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 1305,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H254",
+    "hotelName": "Marriott Villa Riyadh",
+    "cityName": "Riyadh",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 342,
+    "rating": 4.8
+  },
+  {
+    "hotelId": "H255",
+    "hotelName": "InterContinental Tabuk",
+    "cityName": "Tabuk",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1363,
+    "rating": 4.0
+  },
+  {
+    "hotelId": "H256",
+    "hotelName": "Crowne Plaza Medina",
+    "cityName": "Medina",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 371,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H257",
+    "hotelName": "InterContinental Taif",
+    "cityName": "Taif",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 868,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H258",
+    "hotelName": "Crowne Plaza Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 2410,
+    "rating": 3.1
+  },
+  {
+    "hotelId": "H259",
+    "hotelName": "Swiss Spirit Medina",
+    "cityName": "Medina",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 1905,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H260",
+    "hotelName": "Rosewood Oasis Riyadh",
+    "cityName": "Riyadh",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 2471,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H261",
+    "hotelName": "Radisson Blu Medina",
+    "cityName": "Medina",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 2362,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H262",
+    "hotelName": "Mövenpick Hotel Jazan",
+    "cityName": "Jazan",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 2093,
+    "rating": 4.0
+  },
+  {
+    "hotelId": "H263",
+    "hotelName": "Sheraton Taif",
+    "cityName": "Taif",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 339,
+    "rating": 4.0
+  },
+  {
+    "hotelId": "H264",
+    "hotelName": "Holiday Inn Jeddah",
+    "cityName": "Jeddah",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 2101,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H265",
+    "hotelName": "Novotel Palace Yanbu",
+    "cityName": "Yanbu",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 469,
+    "rating": 3.0
+  },
+  {
+    "hotelId": "H266",
+    "hotelName": "Coral Abha",
+    "cityName": "Abha",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 1467,
+    "rating": 3.4
+  },
+  {
+    "hotelId": "H267",
+    "hotelName": "Rosewood Tower Abha",
+    "cityName": "Abha",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 1738,
+    "rating": 4.5
+  },
+  {
+    "hotelId": "H268",
+    "hotelName": "InterContinental Hotel Tabuk",
+    "cityName": "Tabuk",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1018,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H269",
+    "hotelName": "Fairmont Residency Buraidah",
+    "cityName": "Buraidah",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1786,
+    "rating": 3.7
+  },
+  {
+    "hotelId": "H270",
+    "hotelName": "Holiday Inn Yanbu",
+    "cityName": "Yanbu",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1799,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H271",
+    "hotelName": "Le Méridien Residency Jeddah",
+    "cityName": "Jeddah",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 405,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H272",
+    "hotelName": "Golden Tulip Dammam",
+    "cityName": "Dammam",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 2065,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H273",
+    "hotelName": "Hyatt Regency Inn Taif",
+    "cityName": "Taif",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1354,
+    "rating": 3.1
+  },
+  {
+    "hotelId": "H274",
+    "hotelName": "Swiss Spirit Palace Hail",
+    "cityName": "Hail",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1284,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H275",
+    "hotelName": "InterContinental Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 623,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H276",
+    "hotelName": "Swiss Spirit Hotel AlUla",
+    "cityName": "AlUla",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1831,
+    "rating": 4.5
+  },
+  {
+    "hotelId": "H277",
+    "hotelName": "Rosewood Yanbu",
+    "cityName": "Yanbu",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 442,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H278",
+    "hotelName": "Four Points Medina",
+    "cityName": "Medina",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 460,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H279",
+    "hotelName": "Ibis Villa Taif",
+    "cityName": "Taif",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 1255,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H280",
+    "hotelName": "Four Points Abha",
+    "cityName": "Abha",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 839,
+    "rating": 4.1
+  },
+  {
+    "hotelId": "H281",
+    "hotelName": "Fairmont Palace Taif",
+    "cityName": "Taif",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 279,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H282",
+    "hotelName": "Fairmont Oasis Riyadh",
+    "cityName": "Riyadh",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 2270,
+    "rating": 4.8
+  },
+  {
+    "hotelId": "H283",
+    "hotelName": "Four Points Medina",
+    "cityName": "Medina",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 326,
+    "rating": 4.5
+  },
+  {
+    "hotelId": "H284",
+    "hotelName": "Le Méridien Residency Hail",
+    "cityName": "Hail",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 2172,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H285",
+    "hotelName": "Hyatt Regency Lodge AlUla",
+    "cityName": "AlUla",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1767,
+    "rating": 3.8
+  },
+  {
+    "hotelId": "H286",
+    "hotelName": "Hyatt Regency Taif",
+    "cityName": "Taif",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1850,
+    "rating": 3.8
+  },
+  {
+    "hotelId": "H287",
+    "hotelName": "Mövenpick Mecca",
+    "cityName": "Mecca",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 952,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H288",
+    "hotelName": "Park Inn Dammam",
+    "cityName": "Dammam",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 696,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H289",
+    "hotelName": "Coral Residency Jazan",
+    "cityName": "Jazan",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1113,
+    "rating": 5.0
+  },
+  {
+    "hotelId": "H290",
+    "hotelName": "Ibis Taif",
+    "cityName": "Taif",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 1999,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H291",
+    "hotelName": "Sheraton Residency Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1871,
+    "rating": 4.8
+  },
+  {
+    "hotelId": "H292",
+    "hotelName": "Mövenpick Jazan",
+    "cityName": "Jazan",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1024,
+    "rating": 3.6
+  },
+  {
+    "hotelId": "H293",
+    "hotelName": "Fairmont Inn Riyadh",
+    "cityName": "Riyadh",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 1715,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H294",
+    "hotelName": "Le Méridien Grand Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 1525,
+    "rating": 3.0
+  },
+  {
+    "hotelId": "H295",
+    "hotelName": "Hilton Residency Abha",
+    "cityName": "Abha",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 340,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H296",
+    "hotelName": "Marriott Riyadh",
+    "cityName": "Riyadh",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 828,
+    "rating": 4.1
+  },
+  {
+    "hotelId": "H297",
+    "hotelName": "Rosewood Taif",
+    "cityName": "Taif",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1708,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H298",
+    "hotelName": "Park Inn Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 1248,
+    "rating": 4.1
+  },
+  {
+    "hotelId": "H299",
+    "hotelName": "Crowne Plaza Tabuk",
+    "cityName": "Tabuk",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1168,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H300",
+    "hotelName": "Crowne Plaza Inn Hail",
+    "cityName": "Hail",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 510,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H301",
+    "hotelName": "Marriott Hail",
+    "cityName": "Hail",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 1090,
+    "rating": 4.5
+  },
+  {
+    "hotelId": "H302",
+    "hotelName": "Mövenpick Lodge Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1065,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H303",
+    "hotelName": "Swiss Spirit Grand Yanbu",
+    "cityName": "Yanbu",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 2244,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H304",
+    "hotelName": "Le Méridien Inn Najran",
+    "cityName": "Najran",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1409,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H305",
+    "hotelName": "Novotel Oasis Taif",
+    "cityName": "Taif",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 2473,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H306",
+    "hotelName": "InterContinental Suites Abha",
+    "cityName": "Abha",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 1689,
+    "rating": 4.5
+  },
+  {
+    "hotelId": "H307",
+    "hotelName": "Fairmont Residency Riyadh",
+    "cityName": "Riyadh",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 1920,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H308",
+    "hotelName": "Crowne Plaza Dammam",
+    "cityName": "Dammam",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1934,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H309",
+    "hotelName": "Four Points Riyadh",
+    "cityName": "Riyadh",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1379,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H310",
+    "hotelName": "Mövenpick Jazan",
+    "cityName": "Jazan",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 2475,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H311",
+    "hotelName": "Hyatt Regency Villa Medina",
+    "cityName": "Medina",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 1875,
+    "rating": 3.1
+  },
+  {
+    "hotelId": "H312",
+    "hotelName": "Le Méridien Oasis Jeddah",
+    "cityName": "Jeddah",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 1970,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H313",
+    "hotelName": "Holiday Inn Abha",
+    "cityName": "Abha",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 1970,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H314",
+    "hotelName": "Hilton Dammam",
+    "cityName": "Dammam",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 2028,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H315",
+    "hotelName": "Holiday Inn Hail",
+    "cityName": "Hail",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 2464,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H316",
+    "hotelName": "InterContinental Resort Najran",
+    "cityName": "Najran",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1101,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H317",
+    "hotelName": "Le Méridien Riyadh",
+    "cityName": "Riyadh",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1363,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H318",
+    "hotelName": "Ibis Medina",
+    "cityName": "Medina",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 345,
+    "rating": 3.4
+  },
+  {
+    "hotelId": "H319",
+    "hotelName": "Rosewood Palace Tabuk",
+    "cityName": "Tabuk",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1490,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H320",
+    "hotelName": "Sheraton Boutique Abha",
+    "cityName": "Abha",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 2070,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H321",
+    "hotelName": "The Ritz-Carlton Jeddah",
+    "cityName": "Jeddah",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1892,
+    "rating": 4.5
+  },
+  {
+    "hotelId": "H322",
+    "hotelName": "Golden Tulip Inn Mecca",
+    "cityName": "Mecca",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1400,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H323",
+    "hotelName": "Ibis Taif",
+    "cityName": "Taif",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 2312,
+    "rating": 4.0
+  },
+  {
+    "hotelId": "H324",
+    "hotelName": "InterContinental Grand Mecca",
+    "cityName": "Mecca",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 1669,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H325",
+    "hotelName": "The Ritz-Carlton AlUla",
+    "cityName": "AlUla",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 1376,
+    "rating": 4.8
+  },
+  {
+    "hotelId": "H326",
+    "hotelName": "The Ritz-Carlton Hail",
+    "cityName": "Hail",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 2422,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H327",
+    "hotelName": "Golden Tulip Residency Tabuk",
+    "cityName": "Tabuk",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1082,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H328",
+    "hotelName": "The Ritz-Carlton Jeddah",
+    "cityName": "Jeddah",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 2010,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H329",
+    "hotelName": "Radisson Blu Abha",
+    "cityName": "Abha",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 997,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H330",
+    "hotelName": "Le Méridien Suites Buraidah",
+    "cityName": "Buraidah",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1721,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H331",
+    "hotelName": "Ibis Lodge Jazan",
+    "cityName": "Jazan",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1699,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H332",
+    "hotelName": "Sheraton Medina",
+    "cityName": "Medina",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 1200,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H333",
+    "hotelName": "Fairmont Taif",
+    "cityName": "Taif",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 2492,
+    "rating": 3.6
+  },
+  {
+    "hotelId": "H334",
+    "hotelName": "InterContinental Jeddah",
+    "cityName": "Jeddah",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1282,
+    "rating": 3.8
+  },
+  {
+    "hotelId": "H335",
+    "hotelName": "Le Méridien Hotel Jazan",
+    "cityName": "Jazan",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 325,
+    "rating": 3.6
+  },
+  {
+    "hotelId": "H336",
+    "hotelName": "Crowne Plaza Grand Jeddah",
+    "cityName": "Jeddah",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 2464,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H337",
+    "hotelName": "Le Méridien Tower Jazan",
+    "cityName": "Jazan",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 1031,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H338",
+    "hotelName": "Park Inn Tower Medina",
+    "cityName": "Medina",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1018,
+    "rating": 3.7
+  },
+  {
+    "hotelId": "H339",
+    "hotelName": "Coral Medina",
+    "cityName": "Medina",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 889,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H340",
+    "hotelName": "Sheraton Tabuk",
+    "cityName": "Tabuk",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 2149,
+    "rating": 3.8
+  },
+  {
+    "hotelId": "H341",
+    "hotelName": "Mövenpick Suites Hail",
+    "cityName": "Hail",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1473,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H342",
+    "hotelName": "Park Inn Riyadh",
+    "cityName": "Riyadh",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 992,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H343",
+    "hotelName": "Swiss Spirit Hotel Jazan",
+    "cityName": "Jazan",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 1702,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H344",
+    "hotelName": "Coral Najran",
+    "cityName": "Najran",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 761,
+    "rating": 5.0
+  },
+  {
+    "hotelId": "H345",
+    "hotelName": "Le Méridien Hotel Riyadh",
+    "cityName": "Riyadh",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 1337,
+    "rating": 3.0
+  },
+  {
+    "hotelId": "H346",
+    "hotelName": "Le Méridien Suites Mecca",
+    "cityName": "Mecca",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 977,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H347",
+    "hotelName": "Golden Tulip Abha",
+    "cityName": "Abha",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 1536,
+    "rating": 4.0
+  },
+  {
+    "hotelId": "H348",
+    "hotelName": "Golden Tulip Taif",
+    "cityName": "Taif",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 1153,
+    "rating": 5.0
+  },
+  {
+    "hotelId": "H349",
+    "hotelName": "Hyatt Regency Jeddah",
+    "cityName": "Jeddah",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 327,
+    "rating": 4.8
+  },
+  {
+    "hotelId": "H350",
+    "hotelName": "Holiday Inn Plaza Tabuk",
+    "cityName": "Tabuk",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 2399,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H351",
+    "hotelName": "Holiday Inn Hail",
+    "cityName": "Hail",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 441,
+    "rating": 4.5
+  },
+  {
+    "hotelId": "H352",
+    "hotelName": "Ibis Medina",
+    "cityName": "Medina",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1051,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H353",
+    "hotelName": "Le Méridien Boutique Dammam",
+    "cityName": "Dammam",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1755,
+    "rating": 3.6
+  },
+  {
+    "hotelId": "H354",
+    "hotelName": "Novotel Jeddah",
+    "cityName": "Jeddah",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 2489,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H355",
+    "hotelName": "Mövenpick Hail",
+    "cityName": "Hail",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1589,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H356",
+    "hotelName": "Crowne Plaza Najran",
+    "cityName": "Najran",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 2457,
+    "rating": 4.8
+  },
+  {
+    "hotelId": "H357",
+    "hotelName": "Ibis Boutique Medina",
+    "cityName": "Medina",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 1854,
+    "rating": 3.4
+  },
+  {
+    "hotelId": "H358",
+    "hotelName": "Ibis Lodge Abha",
+    "cityName": "Abha",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 969,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H359",
+    "hotelName": "Ibis Medina",
+    "cityName": "Medina",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1871,
+    "rating": 3.7
+  },
+  {
+    "hotelId": "H360",
+    "hotelName": "Le Méridien Medina",
+    "cityName": "Medina",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 1069,
+    "rating": 3.6
+  },
+  {
+    "hotelId": "H361",
+    "hotelName": "Four Points Tabuk",
+    "cityName": "Tabuk",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 948,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H362",
+    "hotelName": "The Ritz-Carlton Taif",
+    "cityName": "Taif",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 987,
+    "rating": 3.6
+  },
+  {
+    "hotelId": "H363",
+    "hotelName": "Coral Riyadh",
+    "cityName": "Riyadh",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1705,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H364",
+    "hotelName": "Coral Suites Tabuk",
+    "cityName": "Tabuk",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 831,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H365",
+    "hotelName": "Le Méridien Residency Buraidah",
+    "cityName": "Buraidah",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1690,
+    "rating": 3.0
+  },
+  {
+    "hotelId": "H366",
+    "hotelName": "Crowne Plaza Jeddah",
+    "cityName": "Jeddah",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 2318,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H367",
+    "hotelName": "Rosewood Lodge Najran",
+    "cityName": "Najran",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 1308,
+    "rating": 3.8
+  },
+  {
+    "hotelId": "H368",
+    "hotelName": "Park Inn Hotel Najran",
+    "cityName": "Najran",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1926,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H369",
+    "hotelName": "Crowne Plaza Taif",
+    "cityName": "Taif",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 753,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H370",
+    "hotelName": "Park Inn Yanbu",
+    "cityName": "Yanbu",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 1663,
+    "rating": 4.8
+  },
+  {
+    "hotelId": "H371",
+    "hotelName": "Four Points Hotel Buraidah",
+    "cityName": "Buraidah",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1232,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H372",
+    "hotelName": "Fairmont Inn Medina",
+    "cityName": "Medina",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1809,
+    "rating": 3.6
+  },
+  {
+    "hotelId": "H373",
+    "hotelName": "Fairmont Jeddah",
+    "cityName": "Jeddah",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1653,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H374",
+    "hotelName": "Hyatt Regency Jazan",
+    "cityName": "Jazan",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 2489,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H375",
+    "hotelName": "Sheraton Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 917,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H376",
+    "hotelName": "InterContinental Palace Dammam",
+    "cityName": "Dammam",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1289,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H377",
+    "hotelName": "Fairmont Resort AlUla",
+    "cityName": "AlUla",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 619,
+    "rating": 3.0
+  },
+  {
+    "hotelId": "H378",
+    "hotelName": "Radisson Blu Resort Medina",
+    "cityName": "Medina",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1994,
+    "rating": 4.1
+  },
+  {
+    "hotelId": "H379",
+    "hotelName": "Swiss Spirit Plaza Hail",
+    "cityName": "Hail",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 258,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H380",
+    "hotelName": "Hilton Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 1840,
+    "rating": 3.7
+  },
+  {
+    "hotelId": "H381",
+    "hotelName": "Radisson Blu Yanbu",
+    "cityName": "Yanbu",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 2497,
+    "rating": 4.8
+  },
+  {
+    "hotelId": "H382",
+    "hotelName": "Crowne Plaza Dammam",
+    "cityName": "Dammam",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 320,
+    "rating": 3.4
+  },
+  {
+    "hotelId": "H383",
+    "hotelName": "Holiday Inn Mecca",
+    "cityName": "Mecca",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1465,
+    "rating": 4.1
+  },
+  {
+    "hotelId": "H384",
+    "hotelName": "Le Méridien Hotel Dammam",
+    "cityName": "Dammam",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 810,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H385",
+    "hotelName": "InterContinental AlUla",
+    "cityName": "AlUla",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 747,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H386",
+    "hotelName": "Marriott Tabuk",
+    "cityName": "Tabuk",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 460,
+    "rating": 3.1
+  },
+  {
+    "hotelId": "H387",
+    "hotelName": "Park Inn Mecca",
+    "cityName": "Mecca",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 2473,
+    "rating": 3.1
+  },
+  {
+    "hotelId": "H388",
+    "hotelName": "Golden Tulip Yanbu",
+    "cityName": "Yanbu",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 2334,
+    "rating": 4.0
+  },
+  {
+    "hotelId": "H389",
+    "hotelName": "InterContinental Villa Najran",
+    "cityName": "Najran",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1164,
+    "rating": 3.0
+  },
+  {
+    "hotelId": "H390",
+    "hotelName": "Hyatt Regency Plaza Jeddah",
+    "cityName": "Jeddah",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1382,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H391",
+    "hotelName": "Holiday Inn Palace Taif",
+    "cityName": "Taif",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 1663,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H392",
+    "hotelName": "Hyatt Regency Oasis Dammam",
+    "cityName": "Dammam",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 707,
+    "rating": 3.6
+  },
+  {
+    "hotelId": "H393",
+    "hotelName": "Novotel Hail",
+    "cityName": "Hail",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1997,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H394",
+    "hotelName": "Park Inn Jazan",
+    "cityName": "Jazan",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1412,
+    "rating": 3.1
+  },
+  {
+    "hotelId": "H395",
+    "hotelName": "Novotel Tower Buraidah",
+    "cityName": "Buraidah",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 1999,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H396",
+    "hotelName": "Ibis Boutique Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 2428,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H397",
+    "hotelName": "Hilton Najran",
+    "cityName": "Najran",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 2241,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H398",
+    "hotelName": "Le Méridien Riyadh",
+    "cityName": "Riyadh",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 2060,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H399",
+    "hotelName": "Swiss Spirit Hail",
+    "cityName": "Hail",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 969,
+    "rating": 4.0
+  },
+  {
+    "hotelId": "H400",
+    "hotelName": "Mövenpick Jazan",
+    "cityName": "Jazan",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 841,
+    "rating": 3.4
+  },
+  {
+    "hotelId": "H401",
+    "hotelName": "The Ritz-Carlton Plaza Yanbu",
+    "cityName": "Yanbu",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 726,
+    "rating": 3.4
+  },
+  {
+    "hotelId": "H402",
+    "hotelName": "Rosewood Grand Taif",
+    "cityName": "Taif",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 744,
+    "rating": 3.4
+  },
+  {
+    "hotelId": "H403",
+    "hotelName": "The Ritz-Carlton Riyadh",
+    "cityName": "Riyadh",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1485,
+    "rating": 3.0
+  },
+  {
+    "hotelId": "H404",
+    "hotelName": "Mövenpick Dammam",
+    "cityName": "Dammam",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 1989,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H405",
+    "hotelName": "Le Méridien Buraidah",
+    "cityName": "Buraidah",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 2444,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H406",
+    "hotelName": "Novotel Mecca",
+    "cityName": "Mecca",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1681,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H407",
+    "hotelName": "Hyatt Regency AlUla",
+    "cityName": "AlUla",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 1986,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H408",
+    "hotelName": "Fairmont Lodge Taif",
+    "cityName": "Taif",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 2201,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H409",
+    "hotelName": "Marriott Abha",
+    "cityName": "Abha",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 715,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H410",
+    "hotelName": "Marriott Villa Buraidah",
+    "cityName": "Buraidah",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 993,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H411",
+    "hotelName": "Fairmont Tabuk",
+    "cityName": "Tabuk",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1391,
+    "rating": 4.5
+  },
+  {
+    "hotelId": "H412",
+    "hotelName": "Fairmont Lodge AlUla",
+    "cityName": "AlUla",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 2409,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H413",
+    "hotelName": "Radisson Blu Yanbu",
+    "cityName": "Yanbu",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 791,
+    "rating": 3.4
+  },
+  {
+    "hotelId": "H414",
+    "hotelName": "Golden Tulip Jeddah",
+    "cityName": "Jeddah",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1515,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H415",
+    "hotelName": "The Ritz-Carlton Buraidah",
+    "cityName": "Buraidah",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1833,
+    "rating": 4.1
+  },
+  {
+    "hotelId": "H416",
+    "hotelName": "Le Méridien Tower AlUla",
+    "cityName": "AlUla",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1364,
+    "rating": 5.0
+  },
+  {
+    "hotelId": "H417",
+    "hotelName": "Crowne Plaza Oasis Hail",
+    "cityName": "Hail",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 307,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H418",
+    "hotelName": "Crowne Plaza Tower Abha",
+    "cityName": "Abha",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1224,
+    "rating": 3.8
+  },
+  {
+    "hotelId": "H419",
+    "hotelName": "Hyatt Regency Plaza Riyadh",
+    "cityName": "Riyadh",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 2069,
+    "rating": 4.0
+  },
+  {
+    "hotelId": "H420",
+    "hotelName": "Hilton Inn Tabuk",
+    "cityName": "Tabuk",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1853,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H421",
+    "hotelName": "Fairmont Mecca",
+    "cityName": "Mecca",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 1881,
+    "rating": 3.7
+  },
+  {
+    "hotelId": "H422",
+    "hotelName": "Four Points Resort Buraidah",
+    "cityName": "Buraidah",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 2395,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H423",
+    "hotelName": "Mövenpick Tower Taif",
+    "cityName": "Taif",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 2118,
+    "rating": 3.1
+  },
+  {
+    "hotelId": "H424",
+    "hotelName": "Coral Medina",
+    "cityName": "Medina",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 1026,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H425",
+    "hotelName": "Park Inn Hail",
+    "cityName": "Hail",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1493,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H426",
+    "hotelName": "Hilton Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1182,
+    "rating": 3.7
+  },
+  {
+    "hotelId": "H427",
+    "hotelName": "Holiday Inn Buraidah",
+    "cityName": "Buraidah",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 266,
+    "rating": 3.7
+  },
+  {
+    "hotelId": "H428",
+    "hotelName": "Hilton Resort Riyadh",
+    "cityName": "Riyadh",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1165,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H429",
+    "hotelName": "InterContinental Hotel Jeddah",
+    "cityName": "Jeddah",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 445,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H430",
+    "hotelName": "The Ritz-Carlton Abha",
+    "cityName": "Abha",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 396,
+    "rating": 4.1
+  },
+  {
+    "hotelId": "H431",
+    "hotelName": "Crowne Plaza Mecca",
+    "cityName": "Mecca",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 372,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H432",
+    "hotelName": "Coral Abha",
+    "cityName": "Abha",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 445,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H433",
+    "hotelName": "Radisson Blu Resort Medina",
+    "cityName": "Medina",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1766,
+    "rating": 3.6
+  },
+  {
+    "hotelId": "H434",
+    "hotelName": "Swiss Spirit AlUla",
+    "cityName": "AlUla",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1622,
+    "rating": 3.0
+  },
+  {
+    "hotelId": "H435",
+    "hotelName": "Hilton Riyadh",
+    "cityName": "Riyadh",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 741,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H436",
+    "hotelName": "Park Inn Riyadh",
+    "cityName": "Riyadh",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 2411,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H437",
+    "hotelName": "Sheraton Medina",
+    "cityName": "Medina",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 318,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H438",
+    "hotelName": "Hilton Resort Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 975,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H439",
+    "hotelName": "Le Méridien AlUla",
+    "cityName": "AlUla",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1152,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H440",
+    "hotelName": "Sheraton Villa Abha",
+    "cityName": "Abha",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1892,
+    "rating": 4.0
+  },
+  {
+    "hotelId": "H441",
+    "hotelName": "Marriott Boutique Medina",
+    "cityName": "Medina",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 2477,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H442",
+    "hotelName": "Radisson Blu Suites Tabuk",
+    "cityName": "Tabuk",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 2453,
+    "rating": 3.4
+  },
+  {
+    "hotelId": "H443",
+    "hotelName": "Four Points Grand Dammam",
+    "cityName": "Dammam",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 1521,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H444",
+    "hotelName": "Four Points Boutique Buraidah",
+    "cityName": "Buraidah",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1135,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H445",
+    "hotelName": "Le Méridien Taif",
+    "cityName": "Taif",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1334,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H446",
+    "hotelName": "Radisson Blu Boutique Jeddah",
+    "cityName": "Jeddah",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1226,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H447",
+    "hotelName": "The Ritz-Carlton Inn Medina",
+    "cityName": "Medina",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1435,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H448",
+    "hotelName": "Swiss Spirit Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1877,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H449",
+    "hotelName": "Novotel Buraidah",
+    "cityName": "Buraidah",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 389,
+    "rating": 3.6
+  },
+  {
+    "hotelId": "H450",
+    "hotelName": "Radisson Blu Jeddah",
+    "cityName": "Jeddah",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 2436,
+    "rating": 3.4
+  },
+  {
+    "hotelId": "H451",
+    "hotelName": "Swiss Spirit Hotel Dammam",
+    "cityName": "Dammam",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 928,
+    "rating": 4.5
+  },
+  {
+    "hotelId": "H452",
+    "hotelName": "Hilton Hail",
+    "cityName": "Hail",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 2158,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H453",
+    "hotelName": "Holiday Inn Residency Yanbu",
+    "cityName": "Yanbu",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 1377,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H454",
+    "hotelName": "Fairmont Taif",
+    "cityName": "Taif",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 2316,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H455",
+    "hotelName": "Ibis Najran",
+    "cityName": "Najran",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1370,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H456",
+    "hotelName": "Rosewood Boutique Taif",
+    "cityName": "Taif",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 2477,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H457",
+    "hotelName": "InterContinental Riyadh",
+    "cityName": "Riyadh",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 1983,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H458",
+    "hotelName": "Marriott Riyadh",
+    "cityName": "Riyadh",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 2429,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H459",
+    "hotelName": "Marriott Oasis Dammam",
+    "cityName": "Dammam",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 1473,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H460",
+    "hotelName": "Crowne Plaza Jazan",
+    "cityName": "Jazan",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1596,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H461",
+    "hotelName": "Golden Tulip Boutique Mecca",
+    "cityName": "Mecca",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 1047,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H462",
+    "hotelName": "Hilton Tower Yanbu",
+    "cityName": "Yanbu",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 2349,
+    "rating": 3.7
+  },
+  {
+    "hotelId": "H463",
+    "hotelName": "InterContinental Palace Dammam",
+    "cityName": "Dammam",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1180,
+    "rating": 3.1
+  },
+  {
+    "hotelId": "H464",
+    "hotelName": "Crowne Plaza Jazan",
+    "cityName": "Jazan",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 2468,
+    "rating": 4.8
+  },
+  {
+    "hotelId": "H465",
+    "hotelName": "Fairmont Lodge Jazan",
+    "cityName": "Jazan",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1815,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H466",
+    "hotelName": "Golden Tulip Plaza Tabuk",
+    "cityName": "Tabuk",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 2185,
+    "rating": 3.6
+  },
+  {
+    "hotelId": "H467",
+    "hotelName": "Crowne Plaza Tower Medina",
+    "cityName": "Medina",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 2091,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H468",
+    "hotelName": "InterContinental Tower Riyadh",
+    "cityName": "Riyadh",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 665,
+    "rating": 3.7
+  },
+  {
+    "hotelId": "H469",
+    "hotelName": "Rosewood Jazan",
+    "cityName": "Jazan",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1272,
+    "rating": 4.8
+  },
+  {
+    "hotelId": "H470",
+    "hotelName": "Le Méridien Tower Jeddah",
+    "cityName": "Jeddah",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1678,
+    "rating": 4.8
+  },
+  {
+    "hotelId": "H471",
+    "hotelName": "Fairmont Tabuk",
+    "cityName": "Tabuk",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 663,
+    "rating": 3.6
+  },
+  {
+    "hotelId": "H472",
+    "hotelName": "Mövenpick Suites Medina",
+    "cityName": "Medina",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1555,
+    "rating": 4.1
+  },
+  {
+    "hotelId": "H473",
+    "hotelName": "The Ritz-Carlton Taif",
+    "cityName": "Taif",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 2312,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H474",
+    "hotelName": "Crowne Plaza Tower AlUla",
+    "cityName": "AlUla",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 954,
+    "rating": 4.1
+  },
+  {
+    "hotelId": "H475",
+    "hotelName": "Mövenpick Lodge Riyadh",
+    "cityName": "Riyadh",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 486,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H476",
+    "hotelName": "Crowne Plaza Hail",
+    "cityName": "Hail",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 1736,
+    "rating": 3.1
+  },
+  {
+    "hotelId": "H477",
+    "hotelName": "Ibis Boutique Jazan",
+    "cityName": "Jazan",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1352,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H478",
+    "hotelName": "Hilton Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 2232,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H479",
+    "hotelName": "Le Méridien Plaza Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 1530,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H480",
+    "hotelName": "Park Inn Palace Mecca",
+    "cityName": "Mecca",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1746,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H481",
+    "hotelName": "Fairmont Resort Dammam",
+    "cityName": "Dammam",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 756,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H482",
+    "hotelName": "Marriott Abha",
+    "cityName": "Abha",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 661,
+    "rating": 5.0
+  },
+  {
+    "hotelId": "H483",
+    "hotelName": "Holiday Inn Lodge Yanbu",
+    "cityName": "Yanbu",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 2454,
+    "rating": 3.1
+  },
+  {
+    "hotelId": "H484",
+    "hotelName": "Hyatt Regency Riyadh",
+    "cityName": "Riyadh",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 645,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H485",
+    "hotelName": "Swiss Spirit AlUla",
+    "cityName": "AlUla",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1092,
+    "rating": 3.0
+  },
+  {
+    "hotelId": "H486",
+    "hotelName": "Coral Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 384,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H487",
+    "hotelName": "Golden Tulip AlUla",
+    "cityName": "AlUla",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 678,
+    "rating": 4.8
+  },
+  {
+    "hotelId": "H488",
+    "hotelName": "Novotel Jeddah",
+    "cityName": "Jeddah",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 551,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H489",
+    "hotelName": "Fairmont Inn Yanbu",
+    "cityName": "Yanbu",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 601,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H490",
+    "hotelName": "Rosewood Resort Abha",
+    "cityName": "Abha",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 2120,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H491",
+    "hotelName": "Mövenpick Resort Dammam",
+    "cityName": "Dammam",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1487,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H492",
+    "hotelName": "Novotel Boutique Jeddah",
+    "cityName": "Jeddah",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1725,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H493",
+    "hotelName": "Fairmont AlUla",
+    "cityName": "AlUla",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 1329,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H494",
+    "hotelName": "Sheraton Abha",
+    "cityName": "Abha",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 581,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H495",
+    "hotelName": "Swiss Spirit Tower Jeddah",
+    "cityName": "Jeddah",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 715,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H496",
+    "hotelName": "Coral Riyadh",
+    "cityName": "Riyadh",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 504,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H497",
+    "hotelName": "Le Méridien Tower Riyadh",
+    "cityName": "Riyadh",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 1083,
+    "rating": 3.1
+  },
+  {
+    "hotelId": "H498",
+    "hotelName": "Novotel Hail",
+    "cityName": "Hail",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 381,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H499",
+    "hotelName": "Holiday Inn Tabuk",
+    "cityName": "Tabuk",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1163,
+    "rating": 3.1
+  },
+  {
+    "hotelId": "H500",
+    "hotelName": "The Ritz-Carlton Grand Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 978,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H501",
+    "hotelName": "Hyatt Regency Boutique Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 574,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H502",
+    "hotelName": "Holiday Inn Tower Hail",
+    "cityName": "Hail",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1745,
+    "rating": 3.8
+  },
+  {
+    "hotelId": "H503",
+    "hotelName": "Swiss Spirit Buraidah",
+    "cityName": "Buraidah",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 2162,
+    "rating": 3.1
+  },
+  {
+    "hotelId": "H504",
+    "hotelName": "Radisson Blu Inn Jazan",
+    "cityName": "Jazan",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 875,
+    "rating": 3.6
+  },
+  {
+    "hotelId": "H505",
+    "hotelName": "The Ritz-Carlton Hotel Dammam",
+    "cityName": "Dammam",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 363,
+    "rating": 3.0
+  },
+  {
+    "hotelId": "H506",
+    "hotelName": "Swiss Spirit Lodge AlUla",
+    "cityName": "AlUla",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 839,
+    "rating": 3.8
+  },
+  {
+    "hotelId": "H507",
+    "hotelName": "Marriott Abha",
+    "cityName": "Abha",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1377,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H508",
+    "hotelName": "Golden Tulip Buraidah",
+    "cityName": "Buraidah",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 1999,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H509",
+    "hotelName": "Mövenpick Dammam",
+    "cityName": "Dammam",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1221,
+    "rating": 3.8
+  },
+  {
+    "hotelId": "H510",
+    "hotelName": "Holiday Inn Plaza Medina",
+    "cityName": "Medina",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 880,
+    "rating": 4.5
+  },
+  {
+    "hotelId": "H511",
+    "hotelName": "Hilton Mecca",
+    "cityName": "Mecca",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 465,
+    "rating": 3.6
+  },
+  {
+    "hotelId": "H512",
+    "hotelName": "Ibis Residency Riyadh",
+    "cityName": "Riyadh",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1528,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H513",
+    "hotelName": "Swiss Spirit Taif",
+    "cityName": "Taif",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 595,
+    "rating": 3.6
+  },
+  {
+    "hotelId": "H514",
+    "hotelName": "Four Points Tabuk",
+    "cityName": "Tabuk",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 2324,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H515",
+    "hotelName": "Swiss Spirit Riyadh",
+    "cityName": "Riyadh",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 470,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H516",
+    "hotelName": "Hyatt Regency Medina",
+    "cityName": "Medina",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 2118,
+    "rating": 3.7
+  },
+  {
+    "hotelId": "H517",
+    "hotelName": "Novotel Jeddah",
+    "cityName": "Jeddah",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 599,
+    "rating": 3.6
+  },
+  {
+    "hotelId": "H518",
+    "hotelName": "Le Méridien Suites Hail",
+    "cityName": "Hail",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 2156,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H519",
+    "hotelName": "Hyatt Regency Tower Yanbu",
+    "cityName": "Yanbu",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 2144,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H520",
+    "hotelName": "Fairmont Abha",
+    "cityName": "Abha",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 2175,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H521",
+    "hotelName": "Holiday Inn Dammam",
+    "cityName": "Dammam",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 1959,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H522",
+    "hotelName": "Four Points Tabuk",
+    "cityName": "Tabuk",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 771,
+    "rating": 4.8
+  },
+  {
+    "hotelId": "H523",
+    "hotelName": "Crowne Plaza Hail",
+    "cityName": "Hail",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 1011,
+    "rating": 3.1
+  },
+  {
+    "hotelId": "H524",
+    "hotelName": "The Ritz-Carlton Grand Abha",
+    "cityName": "Abha",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 1007,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H525",
+    "hotelName": "Fairmont Oasis Dammam",
+    "cityName": "Dammam",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1397,
+    "rating": 3.8
+  },
+  {
+    "hotelId": "H526",
+    "hotelName": "InterContinental Dammam",
+    "cityName": "Dammam",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 433,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H527",
+    "hotelName": "Park Inn Palace Hail",
+    "cityName": "Hail",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 2020,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H528",
+    "hotelName": "Rosewood Inn Taif",
+    "cityName": "Taif",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1535,
+    "rating": 4.1
+  },
+  {
+    "hotelId": "H529",
+    "hotelName": "Sheraton Residency Jazan",
+    "cityName": "Jazan",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 994,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H530",
+    "hotelName": "Swiss Spirit Hail",
+    "cityName": "Hail",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1932,
+    "rating": 3.8
+  },
+  {
+    "hotelId": "H531",
+    "hotelName": "Ibis Mecca",
+    "cityName": "Mecca",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 1971,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H532",
+    "hotelName": "The Ritz-Carlton Dammam",
+    "cityName": "Dammam",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 472,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H533",
+    "hotelName": "Hilton Buraidah",
+    "cityName": "Buraidah",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 1622,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H534",
+    "hotelName": "Le Méridien Riyadh",
+    "cityName": "Riyadh",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 1693,
+    "rating": 3.4
+  },
+  {
+    "hotelId": "H535",
+    "hotelName": "Coral Hotel Mecca",
+    "cityName": "Mecca",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 2208,
+    "rating": 3.6
+  },
+  {
+    "hotelId": "H536",
+    "hotelName": "Four Points Oasis Jazan",
+    "cityName": "Jazan",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1719,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H537",
+    "hotelName": "Rosewood Yanbu",
+    "cityName": "Yanbu",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 320,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H538",
+    "hotelName": "Hilton Jazan",
+    "cityName": "Jazan",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1068,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H539",
+    "hotelName": "Mövenpick Jazan",
+    "cityName": "Jazan",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 368,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H540",
+    "hotelName": "Fairmont Tower AlUla",
+    "cityName": "AlUla",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 2363,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H541",
+    "hotelName": "Marriott Suites Mecca",
+    "cityName": "Mecca",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 815,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H542",
+    "hotelName": "Mövenpick Medina",
+    "cityName": "Medina",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 524,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H543",
+    "hotelName": "Rosewood Buraidah",
+    "cityName": "Buraidah",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1055,
+    "rating": 4.5
+  },
+  {
+    "hotelId": "H544",
+    "hotelName": "Coral Oasis Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1537,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H545",
+    "hotelName": "Radisson Blu Buraidah",
+    "cityName": "Buraidah",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 2155,
+    "rating": 3.0
+  },
+  {
+    "hotelId": "H546",
+    "hotelName": "The Ritz-Carlton Hail",
+    "cityName": "Hail",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 886,
+    "rating": 3.0
+  },
+  {
+    "hotelId": "H547",
+    "hotelName": "Le Méridien Jazan",
+    "cityName": "Jazan",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 926,
+    "rating": 4.5
+  },
+  {
+    "hotelId": "H548",
+    "hotelName": "Marriott Residency Jazan",
+    "cityName": "Jazan",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1345,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H549",
+    "hotelName": "InterContinental Medina",
+    "cityName": "Medina",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 956,
+    "rating": 4.8
+  },
+  {
+    "hotelId": "H550",
+    "hotelName": "Four Points Palace Taif",
+    "cityName": "Taif",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 488,
+    "rating": 3.1
+  },
+  {
+    "hotelId": "H551",
+    "hotelName": "Swiss Spirit Tabuk",
+    "cityName": "Tabuk",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1565,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H552",
+    "hotelName": "Holiday Inn Jeddah",
+    "cityName": "Jeddah",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1732,
+    "rating": 4.5
+  },
+  {
+    "hotelId": "H553",
+    "hotelName": "Rosewood Dammam",
+    "cityName": "Dammam",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 704,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H554",
+    "hotelName": "Marriott Tower Abha",
+    "cityName": "Abha",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 2349,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H555",
+    "hotelName": "Rosewood AlUla",
+    "cityName": "AlUla",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 2289,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H556",
+    "hotelName": "Novotel Mecca",
+    "cityName": "Mecca",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1739,
+    "rating": 3.8
+  },
+  {
+    "hotelId": "H557",
+    "hotelName": "Golden Tulip Villa AlUla",
+    "cityName": "AlUla",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 2158,
+    "rating": 3.7
+  },
+  {
+    "hotelId": "H558",
+    "hotelName": "Coral Hotel Yanbu",
+    "cityName": "Yanbu",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 2125,
+    "rating": 3.0
+  },
+  {
+    "hotelId": "H559",
+    "hotelName": "Rosewood Riyadh",
+    "cityName": "Riyadh",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1836,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H560",
+    "hotelName": "Sheraton Boutique Mecca",
+    "cityName": "Mecca",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 883,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H561",
+    "hotelName": "Swiss Spirit Hotel Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 850,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H562",
+    "hotelName": "Park Inn Dammam",
+    "cityName": "Dammam",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 2377,
+    "rating": 4.0
+  },
+  {
+    "hotelId": "H563",
+    "hotelName": "Swiss Spirit Suites Tabuk",
+    "cityName": "Tabuk",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1260,
+    "rating": 3.8
+  },
+  {
+    "hotelId": "H564",
+    "hotelName": "Radisson Blu Jazan",
+    "cityName": "Jazan",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 814,
+    "rating": 3.4
+  },
+  {
+    "hotelId": "H565",
+    "hotelName": "Novotel Suites Abha",
+    "cityName": "Abha",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 2203,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H566",
+    "hotelName": "Rosewood Hail",
+    "cityName": "Hail",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 2152,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H567",
+    "hotelName": "Hilton Palace Jeddah",
+    "cityName": "Jeddah",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1127,
+    "rating": 3.4
+  },
+  {
+    "hotelId": "H568",
+    "hotelName": "Hyatt Regency Najran",
+    "cityName": "Najran",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 2259,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H569",
+    "hotelName": "Ibis Jazan",
+    "cityName": "Jazan",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1793,
+    "rating": 3.0
+  },
+  {
+    "hotelId": "H570",
+    "hotelName": "Holiday Inn Villa Medina",
+    "cityName": "Medina",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 732,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H571",
+    "hotelName": "Park Inn Hail",
+    "cityName": "Hail",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 2119,
+    "rating": 4.5
+  },
+  {
+    "hotelId": "H572",
+    "hotelName": "Crowne Plaza Medina",
+    "cityName": "Medina",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1525,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H573",
+    "hotelName": "Ibis Resort Buraidah",
+    "cityName": "Buraidah",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 593,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H574",
+    "hotelName": "Golden Tulip Dammam",
+    "cityName": "Dammam",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 641,
+    "rating": 4.9
+  },
+  {
+    "hotelId": "H575",
+    "hotelName": "Le Méridien Plaza Najran",
+    "cityName": "Najran",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 792,
+    "rating": 3.0
+  },
+  {
+    "hotelId": "H576",
+    "hotelName": "Ibis AlUla",
+    "cityName": "AlUla",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 895,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H577",
+    "hotelName": "Fairmont Boutique Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 592,
+    "rating": 3.7
+  },
+  {
+    "hotelId": "H578",
+    "hotelName": "Le Méridien Boutique Hail",
+    "cityName": "Hail",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 1608,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H579",
+    "hotelName": "Novotel Lodge Taif",
+    "cityName": "Taif",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 288,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H580",
+    "hotelName": "Sheraton Tabuk",
+    "cityName": "Tabuk",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 817,
+    "rating": 4.0
+  },
+  {
+    "hotelId": "H581",
+    "hotelName": "Park Inn Taif",
+    "cityName": "Taif",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1256,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H582",
+    "hotelName": "Crowne Plaza Medina",
+    "cityName": "Medina",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 2497,
+    "rating": 3.4
+  },
+  {
+    "hotelId": "H583",
+    "hotelName": "The Ritz-Carlton Mecca",
+    "cityName": "Mecca",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 2000,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H584",
+    "hotelName": "The Ritz-Carlton Inn Mecca",
+    "cityName": "Mecca",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 736,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H585",
+    "hotelName": "Rosewood Jazan",
+    "cityName": "Jazan",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 325,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H586",
+    "hotelName": "Holiday Inn Oasis Taif",
+    "cityName": "Taif",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 1676,
+    "rating": 3.6
+  },
+  {
+    "hotelId": "H587",
+    "hotelName": "Swiss Spirit Riyadh",
+    "cityName": "Riyadh",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 566,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H588",
+    "hotelName": "Crowne Plaza Mecca",
+    "cityName": "Mecca",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1378,
+    "rating": 3.1
+  },
+  {
+    "hotelId": "H589",
+    "hotelName": "Mövenpick Medina",
+    "cityName": "Medina",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 1266,
+    "rating": 3.1
+  },
+  {
+    "hotelId": "H590",
+    "hotelName": "Golden Tulip Hail",
+    "cityName": "Hail",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1852,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H591",
+    "hotelName": "Fairmont Tabuk",
+    "cityName": "Tabuk",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 298,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H592",
+    "hotelName": "Novotel Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 2271,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H593",
+    "hotelName": "Fairmont Hail",
+    "cityName": "Hail",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 290,
+    "rating": 4.8
+  },
+  {
+    "hotelId": "H594",
+    "hotelName": "The Ritz-Carlton Resort Najran",
+    "cityName": "Najran",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 263,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H595",
+    "hotelName": "Park Inn Boutique Mecca",
+    "cityName": "Mecca",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 1799,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H596",
+    "hotelName": "Fairmont Boutique Riyadh",
+    "cityName": "Riyadh",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 1135,
+    "rating": 3.1
+  },
+  {
+    "hotelId": "H597",
+    "hotelName": "Novotel Plaza Jazan",
+    "cityName": "Jazan",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 524,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H598",
+    "hotelName": "Swiss Spirit Palace Tabuk",
+    "cityName": "Tabuk",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 1146,
+    "rating": 3.8
+  },
+  {
+    "hotelId": "H599",
+    "hotelName": "Crowne Plaza Villa Hail",
+    "cityName": "Hail",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 1919,
+    "rating": 4.5
+  },
+  {
+    "hotelId": "H600",
+    "hotelName": "Park Inn Inn Abha",
+    "cityName": "Abha",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 764,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H601",
+    "hotelName": "Rosewood Hotel Medina",
+    "cityName": "Medina",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 881,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H602",
+    "hotelName": "Crowne Plaza AlUla",
+    "cityName": "AlUla",
+    "description": "Perfect for family stays, featuring pools and on-site restaurants.",
+    "price": 746,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H603",
+    "hotelName": "Four Points Oasis Dammam",
+    "cityName": "Dammam",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 2480,
+    "rating": 3.1
+  },
+  {
+    "hotelId": "H604",
+    "hotelName": "Four Points Taif",
+    "cityName": "Taif",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 2234,
+    "rating": 3.4
+  },
+  {
+    "hotelId": "H605",
+    "hotelName": "Fairmont Buraidah",
+    "cityName": "Buraidah",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1206,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H606",
+    "hotelName": "The Ritz-Carlton Resort Najran",
+    "cityName": "Najran",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 2332,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H607",
+    "hotelName": "Ibis Jazan",
+    "cityName": "Jazan",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1673,
+    "rating": 4.2
+  },
+  {
+    "hotelId": "H608",
+    "hotelName": "Ibis Medina",
+    "cityName": "Medina",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 1024,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H609",
+    "hotelName": "Golden Tulip AlUla",
+    "cityName": "AlUla",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 843,
+    "rating": 3.7
+  },
+  {
+    "hotelId": "H610",
+    "hotelName": "Crowne Plaza Palace Medina",
+    "cityName": "Medina",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 733,
+    "rating": 3.1
+  },
+  {
+    "hotelId": "H611",
+    "hotelName": "Hilton Inn Yanbu",
+    "cityName": "Yanbu",
+    "description": "A luxurious stay offering modern amenities and world-class hospitality.",
+    "price": 834,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H612",
+    "hotelName": "Fairmont Najran",
+    "cityName": "Najran",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 2344,
+    "rating": 3.0
+  },
+  {
+    "hotelId": "H613",
+    "hotelName": "Four Points Inn Riyadh",
+    "cityName": "Riyadh",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 2180,
+    "rating": 3.7
+  },
+  {
+    "hotelId": "H614",
+    "hotelName": "Four Points Grand AlUla",
+    "cityName": "AlUla",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 667,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H615",
+    "hotelName": "Golden Tulip Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 321,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H616",
+    "hotelName": "Coral Tabuk",
+    "cityName": "Tabuk",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 1735,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H617",
+    "hotelName": "Park Inn Boutique Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 2366,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H618",
+    "hotelName": "Golden Tulip Riyadh",
+    "cityName": "Riyadh",
+    "description": "Designed for comfort and convenience with modern interiors.",
+    "price": 1319,
+    "rating": 3.0
+  },
+  {
+    "hotelId": "H619",
+    "hotelName": "Hilton Hail",
+    "cityName": "Hail",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 735,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H620",
+    "hotelName": "Holiday Inn Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1152,
+    "rating": 4.0
+  },
+  {
+    "hotelId": "H621",
+    "hotelName": "Mövenpick Plaza Medina",
+    "cityName": "Medina",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 394,
+    "rating": 4.6
+  },
+  {
+    "hotelId": "H622",
+    "hotelName": "Mövenpick Medina",
+    "cityName": "Medina",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 1871,
+    "rating": 4.1
+  },
+  {
+    "hotelId": "H623",
+    "hotelName": "Sheraton Oasis Jazan",
+    "cityName": "Jazan",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 1222,
+    "rating": 3.9
+  },
+  {
+    "hotelId": "H624",
+    "hotelName": "Sheraton Plaza Buraidah",
+    "cityName": "Buraidah",
+    "description": "Located near major attractions with excellent dining options.",
+    "price": 540,
+    "rating": 3.3
+  },
+  {
+    "hotelId": "H625",
+    "hotelName": "Rosewood Medina",
+    "cityName": "Medina",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 561,
+    "rating": 5.0
+  },
+  {
+    "hotelId": "H626",
+    "hotelName": "Sheraton Palace Abha",
+    "cityName": "Abha",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 1539,
+    "rating": 4.3
+  },
+  {
+    "hotelId": "H627",
+    "hotelName": "Hilton Al Khobar",
+    "cityName": "Al Khobar",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 514,
+    "rating": 3.6
+  },
+  {
+    "hotelId": "H628",
+    "hotelName": "The Ritz-Carlton Taif",
+    "cityName": "Taif",
+    "description": "Ideal for short stays, business trips, or weekend getaways.",
+    "price": 1384,
+    "rating": 4.5
+  },
+  {
+    "hotelId": "H629",
+    "hotelName": "Fairmont Boutique Jazan",
+    "cityName": "Jazan",
+    "description": "A top-rated hotel known for exceptional service and location.",
+    "price": 1451,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H630",
+    "hotelName": "Marriott Buraidah",
+    "cityName": "Buraidah",
+    "description": "An elegant property offering scenic views and premium service.",
+    "price": 1814,
+    "rating": 3.0
+  },
+  {
+    "hotelId": "H631",
+    "hotelName": "Novotel Villa Riyadh",
+    "cityName": "Riyadh",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 1648,
+    "rating": 3.5
+  },
+  {
+    "hotelId": "H632",
+    "hotelName": "Mövenpick Jazan",
+    "cityName": "Jazan",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 2253,
+    "rating": 4.4
+  },
+  {
+    "hotelId": "H633",
+    "hotelName": "InterContinental Abha",
+    "cityName": "Abha",
+    "description": "A budget-friendly choice with essential facilities and clean rooms.",
+    "price": 997,
+    "rating": 3.2
+  },
+  {
+    "hotelId": "H634",
+    "hotelName": "Novotel Najran",
+    "cityName": "Najran",
+    "description": "Combining traditional charm with contemporary luxury.",
+    "price": 1441,
+    "rating": 4.7
+  },
+  {
+    "hotelId": "H635",
+    "hotelName": "The Ritz-Carlton Buraidah",
+    "cityName": "Buraidah",
+    "description": "A comfortable hotel ideal for both business and leisure travelers.",
+    "price": 556,
+    "rating": 4.5
+  }
+]

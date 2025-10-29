@@ -1,0 +1,1402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Travel Story Generator - Cinematic Edition</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap');
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 50%, #0a0e27 100%);
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        /* Enhanced Particles Background with Stars */
+        #particles { 
+            position: fixed; 
+            top: 0; 
+            left: 0; 
+            width: 100%; 
+            height: 100%; 
+            z-index: 0; 
+            pointer-events: none; 
+        }
+        
+        .particle { 
+            position: absolute; 
+            width: 3px; 
+            height: 3px; 
+            background: rgba(0, 255, 135, 0.6); 
+            border-radius: 50%; 
+            box-shadow: 0 0 10px rgba(0, 255, 135, 0.8);
+            animation: float 20s infinite; 
+        }
+        
+        .star {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background: white;
+            border-radius: 50%;
+            animation: twinkle 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0) translateX(0); opacity: 0; }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            100% { transform: translateY(-120vh) translateX(100px); opacity: 0; }
+        }
+        
+        @keyframes twinkle {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.3; transform: scale(0.8); }
+        }
+
+        /* Gradient Orbs */
+        .gradient-orb {
+            position: fixed;
+            border-radius: 50%;
+            filter: blur(100px);
+            opacity: 0.3;
+            pointer-events: none;
+            z-index: 0;
+        }
+        
+        .orb-1 {
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, #006239, transparent);
+            top: -200px;
+            left: -200px;
+            animation: float-orb 20s ease-in-out infinite;
+        }
+        
+        .orb-2 {
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, #00ff87, transparent);
+            bottom: -150px;
+            right: -150px;
+            animation: float-orb 25s ease-in-out infinite reverse;
+        }
+        
+        @keyframes float-orb {
+            0%, 100% { transform: translate(0, 0); }
+            50% { transform: translate(100px, 100px); }
+        }
+
+        /* Form Container */
+        .form-container {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .form-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(30px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 32px;
+            padding: 3rem;
+            max-width: 650px;
+            width: 100%;
+            box-shadow: 0 20px 80px rgba(0, 0, 0, 0.6), 
+                        0 0 0 1px rgba(255, 255, 255, 0.05) inset;
+            animation: slideUp 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .form-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(0, 255, 135, 0.1) 0%, transparent 70%);
+            animation: rotate 30s linear infinite;
+        }
+        
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(50px) scale(0.95); }
+            to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+
+        .form-title {
+            font-size: 3rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #00ff87 0%, #00c2ff 50%, #006239 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            animation: shimmer 3s ease-in-out infinite;
+        }
+        
+        @keyframes shimmer {
+            0%, 100% { filter: brightness(1); }
+            50% { filter: brightness(1.3); }
+        }
+
+        .form-subtitle {
+            color: rgba(255, 255, 255, 0.7);
+            text-align: center;
+            margin-bottom: 2.5rem;
+            font-size: 1.1rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .input-group {
+            margin-bottom: 1.75rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .input-label {
+            display: block;
+            margin-bottom: 0.6rem;
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 0.95rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 1rem 1.25rem;
+            background: rgba(255, 255, 255, 0.06);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            border-radius: 14px;
+            color: #fff;
+            font-size: 1rem;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            font-family: 'Inter', sans-serif;
+        }
+
+        .input-field:focus {
+            outline: none;
+            border-color: #00ff87;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 0 4px rgba(0, 255, 135, 0.15),
+                        0 10px 30px rgba(0, 255, 135, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .input-field::placeholder { 
+            color: rgba(255, 255, 255, 0.4); 
+        }
+
+        .chips-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+        }
+
+        .chip {
+            padding: 0.7rem 1.3rem;
+            background: rgba(255, 255, 255, 0.06);
+            border: 2px solid rgba(255, 255, 255, 0.15);
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            font-size: 0.95rem;
+            font-weight: 500;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .chip::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(0, 255, 135, 0.3);
+            transform: translate(-50%, -50%);
+            transition: width 0.4s, height 0.4s;
+        }
+        
+        .chip:hover::before {
+            width: 200px;
+            height: 200px;
+        }
+
+        .chip:hover {
+            background: rgba(0, 98, 57, 0.2);
+            border-color: #00ff87;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 255, 135, 0.3);
+        }
+
+        .chip.active {
+            background: linear-gradient(135deg, #006239 0%, #00ff87 100%);
+            border-color: #00ff87;
+            color: #0a0e27;
+            font-weight: 700;
+            box-shadow: 0 8px 25px rgba(0, 255, 135, 0.4);
+        }
+        
+        .chip span {
+            position: relative;
+            z-index: 1;
+        }
+
+        .budget-slider {
+            width: 100%;
+            height: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            outline: none;
+            -webkit-appearance: none;
+            cursor: pointer;
+        }
+
+        .budget-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 24px;
+            height: 24px;
+            background: linear-gradient(135deg, #00ff87, #006239);
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0, 255, 135, 0.6),
+                        0 0 0 4px rgba(0, 255, 135, 0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .budget-slider::-webkit-slider-thumb:hover {
+            transform: scale(1.2);
+            box-shadow: 0 6px 20px rgba(0, 255, 135, 0.8);
+        }
+
+        .budget-value {
+            text-align: center;
+            margin-top: 1rem;
+            font-size: 2rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #00ff87, #00c2ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 1px;
+        }
+
+        .generate-btn {
+            width: 100%;
+            padding: 1.25rem;
+            background: linear-gradient(135deg, #00ff87 0%, #006239 100%);
+            border: none;
+            border-radius: 16px;
+            color: #0a0e27;
+            font-size: 1.2rem;
+            font-weight: 800;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            margin-top: 1.5rem;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 255, 135, 0.3);
+        }
+        
+        .generate-btn::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+        
+        .generate-btn:hover::before {
+            width: 400px;
+            height: 400px;
+        }
+
+        .generate-btn:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 15px 40px rgba(0, 255, 135, 0.5);
+        }
+
+        .generate-btn:active { 
+            transform: translateY(-2px); 
+        }
+        
+        .generate-btn span {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Loading Screen */
+        .loading-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            flex-direction: column;
+        }
+
+        .loading-screen.active { display: flex; }
+
+        .plane-animation {
+            font-size: 5rem;
+            animation: fly 2.5s ease-in-out infinite;
+            filter: drop-shadow(0 10px 30px rgba(0, 255, 135, 0.6));
+        }
+
+        @keyframes fly {
+            0%, 100% { transform: translateX(-30px) translateY(0) rotate(-15deg); }
+            50% { transform: translateX(30px) translateY(-30px) rotate(15deg); }
+        }
+
+        .loading-text {
+            margin-top: 2.5rem;
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #00ff87, #00c2ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: pulse 2s ease-in-out infinite;
+        }
+        
+        .loading-dots {
+            margin-top: 1rem;
+            display: flex;
+            gap: 0.5rem;
+        }
+        
+        .loading-dot {
+            width: 12px;
+            height: 12px;
+            background: #00ff87;
+            border-radius: 50%;
+            animation: bounce-dot 1.4s ease-in-out infinite;
+        }
+        
+        .loading-dot:nth-child(2) { animation-delay: 0.2s; }
+        .loading-dot:nth-child(3) { animation-delay: 0.4s; }
+        
+        @keyframes bounce-dot {
+            0%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-20px); }
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.7; transform: scale(1.05); }
+        }
+
+        /* Story View */
+        .story-view {
+            display: none;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        .story-view.active { display: block; }
+
+        /* Hero Section */
+        .hero-section {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            filter: brightness(0.3) saturate(1.2);
+        }
+        
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at center, transparent 0%, rgba(10, 14, 39, 0.8) 100%);
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 10;
+            text-align: center;
+            padding: 2rem;
+            max-width: 900px;
+        }
+
+        .hero-title {
+            font-size: 4.5rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #00ff87 0%, #fff 50%, #00c2ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1.5rem;
+            animation: fadeInScale 1.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+            text-shadow: 0 0 80px rgba(0, 255, 135, 0.5);
+            line-height: 1.2;
+        }
+
+        @keyframes fadeInScale {
+            from { opacity: 0; transform: scale(0.8) translateY(30px); }
+            to { opacity: 1; transform: scale(1) translateY(0); }
+        }
+
+        .hero-subtitle {
+            font-size: 1.8rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 2.5rem;
+            animation: fadeInUp 1.2s cubic-bezier(0.34, 1.56, 0.64, 1) 0.3s both;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .highlight-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            animation: fadeInUp 1.2s cubic-bezier(0.34, 1.56, 0.64, 1) 0.6s both;
+        }
+
+        .highlight-tag {
+            padding: 1rem 1.75rem;
+            background: rgba(0, 98, 57, 0.3);
+            border: 2px solid rgba(0, 255, 135, 0.5);
+            border-radius: 30px;
+            backdrop-filter: blur(10px);
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 25px rgba(0, 98, 57, 0.4);
+        }
+        
+        .highlight-tag:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 35px rgba(0, 255, 135, 0.5);
+            border-color: #00ff87;
+        }
+
+        .scroll-indicator {
+            position: absolute;
+            bottom: 3rem;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: bounce 2s ease-in-out infinite;
+            z-index: 10;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateX(-50%) translateY(0); }
+            50% { transform: translateX(-50%) translateY(-15px); }
+        }
+
+        /* Progress Bar */
+        .progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 4px;
+            background: linear-gradient(90deg, #00ff87, #00c2ff);
+            z-index: 10000;
+            transition: width 0.3s ease;
+            box-shadow: 0 0 20px rgba(0, 255, 135, 0.8);
+        }
+
+        /* Timeline Section */
+        .timeline-section {
+            padding: 6rem 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .section-title {
+            font-size: 3rem;
+            font-weight: 900;
+            text-align: center;
+            margin-bottom: 4rem;
+            background: linear-gradient(135deg, #00ff87, #00c2ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, transparent, #00ff87, transparent);
+            border-radius: 2px;
+        }
+
+        .day-card {
+            background: rgba(255, 255, 255, 0.04);
+            backdrop-filter: blur(30px);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            border-radius: 28px;
+            padding: 2.5rem;
+            margin-bottom: 2.5rem;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .day-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at top right, rgba(0, 255, 135, 0.05), transparent 70%);
+            pointer-events: none;
+        }
+
+        .day-card.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .day-card:hover {
+            border-color: rgba(0, 255, 135, 0.3);
+            box-shadow: 0 20px 60px rgba(0, 255, 135, 0.2);
+            transform: translateY(-5px);
+        }
+
+        .day-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .day-number {
+            font-size: 2.5rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #00ff87, #00c2ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .day-city {
+            font-size: 1.8rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        
+        .day-city i {
+            color: #00ff87;
+        }
+
+        .flight-info {
+            background: linear-gradient(135deg, rgba(0, 98, 57, 0.3), rgba(0, 98, 57, 0.1));
+            border: 2px solid rgba(0, 255, 135, 0.4);
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            transition: all 0.3s ease;
+        }
+        
+        .flight-info:hover {
+            border-color: #00ff87;
+            transform: translateX(10px);
+        }
+
+        .hotel-info {
+            background: linear-gradient(135deg, rgba(100, 100, 255, 0.2), rgba(100, 100, 255, 0.05));
+            border: 2px solid rgba(100, 100, 255, 0.4);
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            transition: all 0.3s ease;
+        }
+        
+        .hotel-info:hover {
+            border-color: rgba(100, 100, 255, 0.6);
+            transform: translateX(10px);
+        }
+
+        .activities-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .activity-card {
+            background: rgba(255, 255, 255, 0.04);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 1.5rem;
+            transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .activity-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(0, 255, 135, 0.1), transparent);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .activity-card:hover::before {
+            opacity: 1;
+        }
+
+        .activity-card:hover {
+            background: rgba(255, 255, 255, 0.08);
+            transform: translateY(-8px) scale(1.02);
+            border-color: rgba(0, 255, 135, 0.5);
+            box-shadow: 0 15px 40px rgba(0, 255, 135, 0.3);
+        }
+
+        .transport-chain {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .transport-segment {
+            padding: 0.6rem 1.2rem;
+            background: rgba(255, 200, 0, 0.1);
+            border: 1px solid rgba(255, 200, 0, 0.3);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Cost Section */
+        .cost-section {
+            padding: 6rem 2rem;
+            background: linear-gradient(135deg, rgba(0, 98, 57, 0.1) 0%, rgba(10, 14, 39, 0.5) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cost-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(0, 255, 135, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 50%, rgba(0, 194, 255, 0.1) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .cost-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cost-card {
+            background: rgba(255, 255, 255, 0.04);
+            backdrop-filter: blur(30px);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+            padding: 2.5rem;
+            text-align: center;
+            transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cost-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(0, 255, 135, 0.1), transparent 50%);
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+        
+        .cost-card:hover::before {
+            opacity: 1;
+        }
+        
+        .cost-card:hover {
+            transform: translateY(-15px) scale(1.05);
+            border-color: rgba(0, 255, 135, 0.5);
+            box-shadow: 0 25px 60px rgba(0, 255, 135, 0.3);
+        }
+
+        .cost-icon {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            filter: drop-shadow(0 8px 20px rgba(0, 255, 135, 0.4));
+        }
+
+        .cost-amount {
+            font-size: 2.5rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #00ff87, #00c2ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.75rem;
+            animation: countUp 2s ease-out;
+        }
+        
+        @keyframes countUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .cost-label {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 1.1rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* CTA Button */
+        .cta-button {
+            position: fixed;
+            bottom: 2.5rem;
+            right: 2.5rem;
+            padding: 1.25rem 2.5rem;
+            background: linear-gradient(135deg, #00ff87 0%, #006239 100%);
+            border: none;
+            border-radius: 60px;
+            color: #0a0e27;
+            font-size: 1.2rem;
+            font-weight: 800;
+            cursor: pointer;
+            box-shadow: 0 15px 40px rgba(0, 255, 135, 0.5);
+            z-index: 1000;
+            transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-8px) scale(1.05);
+            box-shadow: 0 20px 50px rgba(0, 255, 135, 0.7);
+        }
+        
+        .cta-button:active {
+            transform: translateY(-5px) scale(1.02);
+        }
+        
+        /* Back Button */
+        .back-button {
+            position: fixed;
+            top: 2rem;
+            left: 2rem;
+            padding: 1rem 1.5rem;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 50px;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            z-index: 1000;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .back-button:hover {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: #00ff87;
+            transform: translateX(-5px);
+        }
+
+        @media (max-width: 768px) {
+            .hero-title { font-size: 2.5rem; }
+            .hero-subtitle { font-size: 1.3rem; }
+            .form-card { padding: 2rem; }
+            .form-title { font-size: 2.2rem; }
+            .cta-button { 
+                bottom: 1.5rem; 
+                right: 1.5rem; 
+                padding: 1rem 1.75rem; 
+                font-size: 1rem; 
+            }
+            .back-button {
+                top: 1rem;
+                left: 1rem;
+                padding: 0.75rem 1rem;
+                font-size: 0.9rem;
+            }
+            .day-card { padding: 1.5rem; }
+            .section-title { font-size: 2rem; }
+            .cost-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Gradient Orbs -->
+    <div class="gradient-orb orb-1"></div>
+    <div class="gradient-orb orb-2"></div>
+
+    <!-- Particles Background -->
+    <div id="particles"></div>
+    
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Form Container -->
+    <div class="form-container" id="formContainer">
+        <div class="form-card">
+            <h1 class="form-title">✈️ AI Travel Story</h1>
+            <p class="form-subtitle">Create your personalized cinematic journey</p>
+            
+            <form id="travelForm">
+                <div class="input-group">
+                    <label class="input-label">🌍 Origin City</label>
+                    <input type="text" class="input-field" id="origin" placeholder="e.g., Mumbai" required>
+                </div>
+
+                <div class="input-group">
+                    <label class="input-label">🎯 Destination Cities</label>
+                    <input type="text" class="input-field" id="destination" placeholder="e.g., Riyadh, Jeddah (comma-separated)" required>
+                </div>
+
+                <div class="input-group">
+                    <label class="input-label">📅 Start Date</label>
+                    <input type="date" class="input-field" id="startDate" required>
+                </div>
+
+                <div class="input-group">
+                    <label class="input-label">📅 End Date</label>
+                    <input type="date" class="input-field" id="endDate" required>
+                </div>
+
+                <div class="input-group">
+                    <label class="input-label">💰 Budget (SAR)</label>
+                    <input type="range" class="budget-slider" id="budget" min="1000" max="50000" step="500" value="8000">
+                    <div class="budget-value" id="budgetValue">8,000 SAR</div>
+                </div>
+
+                <div class="input-group">
+                    <label class="input-label">✨ Your Interests</label>
+                    <div class="chips-container" id="interestsChips">
+                        <div class="chip" data-interest="art"><span>🎨 Art</span></div>
+                        <div class="chip" data-interest="shopping"><span>🛍️ Shopping</span></div>
+                        <div class="chip" data-interest="culture"><span>🏛️ Culture</span></div>
+                        <div class="chip" data-interest="adventure"><span>🏔️ Adventure</span></div>
+                        <div class="chip" data-interest="food"><span>🍽️ Food</span></div>
+                        <div class="chip" data-interest="history"><span>📚 History</span></div>
+                        <div class="chip" data-interest="nature"><span>🌿 Nature</span></div>
+                        <div class="chip" data-interest="beach"><span>🏖️ Beach</span></div>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label class="input-label">👥 Traveler Type</label>
+                    <select class="input-field" id="travelerType" required>
+                        <option value="solo">🧳 Solo Traveler</option>
+                        <option value="couple">💑 Couple</option>
+                        <option value="family">👨‍👩‍👧‍👦 Family</option>
+                        <option value="group">👥 Group</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="generate-btn">
+                    <span><i class="fas fa-magic"></i> Generate My Journey</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="plane-animation">✈️</div>
+        <div class="loading-text">Creating your magical journey...</div>
+        <div class="loading-dots">
+            <div class="loading-dot"></div>
+            <div class="loading-dot"></div>
+            <div class="loading-dot"></div>
+        </div>
+    </div>
+
+    <!-- Story View -->
+    <div class="story-view" id="storyView">
+        <!-- Back Button -->
+        <button class="back-button" onclick="resetToForm()">
+            <i class="fas fa-arrow-left"></i> New Journey
+        </button>
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div id="map"></div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="hero-title" id="heroTitle">Your Adventure Awaits</h1>
+                <p class="hero-subtitle" id="heroSubtitle">Multi-city journey</p>
+                <div class="highlight-tags" id="highlightTags"></div>
+            </div>
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down" style="font-size: 2.5rem; color: #00ff87;"></i>
+            </div>
+        </section>
+
+        <!-- Timeline Section -->
+        <section class="timeline-section">
+            <h2 class="section-title">📅 Your Day-by-Day Journey</h2>
+            <div id="timelineContainer"></div>
+        </section>
+
+        <!-- Cost Section -->
+        <section class="cost-section">
+            <h2 class="section-title">💰 Trip Investment Breakdown</h2>
+            <div class="cost-grid" id="costGrid"></div>
+        </section>
+
+        <!-- CTA Button -->
+        <button class="cta-button" onclick="bookTrip()">
+            <i class="fas fa-paper-plane"></i>
+            <span>Book This Trip</span>
+        </button>
+    </div>
+
+    <script>
+        // Generate enhanced particles with stars
+        const particlesContainer = document.getElementById('particles');
+        
+        // Generate floating particles
+        for (let i = 0; i < 40; i++) {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            particle.style.left = Math.random() * 100 + '%';
+            particle.style.animationDelay = Math.random() * 20 + 's';
+            particle.style.animationDuration = (Math.random() * 15 + 15) + 's';
+            particlesContainer.appendChild(particle);
+        }
+        
+        // Generate stars
+        for (let i = 0; i < 100; i++) {
+            const star = document.createElement('div');
+            star.className = 'star';
+            star.style.left = Math.random() * 100 + '%';
+            star.style.top = Math.random() * 100 + '%';
+            star.style.animationDelay = Math.random() * 3 + 's';
+            particlesContainer.appendChild(star);
+        }
+
+        // Budget slider
+        const budgetSlider = document.getElementById('budget');
+        const budgetValue = document.getElementById('budgetValue');
+        budgetSlider.addEventListener('input', (e) => {
+            budgetValue.textContent = parseInt(e.target.value).toLocaleString() + ' SAR';
+        });
+
+        // Interest chips
+        const selectedInterests = new Set();
+        document.querySelectorAll('.chip').forEach(chip => {
+            chip.addEventListener('click', () => {
+                const interest = chip.dataset.interest;
+                if (selectedInterests.has(interest)) {
+                    selectedInterests.delete(interest);
+                    chip.classList.remove('active');
+                } else {
+                    selectedInterests.add(interest);
+                    chip.classList.add('active');
+                }
+            });
+        });
+
+        // Scroll progress bar
+        window.addEventListener('scroll', () => {
+            const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (window.scrollY / windowHeight) * 100;
+            document.getElementById('progressBar').style.width = scrolled + '%';
+        });
+
+        // Form submission
+        document.getElementById('travelForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            if (selectedInterests.size === 0) {
+                alert('Please select at least one interest!');
+                return;
+            }
+            
+            const formData = {
+                origin: document.getElementById('origin').value,
+                destination: document.getElementById('destination').value.split(',').map(d => d.trim()),
+                start_date: document.getElementById('startDate').value,
+                end_date: document.getElementById('endDate').value,
+                budget_total: parseInt(document.getElementById('budget').value),
+                interests: Array.from(selectedInterests),
+                traveler_type: document.getElementById('travelerType').value
+            };
+
+            document.getElementById('formContainer').style.display = 'none';
+            document.getElementById('loadingScreen').classList.add('active');
+
+            try {
+                const response = await fetch('http://127.0.0.1:8000/ai-itinerary', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(formData)
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to generate itinerary');
+                }
+
+                const data = await response.json();
+                
+                setTimeout(() => {
+                    document.getElementById('loadingScreen').classList.remove('active');
+                    renderStory(data, formData);
+                    document.getElementById('storyView').classList.add('active');
+                    window.scrollTo(0, 0);
+                }, 2500);
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Failed to generate itinerary. Using demo data for preview.');
+                
+                // Demo data for testing without backend
+                const demoData = {
+                    "trip_id": "TRIP-DEMO",
+                    "summary_text": "4-day multi-city adventure covering Riyadh, Jeddah",
+                    "highlights": ["Cultural immersion", "Shopping experience", "Art galleries tour"],
+                    "days": [
+                        {
+                            "day_index": 1,
+                            "city": "Riyadh",
+                            "hotel": {
+                                "name": "Fairmont Riyadh",
+                                "price_per_night": 2100,
+                                "rating": 4.7
+                            },
+                            "activities": [
+                                {"name": "Riyadh Park Mall", "category": "shopping mall", "duration_min": 120},
+                                {"name": "Souq Al Zal", "category": "souk", "duration_min": 120},
+                                {"name": "Naila Art Gallery", "category": "art gallery", "duration_min": 120}
+                            ],
+                            "transport_segments": [
+                                {"mode": "car", "from_place": "Airport", "to_place": "Hotel", "price": 110}
+                            ],
+                            "flight": {
+                                "airline": "Air India Express",
+                                "from_city": "Mumbai",
+                                "to_city": "Riyadh",
+                                "price": 1250
+                            },
+                            "notes": "Arrival day in Riyadh with shopping and culture",
+                            "estimated_day_cost": 2100
+                        }
+                    ],
+                    "cost": {
+                        "hotel_total": 8800,
+                        "activities_total": 0,
+                        "transport_total": 960,
+                        "flights_total": 3890,
+                        "total": 13650
+                    },
+                    "assumptions": ["AI-powered itinerary with personalized recommendations"]
+                };
+                
+                setTimeout(() => {
+                    document.getElementById('loadingScreen').classList.remove('active');
+                    renderStory(demoData, formData);
+                    document.getElementById('storyView').classList.add('active');
+                    window.scrollTo(0, 0);
+                }, 2500);
+            }
+        });
+
+        function renderStory(data, formData) {
+    console.log("Itinerary data received:", data); // ✅ debug
+
+    // ---------- HERO SECTION ----------
+    const destinations = formData.destination.join(' → ');
+    const summaryText = data.summary_text || data.summary?.intro || "Your personalized journey";
+    const highlights = data.highlights || data.summary?.highlights || [];
+
+    document.getElementById('heroTitle').textContent = `${formData.origin} → ${destinations}`;
+    document.getElementById('heroSubtitle').textContent = summaryText;
+
+    const highlightTags = document.getElementById('highlightTags');
+    highlightTags.innerHTML = highlights
+        .map(h => `<div class="highlight-tag">✨ ${h}</div>`)
+        .join('');
+
+    // ---------- MAP SECTION ----------
+    try {
+        mapboxgl.accessToken =
+            'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
+        const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/dark-v11',
+            center: [45, 25],
+            zoom: 4,
+            projection: 'globe'
+        });
+        map.on('load', () => {
+            map.setFog({ range: [0.8, 8], color: '#0a0e27', 'horizon-blend': 0.5 });
+        });
+    } catch {
+        console.log('Map initialization skipped');
+    }
+
+    // ---------- TIMELINE SECTION ----------
+    const timelineContainer = document.getElementById('timelineContainer');
+    const days = data.days || [];
+
+    if (days.length === 0) {
+        timelineContainer.innerHTML = `<p style="text-align:center; color:#ccc;">No itinerary days found.</p>`;
+        return;
+    }
+
+    timelineContainer.innerHTML = days
+        .map((day, index) => {
+            // Handle transport display
+            let transportHTML = '';
+            if (day.transport_segments && day.transport_segments.length > 0) {
+                transportHTML = `
+                    <div class="transport-chain">
+                        ${day.transport_segments
+                            .map(
+                                seg => `
+                                <div class="transport-segment">
+                                    <i class="fas fa-${
+                                        seg.mode === 'car'
+                                            ? 'car'
+                                            : seg.mode === 'bus'
+                                            ? 'bus'
+                                            : 'train'
+                                    }"></i>
+                                    ${seg.from_place || seg.from_city || '-'} → ${seg.to_place || seg.to_city || '-'} 
+                                    (${seg.price || 0} SAR)
+                                </div>`
+                            )
+                            .join('')}
+                    </div>`;
+            }
+
+            return `
+                <div class="day-card" style="animation-delay: ${index * 0.1}s">
+                    <div class="day-header">
+                        <div class="day-number">Day ${day.day_index}</div>
+                        <div class="day-city">
+                            <i class="fas fa-map-marker-alt"></i> ${day.city || "Unknown City"}
+                        </div>
+                    </div>
+
+                    ${
+                        day.flight
+                            ? `
+                        <div class="flight-info">
+                            <i class="fas fa-plane" style="font-size: 2rem; color: #00ff87;"></i>
+                            <div style="flex: 1;">
+                                <div style="font-size: 1.2rem; font-weight: 700;">
+                                    ${day.flight.airline || "Flight"}
+                                </div>
+                                <div style="color: rgba(255,255,255,0.8);">
+                                    ${day.flight.from_city} → ${day.flight.to_city}
+                                </div>
+                                <div style="color: #00ff87; font-weight: 600; margin-top: 0.25rem;">
+                                    ${day.flight.price || 0} SAR
+                                </div>
+                            </div>
+                        </div>`
+                            : ''
+                    }
+
+                    ${
+                        day.hotel
+                            ? `
+                        <div class="hotel-info">
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <strong><i class="fas fa-hotel"></i> ${day.hotel.name}</strong>
+                                <span style="color: #ffd700;">⭐ ${day.hotel.rating || 'N/A'}</span>
+                            </div>
+                            <div style="color: #00ff87; font-size: 1.2rem; font-weight: 700;">
+                                ${day.hotel.price_per_night || day.hotel.price || 0} SAR/night
+                            </div>
+                        </div>`
+                            : ''
+                    }
+
+                    ${
+                        day.activities && day.activities.length > 0
+                            ? `
+                        <div style="margin: 1.5rem 0;">
+                            <h4 style="color: #00ff87; margin-bottom: 1rem;">🎯 Today's Activities</h4>
+                            <div class="activities-grid">
+                                ${day.activities
+                                    .map(
+                                        activity => `
+                                        <div class="activity-card">
+                                            <div style="font-size: 1.1rem; font-weight: 700;">
+                                                ${activity.name}
+                                            </div>
+                                            <div style="color: rgba(255,255,255,0.6);">
+                                                📍 ${activity.category || 'General'}
+                                            </div>
+                                            <div style="color: #00ff87; font-size: 0.9rem;">
+                                                ⏱️ ${activity.duration_min || 60} min
+                                            </div>
+                                        </div>`
+                                    )
+                                    .join('')}
+                            </div>
+                        </div>`
+                            : ''
+                    }
+
+                    ${transportHTML}
+
+                    <div style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); color: rgba(255,255,255,0.7); font-style: italic;">
+                        💬 ${day.notes || "No notes available."}
+                    </div>
+                </div>`;
+        })
+        .join('');
+
+    // Animate appearance
+    const observer = new IntersectionObserver(
+        entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('visible');
+            });
+        },
+        { threshold: 0.15 }
+    );
+    document.querySelectorAll('.day-card').forEach(card => observer.observe(card));
+
+    // ---------- COST SECTION ----------
+    const costGrid = document.getElementById('costGrid');
+    const cost = data.cost || data.cost_summary || {};
+
+    costGrid.innerHTML = `
+        <div class="cost-card">
+            <div class="cost-icon">🏨</div>
+            <div class="cost-amount">${(cost.hotel_total || 0).toLocaleString()} SAR</div>
+            <div class="cost-label">Accommodation</div>
+        </div>
+        <div class="cost-card">
+            <div class="cost-icon">✈️</div>
+            <div class="cost-amount">${(cost.flights_total || 0).toLocaleString()} SAR</div>
+            <div class="cost-label">Flights (All)</div>
+        </div>
+        <div class="cost-card">
+            <div class="cost-icon">🚗</div>
+            <div class="cost-amount">${(cost.transport_total || 0).toLocaleString()} SAR</div>
+            <div class="cost-label">Local Transport</div>
+        </div>
+        ${(cost.activities_total || 0) > 0 ? `
+        <div class="cost-card">
+            <div class="cost-icon">🎭</div>
+            <div class="cost-amount">${cost.activities_total.toLocaleString()} SAR</div>
+            <div class="cost-label">Activities</div>
+        </div>` : ''}
+        <div class="cost-card" style="background: linear-gradient(135deg, rgba(0, 255, 135, 0.1), rgba(0, 98, 57, 0.2)); border-color: rgba(0, 255, 135, 0.5);">
+            <div class="cost-icon">💎</div>
+            <div class="cost-amount" style="font-size: 3rem;">${(cost.total || 0).toLocaleString()} SAR</div>
+            <div class="cost-label">Total Investment</div>
+        </div>
+    `;
+}
+
+
+        function resetToForm() {
+            document.getElementById('storyView').classList.remove('active');
+            document.getElementById('formContainer').style.display = 'flex';
+            window.scrollTo(0, 0);
+        }
+
+        function bookTrip() {
+            alert('🎉 Booking feature coming soon! Your magical journey awaits.');
+        }
+
+        // Set minimum date to today
+        const today = new Date().toISOString().split('T')[0];
+        document.getElementById('startDate').setAttribute('min', today);
+        document.getElementById('endDate').setAttribute('min', today);
+        
+        // Update end date minimum when start date changes
+        document.getElementById('startDate').addEventListener('change', function() {
+            document.getElementById('endDate').setAttribute('min', this.value);
+        });
+    </script>
+</body>
+</html>

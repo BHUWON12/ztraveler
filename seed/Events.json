@@ -1,0 +1,4002 @@
+[
+  {
+    "id": "E211",
+    "name": "Riyadh Culture Festival",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-01T09:00:00.000+00:00",
+    "description": "A festival focused on culture in Riyadh, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E212",
+    "name": "Design Exhibition – Jeddah",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-01T12:00:00.000+00:00",
+    "description": "A exhibition focused on design in Jeddah, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E213",
+    "name": "Dammam Innovation Conference",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-01T13:30:00.000+00:00",
+    "description": "A conference focused on innovation in Dammam, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E214",
+    "name": "Smart City in Mecca – Summit",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-01T15:00:00.000+00:00",
+    "description": "A summit focused on smart city in Mecca, with marketplace booths and product launches."
+  },
+  {
+    "id": "E215",
+    "name": "Medina Halal Food Expo",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-01T17:30:00.000+00:00",
+    "description": "A expo focused on halal food in Medina, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E216",
+    "name": "Film Fair – Taif",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-01T18:00:00.000+00:00",
+    "description": "A fair focused on film in Taif, with marketplace booths and product launches."
+  },
+  {
+    "id": "E217",
+    "name": "Literature Forum – Abha",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-11-01T20:00:00.000+00:00",
+    "description": "A forum focused on literature in Abha, with keynote talks and expert panels."
+  },
+  {
+    "id": "E218",
+    "name": "AlUla Tourism Competition Series",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-11-01T21:00:00.000+00:00",
+    "description": "A competition focused on tourism in AlUla, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E219",
+    "name": "Tabuk Heritage Concert Series",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-11-01T21:20:00.000+00:00",
+    "description": "A concert focused on heritage in Tabuk, including guided tours and live performances."
+  },
+  {
+    "id": "E220",
+    "name": "Yanbu Sustainability Workshop",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-11-02T09:00:00.000+00:00",
+    "description": "A workshop focused on sustainability in Yanbu, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E221",
+    "name": "Riyadh Tech Festival Series",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-02T12:00:00.000+00:00",
+    "description": "A festival focused on tech in Riyadh, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E222",
+    "name": "Jeddah Startup Exhibition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-02T15:00:00.000+00:00",
+    "description": "A exhibition focused on startup in Jeddah, with keynote talks and expert panels."
+  },
+  {
+    "id": "E223",
+    "name": "Health in Dammam – Conference",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-02T16:00:00.000+00:00",
+    "description": "A conference focused on health in Dammam, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E224",
+    "name": "Education in Mecca – Summit",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-02T17:30:00.000+00:00",
+    "description": "A summit focused on education in Mecca, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E225",
+    "name": "Green Energy Expo – Medina",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-02T18:00:00.000+00:00",
+    "description": "A expo focused on green energy in Medina, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E226",
+    "name": "Taif Logistics Fair Series",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-02T19:30:00.000+00:00",
+    "description": "A fair focused on logistics in Taif, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E227",
+    "name": "Abha Maritime Week",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-11-02T20:00:00.000+00:00",
+    "description": "A forum focused on maritime in Abha, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E228",
+    "name": "Fashion in AlUla – Competition",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-11-03T11:00:00.000+00:00",
+    "description": "A competition focused on fashion in AlUla, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E229",
+    "name": "Tabuk Coffee & Chocolate Concert",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-11-03T13:30:00.000+00:00",
+    "description": "A concert focused on coffee & chocolate in Tabuk, including guided tours and live performances."
+  },
+  {
+    "id": "E230",
+    "name": "Arts in Yanbu – Workshop",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-11-03T15:00:00.000+00:00",
+    "description": "A workshop focused on arts in Yanbu, including guided tours and live performances."
+  },
+  {
+    "id": "E231",
+    "name": "Music Festival – Riyadh",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-03T16:00:00.000+00:00",
+    "description": "A festival focused on music in Riyadh, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E232",
+    "name": "Jeddah Culinary Week",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-03T17:30:00.000+00:00",
+    "description": "A exhibition focused on culinary in Jeddah, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E233",
+    "name": "Architecture Conference – Dammam",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-03T19:30:00.000+00:00",
+    "description": "A conference focused on architecture in Dammam, with keynote talks and expert panels."
+  },
+  {
+    "id": "E234",
+    "name": "Wellness in Mecca – Summit",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-03T20:00:00.000+00:00",
+    "description": "A summit focused on wellness in Mecca, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E235",
+    "name": "Pilgrimage in Medina – Expo",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-03T21:00:00.000+00:00",
+    "description": "A expo focused on pilgrimage in Medina, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E236",
+    "name": "Taif Crafts Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-04T09:00:00.000+00:00",
+    "description": "A fair focused on crafts in Taif, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E237",
+    "name": "Abha Digital Media Week",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-11-04T10:30:00.000+00:00",
+    "description": "A forum focused on digital media in Abha, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E238",
+    "name": "Gaming in AlUla – Competition",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-11-04T11:00:00.000+00:00",
+    "description": "A competition focused on gaming in AlUla, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E239",
+    "name": "E‑Commerce in Tabuk – Concert",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-11-04T15:00:00.000+00:00",
+    "description": "A concert focused on e‑commerce in Tabuk, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E240",
+    "name": "AI Workshop – Yanbu",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-11-04T16:00:00.000+00:00",
+    "description": "A workshop focused on ai in Yanbu, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E241",
+    "name": "Riyadh Cybersecurity Festival Series",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-04T19:30:00.000+00:00",
+    "description": "A festival focused on cybersecurity in Riyadh, including guided tours and live performances."
+  },
+  {
+    "id": "E242",
+    "name": "Jeddah Sports Exhibition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-04T20:00:00.000+00:00",
+    "description": "A exhibition focused on sports in Jeddah, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E243",
+    "name": "Photography Conference – Dammam",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-04T21:00:00.000+00:00",
+    "description": "A conference focused on photography in Dammam, with keynote talks and expert panels."
+  },
+  {
+    "id": "E244",
+    "name": "Mecca Handicrafts Summit Series",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-05T10:30:00.000+00:00",
+    "description": "A summit focused on handicrafts in Mecca, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E245",
+    "name": "Biotech in Medina – Expo",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-05T11:00:00.000+00:00",
+    "description": "A expo focused on biotech in Medina, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E246",
+    "name": "Taif Fintech Week",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-05T12:00:00.000+00:00",
+    "description": "A fair focused on fintech in Taif, with marketplace booths and product launches."
+  },
+  {
+    "id": "E247",
+    "name": "Agritech Forum – Abha",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-11-05T13:30:00.000+00:00",
+    "description": "A forum focused on agritech in Abha, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E248",
+    "name": "Aviation Competition – AlUla",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-11-05T15:00:00.000+00:00",
+    "description": "A competition focused on aviation in AlUla, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E249",
+    "name": "Tabuk Automotive Concert Series",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-11-05T16:00:00.000+00:00",
+    "description": "A concert focused on automotive in Tabuk, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E250",
+    "name": "Yanbu Mobility Workshop Series",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-11-05T18:00:00.000+00:00",
+    "description": "A workshop focused on mobility in Yanbu, including guided tours and live performances."
+  },
+  {
+    "id": "E251",
+    "name": "Riyadh Desert Sports Festival",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-05T19:30:00.000+00:00",
+    "description": "A festival focused on desert sports in Riyadh, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E252",
+    "name": "Jeddah Dates & Spices Exhibition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-06T09:00:00.000+00:00",
+    "description": "A exhibition focused on dates & spices in Jeddah, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E253",
+    "name": "Oasis Living in Dammam – Conference",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-06T10:30:00.000+00:00",
+    "description": "A conference focused on oasis living in Dammam, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E254",
+    "name": "Mecca Red Sea Summit Series",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-06T11:00:00.000+00:00",
+    "description": "A summit focused on red sea in Mecca, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E255",
+    "name": "Coastal Heritage Expo – Medina",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-06T12:00:00.000+00:00",
+    "description": "A expo focused on coastal heritage in Medina, with marketplace booths and product launches."
+  },
+  {
+    "id": "E256",
+    "name": "Urban Planning Fair – Taif",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-06T16:00:00.000+00:00",
+    "description": "A fair focused on urban planning in Taif, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E257",
+    "name": "Public Safety Forum – Abha",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-11-06T19:30:00.000+00:00",
+    "description": "A forum focused on public safety in Abha, including guided tours and live performances."
+  },
+  {
+    "id": "E258",
+    "name": "AlUla Education Technology Competition Series",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-11-06T20:00:00.000+00:00",
+    "description": "A competition focused on education technology in AlUla, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E259",
+    "name": "Tabuk Travel Retail Concert Series",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-11-06T21:00:00.000+00:00",
+    "description": "A concert focused on travel retail in Tabuk, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E260",
+    "name": "Yanbu Hospitality Workshop Series",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-11-07T09:00:00.000+00:00",
+    "description": "A workshop focused on hospitality in Yanbu, with keynote talks and expert panels."
+  },
+  {
+    "id": "E261",
+    "name": "Riyadh Culture Week",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-07T10:30:00.000+00:00",
+    "description": "A festival focused on culture in Riyadh, including guided tours and live performances."
+  },
+  {
+    "id": "E262",
+    "name": "Design Exhibition – Jeddah",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-07T11:00:00.000+00:00",
+    "description": "A exhibition focused on design in Jeddah, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E263",
+    "name": "Dammam Innovation Conference",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-07T13:30:00.000+00:00",
+    "description": "A conference focused on innovation in Dammam, with keynote talks and expert panels."
+  },
+  {
+    "id": "E264",
+    "name": "Mecca Smart City Summit Series",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-07T15:00:00.000+00:00",
+    "description": "A summit focused on smart city in Mecca, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E265",
+    "name": "Halal Food in Medina – Expo",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-07T15:30:00.000+00:00",
+    "description": "A expo focused on halal food in Medina, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E266",
+    "name": "Film in Taif – Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-07T16:00:00.000+00:00",
+    "description": "A fair focused on film in Taif, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E267",
+    "name": "Literature in Abha – Forum",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-11-07T18:00:00.000+00:00",
+    "description": "A forum focused on literature in Abha, with keynote talks and expert panels."
+  },
+  {
+    "id": "E268",
+    "name": "Tourism Competition – AlUla",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-11-07T19:30:00.000+00:00",
+    "description": "A competition focused on tourism in AlUla, including guided tours and live performances."
+  },
+  {
+    "id": "E269",
+    "name": "Tabuk Heritage Concert",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-11-08T10:30:00.000+00:00",
+    "description": "A concert focused on heritage in Tabuk, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E270",
+    "name": "Yanbu Sustainability Workshop Series",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-11-08T12:00:00.000+00:00",
+    "description": "A workshop focused on sustainability in Yanbu, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E271",
+    "name": "Riyadh Tech Festival",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-08T13:30:00.000+00:00",
+    "description": "A festival focused on tech in Riyadh, including guided tours and live performances."
+  },
+  {
+    "id": "E272",
+    "name": "Startup Exhibition – Jeddah",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-08T17:30:00.000+00:00",
+    "description": "A exhibition focused on startup in Jeddah, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E273",
+    "name": "Health in Dammam – Conference",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-08T18:00:00.000+00:00",
+    "description": "A conference focused on health in Dammam, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E274",
+    "name": "Education Summit – Mecca",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-08T19:30:00.000+00:00",
+    "description": "A summit focused on education in Mecca, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E275",
+    "name": "Medina Green Energy Expo Series",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-08T20:00:00.000+00:00",
+    "description": "A expo focused on green energy in Medina, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E276",
+    "name": "Logistics in Taif – Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-08T21:00:00.000+00:00",
+    "description": "A fair focused on logistics in Taif, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E277",
+    "name": "Maritime in Abha – Forum",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-11-09T09:00:00.000+00:00",
+    "description": "A forum focused on maritime in Abha, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E278",
+    "name": "AlUla Fashion Competition Series",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-11-09T11:00:00.000+00:00",
+    "description": "A competition focused on fashion in AlUla, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E279",
+    "name": "Tabuk Coffee & Chocolate Concert Series",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-11-09T12:00:00.000+00:00",
+    "description": "A concert focused on coffee & chocolate in Tabuk, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E280",
+    "name": "Yanbu Arts Workshop",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-11-09T13:30:00.000+00:00",
+    "description": "A workshop focused on arts in Yanbu, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E281",
+    "name": "Riyadh Music Festival",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-09T15:00:00.000+00:00",
+    "description": "A festival focused on music in Riyadh, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E282",
+    "name": "Jeddah Culinary Week",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-09T17:30:00.000+00:00",
+    "description": "A exhibition focused on culinary in Jeddah, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E283",
+    "name": "Dammam Architecture Conference Series",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-09T18:00:00.000+00:00",
+    "description": "A conference focused on architecture in Dammam, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E284",
+    "name": "Wellness in Mecca – Summit",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-09T20:00:00.000+00:00",
+    "description": "A summit focused on wellness in Mecca, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E285",
+    "name": "Medina Pilgrimage Expo",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-10T09:00:00.000+00:00",
+    "description": "A expo focused on pilgrimage in Medina, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E286",
+    "name": "Crafts in Taif – Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-10T10:30:00.000+00:00",
+    "description": "A fair focused on crafts in Taif, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E287",
+    "name": "Digital Media Forum – Abha",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-11-10T12:00:00.000+00:00",
+    "description": "A forum focused on digital media in Abha, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E288",
+    "name": "Gaming Competition – AlUla",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-11-10T15:00:00.000+00:00",
+    "description": "A competition focused on gaming in AlUla, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E289",
+    "name": "Tabuk E‑Commerce Concert",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-11-10T16:00:00.000+00:00",
+    "description": "A concert focused on e‑commerce in Tabuk, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E290",
+    "name": "AI in Yanbu – Workshop",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-11-10T17:30:00.000+00:00",
+    "description": "A workshop focused on ai in Yanbu, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E291",
+    "name": "Cybersecurity Festival – Riyadh",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-10T18:00:00.000+00:00",
+    "description": "A festival focused on cybersecurity in Riyadh, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E292",
+    "name": "Sports Exhibition – Jeddah",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-10T20:00:00.000+00:00",
+    "description": "A exhibition focused on sports in Jeddah, with keynote talks and expert panels."
+  },
+  {
+    "id": "E293",
+    "name": "Photography Conference – Dammam",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-11T11:00:00.000+00:00",
+    "description": "A conference focused on photography in Dammam, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E294",
+    "name": "Mecca Handicrafts Week",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-11T12:00:00.000+00:00",
+    "description": "A summit focused on handicrafts in Mecca, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E295",
+    "name": "Medina Biotech Expo",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-11T13:30:00.000+00:00",
+    "description": "A expo focused on biotech in Medina, with marketplace booths and product launches."
+  },
+  {
+    "id": "E296",
+    "name": "Taif Fintech Fair Series",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-11T15:00:00.000+00:00",
+    "description": "A fair focused on fintech in Taif, with marketplace booths and product launches."
+  },
+  {
+    "id": "E297",
+    "name": "Abha Agritech Forum Series",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-11-11T17:30:00.000+00:00",
+    "description": "A forum focused on agritech in Abha, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E298",
+    "name": "AlUla Aviation Competition Series",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-11-11T18:00:00.000+00:00",
+    "description": "A competition focused on aviation in AlUla, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E299",
+    "name": "Automotive in Tabuk – Concert",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-11-11T19:30:00.000+00:00",
+    "description": "A concert focused on automotive in Tabuk, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E300",
+    "name": "Yanbu Mobility Week",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-11-11T21:00:00.000+00:00",
+    "description": "A workshop focused on mobility in Yanbu, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E301",
+    "name": "Riyadh Desert Sports Festival",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-12T09:00:00.000+00:00",
+    "description": "A festival focused on desert sports in Riyadh, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E302",
+    "name": "Dates & Spices in Jeddah – Exhibition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-12T11:00:00.000+00:00",
+    "description": "A exhibition focused on dates & spices in Jeddah, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E303",
+    "name": "Oasis Living Conference – Dammam",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-12T12:00:00.000+00:00",
+    "description": "A conference focused on oasis living in Dammam, including guided tours and live performances."
+  },
+  {
+    "id": "E304",
+    "name": "Mecca Red Sea Summit Series",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-12T15:00:00.000+00:00",
+    "description": "A summit focused on red sea in Mecca, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E305",
+    "name": "Medina Coastal Heritage Expo",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-12T18:00:00.000+00:00",
+    "description": "A expo focused on coastal heritage in Medina, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E306",
+    "name": "Urban Planning in Taif – Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-12T19:30:00.000+00:00",
+    "description": "A fair focused on urban planning in Taif, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E307",
+    "name": "Abha Public Safety Forum Series",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-11-12T20:00:00.000+00:00",
+    "description": "A forum focused on public safety in Abha, including guided tours and live performances."
+  },
+  {
+    "id": "E308",
+    "name": "AlUla Education Technology Competition",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-11-12T21:00:00.000+00:00",
+    "description": "A competition focused on education technology in AlUla, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E309",
+    "name": "Tabuk Travel Retail Concert",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-11-13T09:00:00.000+00:00",
+    "description": "A concert focused on travel retail in Tabuk, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E310",
+    "name": "Yanbu Hospitality Week",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-11-13T12:00:00.000+00:00",
+    "description": "A workshop focused on hospitality in Yanbu, with keynote talks and expert panels."
+  },
+  {
+    "id": "E311",
+    "name": "Culture Festival – Riyadh",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-13T16:00:00.000+00:00",
+    "description": "A festival focused on culture in Riyadh, with marketplace booths and product launches."
+  },
+  {
+    "id": "E312",
+    "name": "Jeddah Design Exhibition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-13T17:30:00.000+00:00",
+    "description": "A exhibition focused on design in Jeddah, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E313",
+    "name": "Dammam Innovation Week",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-13T18:00:00.000+00:00",
+    "description": "A conference focused on innovation in Dammam, including guided tours and live performances."
+  },
+  {
+    "id": "E314",
+    "name": "Mecca Smart City Summit",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-13T19:30:00.000+00:00",
+    "description": "A summit focused on smart city in Mecca, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E315",
+    "name": "Medina Halal Food Expo Series",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-13T20:00:00.000+00:00",
+    "description": "A expo focused on halal food in Medina, including guided tours and live performances."
+  },
+  {
+    "id": "E316",
+    "name": "Film in Taif – Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-13T21:00:00.000+00:00",
+    "description": "A fair focused on film in Taif, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E317",
+    "name": "Abha Literature Forum Series",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-11-14T10:30:00.000+00:00",
+    "description": "A forum focused on literature in Abha, including guided tours and live performances."
+  },
+  {
+    "id": "E318",
+    "name": "AlUla Tourism Competition",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-11-14T11:00:00.000+00:00",
+    "description": "A competition focused on tourism in AlUla, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E319",
+    "name": "Heritage in Tabuk – Concert",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-11-14T13:30:00.000+00:00",
+    "description": "A concert focused on heritage in Tabuk, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E320",
+    "name": "Sustainability in Yanbu – Workshop",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-11-14T16:00:00.000+00:00",
+    "description": "A workshop focused on sustainability in Yanbu, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E321",
+    "name": "Tech in Riyadh – Festival",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-14T17:30:00.000+00:00",
+    "description": "A festival focused on tech in Riyadh, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E322",
+    "name": "Startup in Jeddah – Exhibition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-14T18:00:00.000+00:00",
+    "description": "A exhibition focused on startup in Jeddah, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E323",
+    "name": "Dammam Health Conference",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-14T20:00:00.000+00:00",
+    "description": "A conference focused on health in Dammam, with keynote talks and expert panels."
+  },
+  {
+    "id": "E324",
+    "name": "Education Summit – Mecca",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-14T21:00:00.000+00:00",
+    "description": "A summit focused on education in Mecca, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E325",
+    "name": "Green Energy Expo – Medina",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-15T10:30:00.000+00:00",
+    "description": "A expo focused on green energy in Medina, with marketplace booths and product launches."
+  },
+  {
+    "id": "E326",
+    "name": "Logistics in Taif – Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-15T12:00:00.000+00:00",
+    "description": "A fair focused on logistics in Taif, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E327",
+    "name": "Abha Maritime Week",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-11-15T15:00:00.000+00:00",
+    "description": "A forum focused on maritime in Abha, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E328",
+    "name": "Fashion in AlUla – Competition",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-11-15T16:00:00.000+00:00",
+    "description": "A competition focused on fashion in AlUla, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E329",
+    "name": "Coffee & Chocolate Concert – Tabuk",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-11-15T17:30:00.000+00:00",
+    "description": "A concert focused on coffee & chocolate in Tabuk, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E330",
+    "name": "Yanbu Arts Workshop",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-11-15T18:00:00.000+00:00",
+    "description": "A workshop focused on arts in Yanbu, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E331",
+    "name": "Riyadh Music Week",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-15T19:30:00.000+00:00",
+    "description": "A festival focused on music in Riyadh, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E332",
+    "name": "Jeddah Culinary Exhibition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-15T21:00:00.000+00:00",
+    "description": "A exhibition focused on culinary in Jeddah, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E333",
+    "name": "Dammam Architecture Week",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-16T11:00:00.000+00:00",
+    "description": "A conference focused on architecture in Dammam, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E334",
+    "name": "Mecca Wellness Summit Series",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-16T12:00:00.000+00:00",
+    "description": "A summit focused on wellness in Mecca, including guided tours and live performances."
+  },
+  {
+    "id": "E335",
+    "name": "Medina Pilgrimage Expo",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-16T12:20:00.000+00:00",
+    "description": "A expo focused on pilgrimage in Medina, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E336",
+    "name": "Taif Crafts Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-16T13:30:00.000+00:00",
+    "description": "A fair focused on crafts in Taif, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E337",
+    "name": "Abha Digital Media Forum Series",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-11-16T17:30:00.000+00:00",
+    "description": "A forum focused on digital media in Abha, with keynote talks and expert panels."
+  },
+  {
+    "id": "E338",
+    "name": "AlUla Gaming Competition Series",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-11-16T18:00:00.000+00:00",
+    "description": "A competition focused on gaming in AlUla, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E339",
+    "name": "Tabuk E‑Commerce Week",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-11-16T19:30:00.000+00:00",
+    "description": "A concert focused on e‑commerce in Tabuk, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E340",
+    "name": "Yanbu AI Workshop",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-11-16T20:00:00.000+00:00",
+    "description": "A workshop focused on ai in Yanbu, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E341",
+    "name": "Riyadh Cybersecurity Festival Series",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-16T21:00:00.000+00:00",
+    "description": "A festival focused on cybersecurity in Riyadh, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E342",
+    "name": "Jeddah Sports Exhibition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-17T10:30:00.000+00:00",
+    "description": "A exhibition focused on sports in Jeddah, with keynote talks and expert panels."
+  },
+  {
+    "id": "E343",
+    "name": "Dammam Photography Conference",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-17T12:00:00.000+00:00",
+    "description": "A conference focused on photography in Dammam, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E344",
+    "name": "Handicrafts in Mecca – Summit",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-17T13:30:00.000+00:00",
+    "description": "A summit focused on handicrafts in Mecca, with keynote talks and expert panels."
+  },
+  {
+    "id": "E345",
+    "name": "Medina Biotech Expo",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-17T15:00:00.000+00:00",
+    "description": "A expo focused on biotech in Medina, with keynote talks and expert panels."
+  },
+  {
+    "id": "E346",
+    "name": "Taif Fintech Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-17T16:00:00.000+00:00",
+    "description": "A fair focused on fintech in Taif, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E347",
+    "name": "Abha Agritech Forum Series",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-11-17T17:30:00.000+00:00",
+    "description": "A forum focused on agritech in Abha, with keynote talks and expert panels."
+  },
+  {
+    "id": "E348",
+    "name": "AlUla Aviation Week",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-11-17T20:00:00.000+00:00",
+    "description": "A competition focused on aviation in AlUla, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E349",
+    "name": "Tabuk Automotive Week",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-11-17T21:00:00.000+00:00",
+    "description": "A concert focused on automotive in Tabuk, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E350",
+    "name": "Mobility in Yanbu – Workshop",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-11-18T09:00:00.000+00:00",
+    "description": "A workshop focused on mobility in Yanbu, with keynote talks and expert panels."
+  },
+  {
+    "id": "E351",
+    "name": "Desert Sports Festival – Riyadh",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-18T10:30:00.000+00:00",
+    "description": "A festival focused on desert sports in Riyadh, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E352",
+    "name": "Jeddah Dates & Spices Exhibition Series",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-18T13:30:00.000+00:00",
+    "description": "A exhibition focused on dates & spices in Jeddah, including guided tours and live performances."
+  },
+  {
+    "id": "E353",
+    "name": "Oasis Living in Dammam – Conference",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-18T15:00:00.000+00:00",
+    "description": "A conference focused on oasis living in Dammam, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E354",
+    "name": "Mecca Red Sea Summit Series",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-18T16:00:00.000+00:00",
+    "description": "A summit focused on red sea in Mecca, with keynote talks and expert panels."
+  },
+  {
+    "id": "E355",
+    "name": "Coastal Heritage in Medina – Expo",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-18T17:30:00.000+00:00",
+    "description": "A expo focused on coastal heritage in Medina, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E356",
+    "name": "Urban Planning in Taif – Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-18T19:30:00.000+00:00",
+    "description": "A fair focused on urban planning in Taif, with marketplace booths and product launches."
+  },
+  {
+    "id": "E357",
+    "name": "Abha Public Safety Forum Series",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-11-18T21:00:00.000+00:00",
+    "description": "A forum focused on public safety in Abha, including guided tours and live performances."
+  },
+  {
+    "id": "E358",
+    "name": "AlUla Education Technology Competition Series",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-11-19T09:00:00.000+00:00",
+    "description": "A competition focused on education technology in AlUla, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E359",
+    "name": "Tabuk Travel Retail Week",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-11-19T11:00:00.000+00:00",
+    "description": "A concert focused on travel retail in Tabuk, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E360",
+    "name": "Yanbu Hospitality Week",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-11-19T12:00:00.000+00:00",
+    "description": "A workshop focused on hospitality in Yanbu, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E361",
+    "name": "Riyadh Culture Festival",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-19T13:30:00.000+00:00",
+    "description": "A festival focused on culture in Riyadh, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E362",
+    "name": "Design Exhibition – Jeddah",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-19T16:00:00.000+00:00",
+    "description": "A exhibition focused on design in Jeddah, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E363",
+    "name": "Innovation Conference – Dammam",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-19T18:00:00.000+00:00",
+    "description": "A conference focused on innovation in Dammam, with marketplace booths and product launches."
+  },
+  {
+    "id": "E364",
+    "name": "Mecca Smart City Week",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-19T18:40:00.000+00:00",
+    "description": "A summit focused on smart city in Mecca, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E365",
+    "name": "Halal Food in Medina – Expo",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-19T20:00:00.000+00:00",
+    "description": "A expo focused on halal food in Medina, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E366",
+    "name": "Taif Film Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-19T21:00:00.000+00:00",
+    "description": "A fair focused on film in Taif, including guided tours and live performances."
+  },
+  {
+    "id": "E367",
+    "name": "Abha Literature Forum",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-11-20T09:00:00.000+00:00",
+    "description": "A forum focused on literature in Abha, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E368",
+    "name": "AlUla Tourism Competition Series",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-11-20T10:30:00.000+00:00",
+    "description": "A competition focused on tourism in AlUla, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E369",
+    "name": "Heritage Concert – Tabuk",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-11-20T12:00:00.000+00:00",
+    "description": "A concert focused on heritage in Tabuk, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E370",
+    "name": "Sustainability Workshop – Yanbu",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-11-20T13:30:00.000+00:00",
+    "description": "A workshop focused on sustainability in Yanbu, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E371",
+    "name": "Riyadh Tech Festival",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-20T16:00:00.000+00:00",
+    "description": "A festival focused on tech in Riyadh, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E372",
+    "name": "Jeddah Startup Week",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-20T17:30:00.000+00:00",
+    "description": "A exhibition focused on startup in Jeddah, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E373",
+    "name": "Dammam Health Conference Series",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-20T19:30:00.000+00:00",
+    "description": "A conference focused on health in Dammam, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E374",
+    "name": "Mecca Education Summit",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-20T20:00:00.000+00:00",
+    "description": "A summit focused on education in Mecca, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E375",
+    "name": "Green Energy in Medina – Expo",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-21T09:00:00.000+00:00",
+    "description": "A expo focused on green energy in Medina, including guided tours and live performances."
+  },
+  {
+    "id": "E376",
+    "name": "Taif Logistics Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-21T11:00:00.000+00:00",
+    "description": "A fair focused on logistics in Taif, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E377",
+    "name": "Abha Maritime Forum",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-11-21T13:30:00.000+00:00",
+    "description": "A forum focused on maritime in Abha, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E378",
+    "name": "AlUla Fashion Week",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-11-21T16:00:00.000+00:00",
+    "description": "A competition focused on fashion in AlUla, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E379",
+    "name": "Coffee & Chocolate in Tabuk – Concert",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-11-21T18:00:00.000+00:00",
+    "description": "A concert focused on coffee & chocolate in Tabuk, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E380",
+    "name": "Yanbu Arts Workshop",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-11-21T19:30:00.000+00:00",
+    "description": "A workshop focused on arts in Yanbu, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E381",
+    "name": "Riyadh Music Week",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-21T20:00:00.000+00:00",
+    "description": "A festival focused on music in Riyadh, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E382",
+    "name": "Culinary Exhibition – Jeddah",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-21T21:00:00.000+00:00",
+    "description": "A exhibition focused on culinary in Jeddah, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E383",
+    "name": "Architecture Conference – Dammam",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-22T09:00:00.000+00:00",
+    "description": "A conference focused on architecture in Dammam, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E384",
+    "name": "Mecca Wellness Week",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-22T12:00:00.000+00:00",
+    "description": "A summit focused on wellness in Mecca, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E385",
+    "name": "Medina Pilgrimage Expo Series",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-22T13:30:00.000+00:00",
+    "description": "A expo focused on pilgrimage in Medina, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E386",
+    "name": "Crafts Fair – Taif",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-22T15:00:00.000+00:00",
+    "description": "A fair focused on crafts in Taif, including guided tours and live performances."
+  },
+  {
+    "id": "E387",
+    "name": "Digital Media Forum – Abha",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-11-22T16:00:00.000+00:00",
+    "description": "A forum focused on digital media in Abha, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E388",
+    "name": "Gaming in AlUla – Competition",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-11-22T17:30:00.000+00:00",
+    "description": "A competition focused on gaming in AlUla, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E389",
+    "name": "Tabuk E‑Commerce Week",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-11-22T19:30:00.000+00:00",
+    "description": "A concert focused on e‑commerce in Tabuk, including guided tours and live performances."
+  },
+  {
+    "id": "E390",
+    "name": "Yanbu AI Workshop",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-11-22T21:00:00.000+00:00",
+    "description": "A workshop focused on ai in Yanbu, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E391",
+    "name": "Cybersecurity Festival – Riyadh",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-23T09:00:00.000+00:00",
+    "description": "A festival focused on cybersecurity in Riyadh, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E392",
+    "name": "Sports in Jeddah – Exhibition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-23T10:30:00.000+00:00",
+    "description": "A exhibition focused on sports in Jeddah, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E393",
+    "name": "Dammam Photography Conference",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-23T13:30:00.000+00:00",
+    "description": "A conference focused on photography in Dammam, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E394",
+    "name": "Mecca Handicrafts Summit",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-23T15:00:00.000+00:00",
+    "description": "A summit focused on handicrafts in Mecca, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E395",
+    "name": "Medina Biotech Expo Series",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-23T16:00:00.000+00:00",
+    "description": "A expo focused on biotech in Medina, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E396",
+    "name": "Fintech in Taif – Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-23T18:00:00.000+00:00",
+    "description": "A fair focused on fintech in Taif, including guided tours and live performances."
+  },
+  {
+    "id": "E397",
+    "name": "Abha Agritech Forum Series",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-11-23T19:30:00.000+00:00",
+    "description": "A forum focused on agritech in Abha, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E398",
+    "name": "AlUla Aviation Week",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-11-23T21:00:00.000+00:00",
+    "description": "A competition focused on aviation in AlUla, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E399",
+    "name": "Tabuk Automotive Concert",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-11-24T09:00:00.000+00:00",
+    "description": "A concert focused on automotive in Tabuk, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E400",
+    "name": "Yanbu Mobility Workshop",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-11-24T10:30:00.000+00:00",
+    "description": "A workshop focused on mobility in Yanbu, including guided tours and live performances."
+  },
+  {
+    "id": "E401",
+    "name": "Desert Sports Festival – Riyadh",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-24T12:00:00.000+00:00",
+    "description": "A festival focused on desert sports in Riyadh, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E402",
+    "name": "Jeddah Dates & Spices Exhibition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-24T15:00:00.000+00:00",
+    "description": "A exhibition focused on dates & spices in Jeddah, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E403",
+    "name": "Dammam Oasis Living Week",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-24T16:00:00.000+00:00",
+    "description": "A conference focused on oasis living in Dammam, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E404",
+    "name": "Red Sea in Mecca – Summit",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-24T18:00:00.000+00:00",
+    "description": "A summit focused on red sea in Mecca, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E405",
+    "name": "Coastal Heritage Expo – Medina",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-24T20:00:00.000+00:00",
+    "description": "A expo focused on coastal heritage in Medina, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E406",
+    "name": "Urban Planning Fair – Taif",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-24T21:00:00.000+00:00",
+    "description": "A fair focused on urban planning in Taif, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E407",
+    "name": "Abha Public Safety Forum Series",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-11-25T09:00:00.000+00:00",
+    "description": "A forum focused on public safety in Abha, with marketplace booths and product launches."
+  },
+  {
+    "id": "E408",
+    "name": "AlUla Education Technology Competition Series",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-11-25T10:30:00.000+00:00",
+    "description": "A competition focused on education technology in AlUla, with keynote talks and expert panels."
+  },
+  {
+    "id": "E409",
+    "name": "Tabuk Travel Retail Week",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-11-25T11:00:00.000+00:00",
+    "description": "A concert focused on travel retail in Tabuk, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E410",
+    "name": "Yanbu Hospitality Week",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-11-25T12:00:00.000+00:00",
+    "description": "A workshop focused on hospitality in Yanbu, with marketplace booths and product launches."
+  },
+  {
+    "id": "E411",
+    "name": "Riyadh Culture Week",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-25T13:30:00.000+00:00",
+    "description": "A festival focused on culture in Riyadh, with marketplace booths and product launches."
+  },
+  {
+    "id": "E412",
+    "name": "Design Exhibition – Jeddah",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-25T17:30:00.000+00:00",
+    "description": "A exhibition focused on design in Jeddah, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E413",
+    "name": "Innovation in Dammam – Conference",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-25T19:30:00.000+00:00",
+    "description": "A conference focused on innovation in Dammam, with keynote talks and expert panels."
+  },
+  {
+    "id": "E414",
+    "name": "Mecca Smart City Week",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-25T21:00:00.000+00:00",
+    "description": "A summit focused on smart city in Mecca, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E415",
+    "name": "Halal Food Expo – Medina",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-26T10:30:00.000+00:00",
+    "description": "A expo focused on halal food in Medina, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E416",
+    "name": "Film Fair – Taif",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-26T11:00:00.000+00:00",
+    "description": "A fair focused on film in Taif, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E417",
+    "name": "Abha Literature Forum",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-11-26T13:30:00.000+00:00",
+    "description": "A forum focused on literature in Abha, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E418",
+    "name": "AlUla Tourism Week",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-11-26T15:00:00.000+00:00",
+    "description": "A competition focused on tourism in AlUla, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E419",
+    "name": "Heritage Concert – Tabuk",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-11-26T16:00:00.000+00:00",
+    "description": "A concert focused on heritage in Tabuk, with marketplace booths and product launches."
+  },
+  {
+    "id": "E420",
+    "name": "Yanbu Sustainability Workshop Series",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-11-26T18:00:00.000+00:00",
+    "description": "A workshop focused on sustainability in Yanbu, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E421",
+    "name": "Riyadh Tech Festival",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-26T19:30:00.000+00:00",
+    "description": "A festival focused on tech in Riyadh, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E422",
+    "name": "Jeddah Startup Exhibition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-26T21:00:00.000+00:00",
+    "description": "A exhibition focused on startup in Jeddah, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E423",
+    "name": "Health Conference – Dammam",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-27T10:30:00.000+00:00",
+    "description": "A conference focused on health in Dammam, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E424",
+    "name": "Education in Mecca – Summit",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-27T11:00:00.000+00:00",
+    "description": "A summit focused on education in Mecca, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E425",
+    "name": "Green Energy Expo – Medina",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-27T12:00:00.000+00:00",
+    "description": "A expo focused on green energy in Medina, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E426",
+    "name": "Taif Logistics Fair Series",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-27T13:30:00.000+00:00",
+    "description": "A fair focused on logistics in Taif, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E427",
+    "name": "Abha Maritime Forum Series",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-11-27T15:00:00.000+00:00",
+    "description": "A forum focused on maritime in Abha, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E428",
+    "name": "Fashion Competition – AlUla",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-11-27T16:00:00.000+00:00",
+    "description": "A competition focused on fashion in AlUla, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E429",
+    "name": "Coffee & Chocolate Concert – Tabuk",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-11-27T17:30:00.000+00:00",
+    "description": "A concert focused on coffee & chocolate in Tabuk, with keynote talks and expert panels."
+  },
+  {
+    "id": "E430",
+    "name": "Yanbu Arts Workshop Series",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-11-27T20:00:00.000+00:00",
+    "description": "A workshop focused on arts in Yanbu, with marketplace booths and product launches."
+  },
+  {
+    "id": "E431",
+    "name": "Riyadh Music Festival Series",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-28T10:30:00.000+00:00",
+    "description": "A festival focused on music in Riyadh, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E432",
+    "name": "Jeddah Culinary Exhibition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-28T12:00:00.000+00:00",
+    "description": "A exhibition focused on culinary in Jeddah, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E433",
+    "name": "Dammam Architecture Week",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-28T15:00:00.000+00:00",
+    "description": "A conference focused on architecture in Dammam, including guided tours and live performances."
+  },
+  {
+    "id": "E434",
+    "name": "Mecca Wellness Summit",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-28T16:00:00.000+00:00",
+    "description": "A summit focused on wellness in Mecca, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E435",
+    "name": "Pilgrimage Expo – Medina",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-28T16:10:00.000+00:00",
+    "description": "A expo focused on pilgrimage in Medina, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E436",
+    "name": "Taif Crafts Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-28T17:30:00.000+00:00",
+    "description": "A fair focused on crafts in Taif, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E437",
+    "name": "Digital Media Forum – Abha",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-11-28T18:00:00.000+00:00",
+    "description": "A forum focused on digital media in Abha, with marketplace booths and product launches."
+  },
+  {
+    "id": "E438",
+    "name": "Gaming in AlUla – Competition",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-11-28T20:00:00.000+00:00",
+    "description": "A competition focused on gaming in AlUla, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E439",
+    "name": "Tabuk E‑Commerce Concert",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-11-28T21:00:00.000+00:00",
+    "description": "A concert focused on e‑commerce in Tabuk, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E440",
+    "name": "AI in Yanbu – Workshop",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-11-29T11:00:00.000+00:00",
+    "description": "A workshop focused on ai in Yanbu, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E441",
+    "name": "Cybersecurity Festival – Riyadh",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-29T15:00:00.000+00:00",
+    "description": "A festival focused on cybersecurity in Riyadh, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E442",
+    "name": "Jeddah Sports Week",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-29T16:00:00.000+00:00",
+    "description": "A exhibition focused on sports in Jeddah, including guided tours and live performances."
+  },
+  {
+    "id": "E443",
+    "name": "Dammam Photography Week",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-29T17:30:00.000+00:00",
+    "description": "A conference focused on photography in Dammam, with marketplace booths and product launches."
+  },
+  {
+    "id": "E444",
+    "name": "Mecca Handicrafts Week",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-29T18:00:00.000+00:00",
+    "description": "A summit focused on handicrafts in Mecca, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E445",
+    "name": "Medina Biotech Expo",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-29T19:30:00.000+00:00",
+    "description": "A expo focused on biotech in Medina, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E446",
+    "name": "Fintech Fair – Taif",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-29T20:00:00.000+00:00",
+    "description": "A fair focused on fintech in Taif, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E447",
+    "name": "Agritech in Abha – Forum",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-11-29T21:00:00.000+00:00",
+    "description": "A forum focused on agritech in Abha, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E448",
+    "name": "Aviation in AlUla – Competition",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-11-30T09:00:00.000+00:00",
+    "description": "A competition focused on aviation in AlUla, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E449",
+    "name": "Tabuk Automotive Concert Series",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-11-30T11:00:00.000+00:00",
+    "description": "A concert focused on automotive in Tabuk, with marketplace booths and product launches."
+  },
+  {
+    "id": "E450",
+    "name": "Yanbu Mobility Week",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-11-30T12:00:00.000+00:00",
+    "description": "A workshop focused on mobility in Yanbu, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E451",
+    "name": "Riyadh Desert Sports Festival",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-11-30T13:30:00.000+00:00",
+    "description": "A festival focused on desert sports in Riyadh, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E452",
+    "name": "Jeddah Dates & Spices Exhibition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-11-30T15:00:00.000+00:00",
+    "description": "A exhibition focused on dates & spices in Jeddah, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E453",
+    "name": "Oasis Living Conference – Dammam",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-11-30T17:30:00.000+00:00",
+    "description": "A conference focused on oasis living in Dammam, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E454",
+    "name": "Mecca Red Sea Summit",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-11-30T19:30:00.000+00:00",
+    "description": "A summit focused on red sea in Mecca, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E455",
+    "name": "Coastal Heritage Expo – Medina",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-11-30T19:50:00.000+00:00",
+    "description": "A expo focused on coastal heritage in Medina, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E456",
+    "name": "Urban Planning in Taif – Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-11-30T21:00:00.000+00:00",
+    "description": "A fair focused on urban planning in Taif, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E457",
+    "name": "Abha Public Safety Forum",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-01T09:00:00.000+00:00",
+    "description": "A forum focused on public safety in Abha, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E458",
+    "name": "AlUla Education Technology Competition Series",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-01T13:30:00.000+00:00",
+    "description": "A competition focused on education technology in AlUla, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E459",
+    "name": "Tabuk Travel Retail Concert Series",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-01T16:00:00.000+00:00",
+    "description": "A concert focused on travel retail in Tabuk, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E460",
+    "name": "Hospitality in Yanbu – Workshop",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-01T17:30:00.000+00:00",
+    "description": "A workshop focused on hospitality in Yanbu, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E461",
+    "name": "Culture Festival – Riyadh",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-01T18:00:00.000+00:00",
+    "description": "A festival focused on culture in Riyadh, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E462",
+    "name": "Jeddah Design Exhibition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-01T19:30:00.000+00:00",
+    "description": "A exhibition focused on design in Jeddah, with keynote talks and expert panels."
+  },
+  {
+    "id": "E463",
+    "name": "Dammam Innovation Conference",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-01T20:00:00.000+00:00",
+    "description": "A conference focused on innovation in Dammam, including guided tours and live performances."
+  },
+  {
+    "id": "E464",
+    "name": "Mecca Smart City Summit Series",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-01T21:00:00.000+00:00",
+    "description": "A summit focused on smart city in Mecca, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E465",
+    "name": "Halal Food Expo – Medina",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-02T10:30:00.000+00:00",
+    "description": "A expo focused on halal food in Medina, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E466",
+    "name": "Taif Film Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-02T11:00:00.000+00:00",
+    "description": "A fair focused on film in Taif, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E467",
+    "name": "Literature in Abha – Forum",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-02T12:00:00.000+00:00",
+    "description": "A forum focused on literature in Abha, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E468",
+    "name": "Tourism in AlUla – Competition",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-02T13:30:00.000+00:00",
+    "description": "A competition focused on tourism in AlUla, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E469",
+    "name": "Tabuk Heritage Week",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-02T15:00:00.000+00:00",
+    "description": "A concert focused on heritage in Tabuk, with keynote talks and expert panels."
+  },
+  {
+    "id": "E470",
+    "name": "Yanbu Sustainability Workshop Series",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-02T19:30:00.000+00:00",
+    "description": "A workshop focused on sustainability in Yanbu, with marketplace booths and product launches."
+  },
+  {
+    "id": "E471",
+    "name": "Tech Festival – Riyadh",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-02T20:00:00.000+00:00",
+    "description": "A festival focused on tech in Riyadh, with marketplace booths and product launches."
+  },
+  {
+    "id": "E472",
+    "name": "Jeddah Startup Exhibition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-02T21:00:00.000+00:00",
+    "description": "A exhibition focused on startup in Jeddah, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E473",
+    "name": "Health Conference – Dammam",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-03T10:30:00.000+00:00",
+    "description": "A conference focused on health in Dammam, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E474",
+    "name": "Education in Mecca – Summit",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-03T11:00:00.000+00:00",
+    "description": "A summit focused on education in Mecca, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E475",
+    "name": "Medina Green Energy Expo",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-03T12:00:00.000+00:00",
+    "description": "A expo focused on green energy in Medina, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E476",
+    "name": "Logistics in Taif – Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-03T13:30:00.000+00:00",
+    "description": "A fair focused on logistics in Taif, with keynote talks and expert panels."
+  },
+  {
+    "id": "E477",
+    "name": "Abha Maritime Forum",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-03T15:00:00.000+00:00",
+    "description": "A forum focused on maritime in Abha, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E478",
+    "name": "AlUla Fashion Week",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-03T18:00:00.000+00:00",
+    "description": "A competition focused on fashion in AlUla, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E479",
+    "name": "Coffee & Chocolate Concert – Tabuk",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-03T19:30:00.000+00:00",
+    "description": "A concert focused on coffee & chocolate in Tabuk, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E480",
+    "name": "Yanbu Arts Workshop Series",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-03T21:00:00.000+00:00",
+    "description": "A workshop focused on arts in Yanbu, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E481",
+    "name": "Riyadh Music Festival Series",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-04T10:30:00.000+00:00",
+    "description": "A festival focused on music in Riyadh, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E482",
+    "name": "Culinary Exhibition – Jeddah",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-04T11:00:00.000+00:00",
+    "description": "A exhibition focused on culinary in Jeddah, including guided tours and live performances."
+  },
+  {
+    "id": "E483",
+    "name": "Architecture in Dammam – Conference",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-04T12:00:00.000+00:00",
+    "description": "A conference focused on architecture in Dammam, with keynote talks and expert panels."
+  },
+  {
+    "id": "E484",
+    "name": "Wellness in Mecca – Summit",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-04T13:30:00.000+00:00",
+    "description": "A summit focused on wellness in Mecca, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E485",
+    "name": "Medina Pilgrimage Expo Series",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-04T16:00:00.000+00:00",
+    "description": "A expo focused on pilgrimage in Medina, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E486",
+    "name": "Crafts in Taif – Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-04T17:30:00.000+00:00",
+    "description": "A fair focused on crafts in Taif, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E487",
+    "name": "Abha Digital Media Forum Series",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-04T20:00:00.000+00:00",
+    "description": "A forum focused on digital media in Abha, with marketplace booths and product launches."
+  },
+  {
+    "id": "E488",
+    "name": "AlUla Gaming Week",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-04T21:00:00.000+00:00",
+    "description": "A competition focused on gaming in AlUla, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E489",
+    "name": "Tabuk E‑Commerce Concert Series",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-05T09:00:00.000+00:00",
+    "description": "A concert focused on e‑commerce in Tabuk, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E490",
+    "name": "Yanbu AI Week",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-05T10:30:00.000+00:00",
+    "description": "A workshop focused on ai in Yanbu, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E491",
+    "name": "Cybersecurity Festival – Riyadh",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-05T13:30:00.000+00:00",
+    "description": "A festival focused on cybersecurity in Riyadh, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E492",
+    "name": "Jeddah Sports Exhibition Series",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-05T15:00:00.000+00:00",
+    "description": "A exhibition focused on sports in Jeddah, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E493",
+    "name": "Dammam Photography Conference Series",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-05T16:00:00.000+00:00",
+    "description": "A conference focused on photography in Dammam, with keynote talks and expert panels."
+  },
+  {
+    "id": "E494",
+    "name": "Handicrafts Summit – Mecca",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-05T17:30:00.000+00:00",
+    "description": "A summit focused on handicrafts in Mecca, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E495",
+    "name": "Medina Biotech Expo Series",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-05T20:00:00.000+00:00",
+    "description": "A expo focused on biotech in Medina, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E496",
+    "name": "Fintech Fair – Taif",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-05T20:05:00.000+00:00",
+    "description": "A fair focused on fintech in Taif, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E497",
+    "name": "Abha Agritech Forum",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-05T21:00:00.000+00:00",
+    "description": "A forum focused on agritech in Abha, including guided tours and live performances."
+  },
+  {
+    "id": "E498",
+    "name": "Aviation Competition – AlUla",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-06T10:30:00.000+00:00",
+    "description": "A competition focused on aviation in AlUla, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E499",
+    "name": "Tabuk Automotive Concert Series",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-06T12:00:00.000+00:00",
+    "description": "A concert focused on automotive in Tabuk, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E500",
+    "name": "Yanbu Mobility Week",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-06T13:30:00.000+00:00",
+    "description": "A workshop focused on mobility in Yanbu, with keynote talks and expert panels."
+  },
+  {
+    "id": "E501",
+    "name": "Desert Sports in Riyadh – Festival",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-06T16:00:00.000+00:00",
+    "description": "A festival focused on desert sports in Riyadh, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E502",
+    "name": "Jeddah Dates & Spices Week",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-06T17:30:00.000+00:00",
+    "description": "A exhibition focused on dates & spices in Jeddah, with marketplace booths and product launches."
+  },
+  {
+    "id": "E503",
+    "name": "Dammam Oasis Living Conference Series",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-06T18:00:00.000+00:00",
+    "description": "A conference focused on oasis living in Dammam, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E504",
+    "name": "Mecca Red Sea Summit Series",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-06T19:30:00.000+00:00",
+    "description": "A summit focused on red sea in Mecca, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E505",
+    "name": "Coastal Heritage in Medina – Expo",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-06T20:00:00.000+00:00",
+    "description": "A expo focused on coastal heritage in Medina, with marketplace booths and product launches."
+  },
+  {
+    "id": "E506",
+    "name": "Urban Planning Fair – Taif",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-07T09:00:00.000+00:00",
+    "description": "A fair focused on urban planning in Taif, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E507",
+    "name": "Public Safety in Abha – Forum",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-07T10:30:00.000+00:00",
+    "description": "A forum focused on public safety in Abha, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E508",
+    "name": "AlUla Education Technology Competition",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-07T11:00:00.000+00:00",
+    "description": "A competition focused on education technology in AlUla, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E509",
+    "name": "Travel Retail Concert – Tabuk",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-07T13:30:00.000+00:00",
+    "description": "A concert focused on travel retail in Tabuk, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E510",
+    "name": "Yanbu Hospitality Workshop",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-07T15:00:00.000+00:00",
+    "description": "A workshop focused on hospitality in Yanbu, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E511",
+    "name": "Riyadh Culture Festival",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-07T17:30:00.000+00:00",
+    "description": "A festival focused on culture in Riyadh, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E512",
+    "name": "Jeddah Design Week",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-07T18:00:00.000+00:00",
+    "description": "A exhibition focused on design in Jeddah, with keynote talks and expert panels."
+  },
+  {
+    "id": "E513",
+    "name": "Dammam Innovation Week",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-07T20:00:00.000+00:00",
+    "description": "A conference focused on innovation in Dammam, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E514",
+    "name": "Mecca Smart City Summit Series",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-08T09:00:00.000+00:00",
+    "description": "A summit focused on smart city in Mecca, including guided tours and live performances."
+  },
+  {
+    "id": "E515",
+    "name": "Halal Food in Medina – Expo",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-08T10:30:00.000+00:00",
+    "description": "A expo focused on halal food in Medina, with marketplace booths and product launches."
+  },
+  {
+    "id": "E516",
+    "name": "Film in Taif – Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-08T11:00:00.000+00:00",
+    "description": "A fair focused on film in Taif, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E517",
+    "name": "Literature in Abha – Forum",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-08T13:30:00.000+00:00",
+    "description": "A forum focused on literature in Abha, including guided tours and live performances."
+  },
+  {
+    "id": "E518",
+    "name": "AlUla Tourism Week",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-08T15:00:00.000+00:00",
+    "description": "A competition focused on tourism in AlUla, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E519",
+    "name": "Heritage Concert – Tabuk",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-08T18:00:00.000+00:00",
+    "description": "A concert focused on heritage in Tabuk, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E520",
+    "name": "Yanbu Sustainability Workshop Series",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-08T19:30:00.000+00:00",
+    "description": "A workshop focused on sustainability in Yanbu, with keynote talks and expert panels."
+  },
+  {
+    "id": "E521",
+    "name": "Riyadh Tech Festival",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-08T20:00:00.000+00:00",
+    "description": "A festival focused on tech in Riyadh, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E522",
+    "name": "Jeddah Startup Week",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-09T10:30:00.000+00:00",
+    "description": "A exhibition focused on startup in Jeddah, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E523",
+    "name": "Health Conference – Dammam",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-09T11:00:00.000+00:00",
+    "description": "A conference focused on health in Dammam, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E524",
+    "name": "Mecca Education Summit Series",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-09T12:00:00.000+00:00",
+    "description": "A summit focused on education in Mecca, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E525",
+    "name": "Green Energy Expo – Medina",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-09T15:00:00.000+00:00",
+    "description": "A expo focused on green energy in Medina, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E526",
+    "name": "Logistics Fair – Taif",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-09T17:30:00.000+00:00",
+    "description": "A fair focused on logistics in Taif, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E527",
+    "name": "Abha Maritime Forum",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-09T18:00:00.000+00:00",
+    "description": "A forum focused on maritime in Abha, with marketplace booths and product launches."
+  },
+  {
+    "id": "E528",
+    "name": "Fashion Competition – AlUla",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-09T19:30:00.000+00:00",
+    "description": "A competition focused on fashion in AlUla, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E529",
+    "name": "Coffee & Chocolate in Tabuk – Concert",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-09T20:00:00.000+00:00",
+    "description": "A concert focused on coffee & chocolate in Tabuk, with marketplace booths and product launches."
+  },
+  {
+    "id": "E530",
+    "name": "Yanbu Arts Week",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-10T10:30:00.000+00:00",
+    "description": "A workshop focused on arts in Yanbu, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E531",
+    "name": "Riyadh Music Festival Series",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-10T12:00:00.000+00:00",
+    "description": "A festival focused on music in Riyadh, with marketplace booths and product launches."
+  },
+  {
+    "id": "E532",
+    "name": "Culinary in Jeddah – Exhibition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-10T13:30:00.000+00:00",
+    "description": "A exhibition focused on culinary in Jeddah, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E533",
+    "name": "Dammam Architecture Conference",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-10T15:00:00.000+00:00",
+    "description": "A conference focused on architecture in Dammam, with keynote talks and expert panels."
+  },
+  {
+    "id": "E534",
+    "name": "Mecca Wellness Week",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-10T16:00:00.000+00:00",
+    "description": "A summit focused on wellness in Mecca, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E535",
+    "name": "Medina Pilgrimage Expo Series",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-10T17:30:00.000+00:00",
+    "description": "A expo focused on pilgrimage in Medina, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E536",
+    "name": "Taif Crafts Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-10T18:00:00.000+00:00",
+    "description": "A fair focused on crafts in Taif, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E537",
+    "name": "Abha Digital Media Forum",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-10T20:00:00.000+00:00",
+    "description": "A forum focused on digital media in Abha, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E538",
+    "name": "Gaming in AlUla – Competition",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-11T10:30:00.000+00:00",
+    "description": "A competition focused on gaming in AlUla, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E539",
+    "name": "E‑Commerce in Tabuk – Concert",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-11T12:00:00.000+00:00",
+    "description": "A concert focused on e‑commerce in Tabuk, with keynote talks and expert panels."
+  },
+  {
+    "id": "E540",
+    "name": "Yanbu AI Week",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-11T13:30:00.000+00:00",
+    "description": "A workshop focused on ai in Yanbu, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E541",
+    "name": "Cybersecurity in Riyadh – Festival",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-11T15:00:00.000+00:00",
+    "description": "A festival focused on cybersecurity in Riyadh, with keynote talks and expert panels."
+  },
+  {
+    "id": "E542",
+    "name": "Jeddah Sports Exhibition Series",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-11T17:30:00.000+00:00",
+    "description": "A exhibition focused on sports in Jeddah, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E543",
+    "name": "Dammam Photography Conference Series",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-11T18:00:00.000+00:00",
+    "description": "A conference focused on photography in Dammam, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E544",
+    "name": "Mecca Handicrafts Summit",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-11T19:30:00.000+00:00",
+    "description": "A summit focused on handicrafts in Mecca, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E545",
+    "name": "Biotech Expo – Medina",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-11T21:00:00.000+00:00",
+    "description": "A expo focused on biotech in Medina, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E546",
+    "name": "Taif Fintech Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-12T09:00:00.000+00:00",
+    "description": "A fair focused on fintech in Taif, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E547",
+    "name": "Agritech Forum – Abha",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-12T10:30:00.000+00:00",
+    "description": "A forum focused on agritech in Abha, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E548",
+    "name": "AlUla Aviation Week",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-12T11:00:00.000+00:00",
+    "description": "A competition focused on aviation in AlUla, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E549",
+    "name": "Tabuk Automotive Concert",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-12T12:00:00.000+00:00",
+    "description": "A concert focused on automotive in Tabuk, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E550",
+    "name": "Yanbu Mobility Workshop Series",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-12T13:30:00.000+00:00",
+    "description": "A workshop focused on mobility in Yanbu, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E551",
+    "name": "Riyadh Desert Sports Week",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-12T15:00:00.000+00:00",
+    "description": "A festival focused on desert sports in Riyadh, including guided tours and live performances."
+  },
+  {
+    "id": "E552",
+    "name": "Dates & Spices in Jeddah – Exhibition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-12T16:00:00.000+00:00",
+    "description": "A exhibition focused on dates & spices in Jeddah, with marketplace booths and product launches."
+  },
+  {
+    "id": "E553",
+    "name": "Oasis Living Conference – Dammam",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-12T20:00:00.000+00:00",
+    "description": "A conference focused on oasis living in Dammam, with keynote talks and expert panels."
+  },
+  {
+    "id": "E554",
+    "name": "Mecca Red Sea Summit Series",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-13T09:00:00.000+00:00",
+    "description": "A summit focused on red sea in Mecca, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E555",
+    "name": "Medina Coastal Heritage Expo",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-13T12:00:00.000+00:00",
+    "description": "A expo focused on coastal heritage in Medina, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E556",
+    "name": "Urban Planning Fair – Taif",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-13T13:30:00.000+00:00",
+    "description": "A fair focused on urban planning in Taif, with keynote talks and expert panels."
+  },
+  {
+    "id": "E557",
+    "name": "Public Safety in Abha – Forum",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-13T15:00:00.000+00:00",
+    "description": "A forum focused on public safety in Abha, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E558",
+    "name": "AlUla Education Technology Competition",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-13T16:00:00.000+00:00",
+    "description": "A competition focused on education technology in AlUla, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E559",
+    "name": "Tabuk Travel Retail Concert Series",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-13T17:30:00.000+00:00",
+    "description": "A concert focused on travel retail in Tabuk, with marketplace booths and product launches."
+  },
+  {
+    "id": "E560",
+    "name": "Hospitality in Yanbu – Workshop",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-13T19:30:00.000+00:00",
+    "description": "A workshop focused on hospitality in Yanbu, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E561",
+    "name": "Riyadh Culture Festival",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-13T20:00:00.000+00:00",
+    "description": "A festival focused on culture in Riyadh, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E562",
+    "name": "Jeddah Design Exhibition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-14T10:30:00.000+00:00",
+    "description": "A exhibition focused on design in Jeddah, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E563",
+    "name": "Innovation Conference – Dammam",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-14T12:00:00.000+00:00",
+    "description": "A conference focused on innovation in Dammam, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E564",
+    "name": "Smart City Summit – Mecca",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-14T16:00:00.000+00:00",
+    "description": "A summit focused on smart city in Mecca, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E565",
+    "name": "Medina Halal Food Expo Series",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-14T17:30:00.000+00:00",
+    "description": "A expo focused on halal food in Medina, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E566",
+    "name": "Taif Film Fair Series",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-14T18:00:00.000+00:00",
+    "description": "A fair focused on film in Taif, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E567",
+    "name": "Literature in Abha – Forum",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-14T19:30:00.000+00:00",
+    "description": "A forum focused on literature in Abha, including guided tours and live performances."
+  },
+  {
+    "id": "E568",
+    "name": "Tourism Competition – AlUla",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-14T20:00:00.000+00:00",
+    "description": "A competition focused on tourism in AlUla, with keynote talks and expert panels."
+  },
+  {
+    "id": "E569",
+    "name": "Heritage in Tabuk – Concert",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-14T21:00:00.000+00:00",
+    "description": "A concert focused on heritage in Tabuk, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E570",
+    "name": "Sustainability Workshop – Yanbu",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-15T09:00:00.000+00:00",
+    "description": "A workshop focused on sustainability in Yanbu, including guided tours and live performances."
+  },
+  {
+    "id": "E571",
+    "name": "Tech Festival – Riyadh",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-15T10:30:00.000+00:00",
+    "description": "A festival focused on tech in Riyadh, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E572",
+    "name": "Jeddah Startup Exhibition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-15T11:00:00.000+00:00",
+    "description": "A exhibition focused on startup in Jeddah, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E573",
+    "name": "Dammam Health Conference",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-15T13:30:00.000+00:00",
+    "description": "A conference focused on health in Dammam, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E574",
+    "name": "Education in Mecca – Summit",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-15T15:00:00.000+00:00",
+    "description": "A summit focused on education in Mecca, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E575",
+    "name": "Medina Green Energy Expo",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-15T15:30:00.000+00:00",
+    "description": "A expo focused on green energy in Medina, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E576",
+    "name": "Taif Logistics Fair Series",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-15T17:30:00.000+00:00",
+    "description": "A fair focused on logistics in Taif, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E577",
+    "name": "Maritime in Abha – Forum",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-15T18:00:00.000+00:00",
+    "description": "A forum focused on maritime in Abha, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E578",
+    "name": "Fashion in AlUla – Competition",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-15T20:00:00.000+00:00",
+    "description": "A competition focused on fashion in AlUla, with marketplace booths and product launches."
+  },
+  {
+    "id": "E579",
+    "name": "Coffee & Chocolate in Tabuk – Concert",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-16T10:30:00.000+00:00",
+    "description": "A concert focused on coffee & chocolate in Tabuk, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E580",
+    "name": "Arts in Yanbu – Workshop",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-16T11:00:00.000+00:00",
+    "description": "A workshop focused on arts in Yanbu, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E581",
+    "name": "Music in Riyadh – Festival",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-16T13:30:00.000+00:00",
+    "description": "A festival focused on music in Riyadh, with keynote talks and expert panels."
+  },
+  {
+    "id": "E582",
+    "name": "Jeddah Culinary Exhibition Series",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-16T15:00:00.000+00:00",
+    "description": "A exhibition focused on culinary in Jeddah, including guided tours and live performances."
+  },
+  {
+    "id": "E583",
+    "name": "Dammam Architecture Conference Series",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-16T17:30:00.000+00:00",
+    "description": "A conference focused on architecture in Dammam, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E584",
+    "name": "Wellness in Mecca – Summit",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-16T18:00:00.000+00:00",
+    "description": "A summit focused on wellness in Mecca, with keynote talks and expert panels."
+  },
+  {
+    "id": "E585",
+    "name": "Pilgrimage in Medina – Expo",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-16T19:30:00.000+00:00",
+    "description": "A expo focused on pilgrimage in Medina, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E586",
+    "name": "Crafts in Taif – Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-16T20:00:00.000+00:00",
+    "description": "A fair focused on crafts in Taif, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E587",
+    "name": "Digital Media in Abha – Forum",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-17T09:00:00.000+00:00",
+    "description": "A forum focused on digital media in Abha, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E588",
+    "name": "AlUla Gaming Week",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-17T10:30:00.000+00:00",
+    "description": "A competition focused on gaming in AlUla, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E589",
+    "name": "Tabuk E‑Commerce Concert",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-17T12:00:00.000+00:00",
+    "description": "A concert focused on e‑commerce in Tabuk, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E590",
+    "name": "AI Workshop – Yanbu",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-17T16:00:00.000+00:00",
+    "description": "A workshop focused on ai in Yanbu, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E591",
+    "name": "Cybersecurity Festival – Riyadh",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-17T17:30:00.000+00:00",
+    "description": "A festival focused on cybersecurity in Riyadh, with keynote talks and expert panels."
+  },
+  {
+    "id": "E592",
+    "name": "Jeddah Sports Week",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-17T19:30:00.000+00:00",
+    "description": "A exhibition focused on sports in Jeddah, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E593",
+    "name": "Dammam Photography Conference Series",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-17T20:00:00.000+00:00",
+    "description": "A conference focused on photography in Dammam, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E594",
+    "name": "Handicrafts in Mecca – Summit",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-17T21:00:00.000+00:00",
+    "description": "A summit focused on handicrafts in Mecca, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E595",
+    "name": "Medina Biotech Expo Series",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-18T09:00:00.000+00:00",
+    "description": "A expo focused on biotech in Medina, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E596",
+    "name": "Fintech Fair – Taif",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-18T10:30:00.000+00:00",
+    "description": "A fair focused on fintech in Taif, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E597",
+    "name": "Agritech Forum – Abha",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-18T12:00:00.000+00:00",
+    "description": "A forum focused on agritech in Abha, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E598",
+    "name": "AlUla Aviation Competition Series",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-18T13:30:00.000+00:00",
+    "description": "A competition focused on aviation in AlUla, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E599",
+    "name": "Tabuk Automotive Week",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-18T16:00:00.000+00:00",
+    "description": "A concert focused on automotive in Tabuk, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E600",
+    "name": "Yanbu Mobility Week",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-18T18:00:00.000+00:00",
+    "description": "A workshop focused on mobility in Yanbu, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E601",
+    "name": "Desert Sports in Riyadh – Festival",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-18T19:30:00.000+00:00",
+    "description": "A festival focused on desert sports in Riyadh, with keynote talks and expert panels."
+  },
+  {
+    "id": "E602",
+    "name": "Jeddah Dates & Spices Week",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-18T20:00:00.000+00:00",
+    "description": "A exhibition focused on dates & spices in Jeddah, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E603",
+    "name": "Oasis Living Conference – Dammam",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-19T09:00:00.000+00:00",
+    "description": "A conference focused on oasis living in Dammam, with marketplace booths and product launches."
+  },
+  {
+    "id": "E604",
+    "name": "Red Sea Summit – Mecca",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-19T10:30:00.000+00:00",
+    "description": "A summit focused on red sea in Mecca, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E605",
+    "name": "Coastal Heritage Expo – Medina",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-19T11:00:00.000+00:00",
+    "description": "A expo focused on coastal heritage in Medina, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E606",
+    "name": "Urban Planning in Taif – Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-19T13:30:00.000+00:00",
+    "description": "A fair focused on urban planning in Taif, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E607",
+    "name": "Abha Public Safety Forum",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-19T13:45:00.000+00:00",
+    "description": "A forum focused on public safety in Abha, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E608",
+    "name": "AlUla Education Technology Competition",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-19T13:55:00.000+00:00",
+    "description": "A competition focused on education technology in AlUla, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E609",
+    "name": "Tabuk Travel Retail Concert Series",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-19T16:00:00.000+00:00",
+    "description": "A concert focused on travel retail in Tabuk, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E610",
+    "name": "Yanbu Hospitality Week",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-19T17:30:00.000+00:00",
+    "description": "A workshop focused on hospitality in Yanbu, with keynote talks and expert panels."
+  },
+  {
+    "id": "E611",
+    "name": "Riyadh Culture Festival",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-19T19:30:00.000+00:00",
+    "description": "A festival focused on culture in Riyadh, with marketplace booths and product launches."
+  },
+  {
+    "id": "E612",
+    "name": "Jeddah Design Exhibition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-19T20:00:00.000+00:00",
+    "description": "A exhibition focused on design in Jeddah, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E613",
+    "name": "Dammam Innovation Conference Series",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-20T09:00:00.000+00:00",
+    "description": "A conference focused on innovation in Dammam, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E614",
+    "name": "Mecca Smart City Week",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-20T10:30:00.000+00:00",
+    "description": "A summit focused on smart city in Mecca, with marketplace booths and product launches."
+  },
+  {
+    "id": "E615",
+    "name": "Halal Food in Medina – Expo",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-20T12:00:00.000+00:00",
+    "description": "A expo focused on halal food in Medina, including guided tours and live performances."
+  },
+  {
+    "id": "E616",
+    "name": "Film Fair – Taif",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-20T13:30:00.000+00:00",
+    "description": "A fair focused on film in Taif, with keynote talks and expert panels."
+  },
+  {
+    "id": "E617",
+    "name": "Abha Literature Forum Series",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-20T15:00:00.000+00:00",
+    "description": "A forum focused on literature in Abha, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E618",
+    "name": "Tourism Competition – AlUla",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-20T16:00:00.000+00:00",
+    "description": "A competition focused on tourism in AlUla, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E619",
+    "name": "Tabuk Heritage Concert Series",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-20T19:30:00.000+00:00",
+    "description": "A concert focused on heritage in Tabuk, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E620",
+    "name": "Sustainability Workshop – Yanbu",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-20T21:00:00.000+00:00",
+    "description": "A workshop focused on sustainability in Yanbu, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E621",
+    "name": "Riyadh Tech Festival Series",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-21T09:00:00.000+00:00",
+    "description": "A festival focused on tech in Riyadh, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E622",
+    "name": "Jeddah Startup Exhibition Series",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-21T12:00:00.000+00:00",
+    "description": "A exhibition focused on startup in Jeddah, with keynote talks and expert panels."
+  },
+  {
+    "id": "E623",
+    "name": "Dammam Health Week",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-21T13:30:00.000+00:00",
+    "description": "A conference focused on health in Dammam, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E624",
+    "name": "Mecca Education Week",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-21T15:00:00.000+00:00",
+    "description": "A summit focused on education in Mecca, with marketplace booths and product launches."
+  },
+  {
+    "id": "E625",
+    "name": "Medina Green Energy Expo",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-21T18:00:00.000+00:00",
+    "description": "A expo focused on green energy in Medina, with keynote talks and expert panels."
+  },
+  {
+    "id": "E626",
+    "name": "Taif Logistics Week",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-21T18:10:00.000+00:00",
+    "description": "A fair focused on logistics in Taif, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E627",
+    "name": "Abha Maritime Forum Series",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-21T19:30:00.000+00:00",
+    "description": "A forum focused on maritime in Abha, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E628",
+    "name": "AlUla Fashion Week",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-21T20:00:00.000+00:00",
+    "description": "A competition focused on fashion in AlUla, with keynote talks and expert panels."
+  },
+  {
+    "id": "E629",
+    "name": "Tabuk Coffee & Chocolate Concert Series",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-21T21:00:00.000+00:00",
+    "description": "A concert focused on coffee & chocolate in Tabuk, with marketplace booths and product launches."
+  },
+  {
+    "id": "E630",
+    "name": "Yanbu Arts Workshop Series",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-22T09:00:00.000+00:00",
+    "description": "A workshop focused on arts in Yanbu, including guided tours and live performances."
+  },
+  {
+    "id": "E631",
+    "name": "Riyadh Music Week",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-22T10:30:00.000+00:00",
+    "description": "A festival focused on music in Riyadh, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E632",
+    "name": "Culinary in Jeddah – Exhibition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-22T12:00:00.000+00:00",
+    "description": "A exhibition focused on culinary in Jeddah, with keynote talks and expert panels."
+  },
+  {
+    "id": "E633",
+    "name": "Dammam Architecture Conference Series",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-22T13:30:00.000+00:00",
+    "description": "A conference focused on architecture in Dammam, with keynote talks and expert panels."
+  },
+  {
+    "id": "E634",
+    "name": "Mecca Wellness Week",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-22T15:00:00.000+00:00",
+    "description": "A summit focused on wellness in Mecca, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E635",
+    "name": "Medina Pilgrimage Week",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-22T18:00:00.000+00:00",
+    "description": "A expo focused on pilgrimage in Medina, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E636",
+    "name": "Taif Crafts Week",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-22T19:30:00.000+00:00",
+    "description": "A fair focused on crafts in Taif, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E637",
+    "name": "Digital Media in Abha – Forum",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-22T21:00:00.000+00:00",
+    "description": "A forum focused on digital media in Abha, with keynote talks and expert panels."
+  },
+  {
+    "id": "E638",
+    "name": "AlUla Gaming Competition Series",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-23T09:00:00.000+00:00",
+    "description": "A competition focused on gaming in AlUla, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E639",
+    "name": "E‑Commerce in Tabuk – Concert",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-23T10:30:00.000+00:00",
+    "description": "A concert focused on e‑commerce in Tabuk, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E640",
+    "name": "AI in Yanbu – Workshop",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-23T11:00:00.000+00:00",
+    "description": "A workshop focused on ai in Yanbu, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E641",
+    "name": "Cybersecurity Festival – Riyadh",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-23T13:30:00.000+00:00",
+    "description": "A festival focused on cybersecurity in Riyadh, with keynote talks and expert panels."
+  },
+  {
+    "id": "E642",
+    "name": "Sports in Jeddah – Exhibition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-23T16:00:00.000+00:00",
+    "description": "A exhibition focused on sports in Jeddah, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E643",
+    "name": "Photography in Dammam – Conference",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-23T17:30:00.000+00:00",
+    "description": "A conference focused on photography in Dammam, with keynote talks and expert panels."
+  },
+  {
+    "id": "E644",
+    "name": "Handicrafts Summit – Mecca",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-23T20:00:00.000+00:00",
+    "description": "A summit focused on handicrafts in Mecca, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E645",
+    "name": "Medina Biotech Expo Series",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-23T21:00:00.000+00:00",
+    "description": "A expo focused on biotech in Medina, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E646",
+    "name": "Taif Fintech Fair Series",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-24T09:00:00.000+00:00",
+    "description": "A fair focused on fintech in Taif, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E647",
+    "name": "Abha Agritech Forum Series",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-24T10:30:00.000+00:00",
+    "description": "A forum focused on agritech in Abha, with marketplace booths and product launches."
+  },
+  {
+    "id": "E648",
+    "name": "AlUla Aviation Competition Series",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-24T12:00:00.000+00:00",
+    "description": "A competition focused on aviation in AlUla, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E649",
+    "name": "Automotive in Tabuk – Concert",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-24T13:30:00.000+00:00",
+    "description": "A concert focused on automotive in Tabuk, with keynote talks and expert panels."
+  },
+  {
+    "id": "E650",
+    "name": "Yanbu Mobility Workshop Series",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-24T15:00:00.000+00:00",
+    "description": "A workshop focused on mobility in Yanbu, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E651",
+    "name": "Riyadh Desert Sports Week",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-24T17:30:00.000+00:00",
+    "description": "A festival focused on desert sports in Riyadh, with marketplace booths and product launches."
+  },
+  {
+    "id": "E652",
+    "name": "Jeddah Dates & Spices Exhibition Series",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-24T20:00:00.000+00:00",
+    "description": "A exhibition focused on dates & spices in Jeddah, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E653",
+    "name": "Dammam Oasis Living Week",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-24T21:00:00.000+00:00",
+    "description": "A conference focused on oasis living in Dammam, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E654",
+    "name": "Mecca Red Sea Summit Series",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-25T10:30:00.000+00:00",
+    "description": "A summit focused on red sea in Mecca, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E655",
+    "name": "Coastal Heritage Expo – Medina",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-25T11:00:00.000+00:00",
+    "description": "A expo focused on coastal heritage in Medina, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E656",
+    "name": "Taif Urban Planning Week",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-25T12:00:00.000+00:00",
+    "description": "A fair focused on urban planning in Taif, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E657",
+    "name": "Abha Public Safety Forum",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-25T16:00:00.000+00:00",
+    "description": "A forum focused on public safety in Abha, including guided tours and live performances."
+  },
+  {
+    "id": "E658",
+    "name": "AlUla Education Technology Week",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-25T17:30:00.000+00:00",
+    "description": "A competition focused on education technology in AlUla, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E659",
+    "name": "Travel Retail in Tabuk – Concert",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-25T18:00:00.000+00:00",
+    "description": "A concert focused on travel retail in Tabuk, including guided tours and live performances."
+  },
+  {
+    "id": "E660",
+    "name": "Hospitality Workshop – Yanbu",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-25T19:30:00.000+00:00",
+    "description": "A workshop focused on hospitality in Yanbu, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E661",
+    "name": "Riyadh Culture Week",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-25T19:50:00.000+00:00",
+    "description": "A festival focused on culture in Riyadh, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E662",
+    "name": "Jeddah Design Exhibition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-25T21:00:00.000+00:00",
+    "description": "A exhibition focused on design in Jeddah, with keynote talks and expert panels."
+  },
+  {
+    "id": "E663",
+    "name": "Dammam Innovation Conference Series",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-26T12:00:00.000+00:00",
+    "description": "A conference focused on innovation in Dammam, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E664",
+    "name": "Mecca Smart City Summit Series",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-26T13:30:00.000+00:00",
+    "description": "A summit focused on smart city in Mecca, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E665",
+    "name": "Halal Food Expo – Medina",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-26T15:00:00.000+00:00",
+    "description": "A expo focused on halal food in Medina, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E666",
+    "name": "Taif Film Fair Series",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-26T16:00:00.000+00:00",
+    "description": "A fair focused on film in Taif, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E667",
+    "name": "Abha Literature Week",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-26T18:00:00.000+00:00",
+    "description": "A forum focused on literature in Abha, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E668",
+    "name": "Tourism Competition – AlUla",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-26T19:30:00.000+00:00",
+    "description": "A competition focused on tourism in AlUla, including guided tours and live performances."
+  },
+  {
+    "id": "E669",
+    "name": "Heritage in Tabuk – Concert",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-26T20:00:00.000+00:00",
+    "description": "A concert focused on heritage in Tabuk, including guided tours and live performances."
+  },
+  {
+    "id": "E670",
+    "name": "Sustainability in Yanbu – Workshop",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-26T21:00:00.000+00:00",
+    "description": "A workshop focused on sustainability in Yanbu, including guided tours and live performances."
+  },
+  {
+    "id": "E671",
+    "name": "Tech Festival – Riyadh",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-27T09:00:00.000+00:00",
+    "description": "A festival focused on tech in Riyadh, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E672",
+    "name": "Startup Exhibition – Jeddah",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-27T10:30:00.000+00:00",
+    "description": "A exhibition focused on startup in Jeddah, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E673",
+    "name": "Dammam Health Conference",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-27T12:00:00.000+00:00",
+    "description": "A conference focused on health in Dammam, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E674",
+    "name": "Mecca Education Summit Series",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-27T16:00:00.000+00:00",
+    "description": "A summit focused on education in Mecca, featuring workshops and hands‑on demos."
+  },
+  {
+    "id": "E675",
+    "name": "Medina Green Energy Week",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-27T17:30:00.000+00:00",
+    "description": "A expo focused on green energy in Medina, with marketplace booths and product launches."
+  },
+  {
+    "id": "E676",
+    "name": "Logistics in Taif – Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-27T18:00:00.000+00:00",
+    "description": "A fair focused on logistics in Taif, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E677",
+    "name": "Abha Maritime Forum",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-27T20:00:00.000+00:00",
+    "description": "A forum focused on maritime in Abha, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E678",
+    "name": "Fashion in AlUla – Competition",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-27T21:00:00.000+00:00",
+    "description": "A competition focused on fashion in AlUla, including guided tours and live performances."
+  },
+  {
+    "id": "E679",
+    "name": "Coffee & Chocolate in Tabuk – Concert",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-28T10:30:00.000+00:00",
+    "description": "A concert focused on coffee & chocolate in Tabuk, with marketplace booths and product launches."
+  },
+  {
+    "id": "E680",
+    "name": "Yanbu Arts Workshop",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-28T11:00:00.000+00:00",
+    "description": "A workshop focused on arts in Yanbu, with marketplace booths and product launches."
+  },
+  {
+    "id": "E681",
+    "name": "Music in Riyadh – Festival",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-28T12:00:00.000+00:00",
+    "description": "A festival focused on music in Riyadh, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E682",
+    "name": "Culinary in Jeddah – Exhibition",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-28T15:00:00.000+00:00",
+    "description": "A exhibition focused on culinary in Jeddah, with marketplace booths and product launches."
+  },
+  {
+    "id": "E683",
+    "name": "Dammam Architecture Week",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-28T17:30:00.000+00:00",
+    "description": "A conference focused on architecture in Dammam, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E684",
+    "name": "Mecca Wellness Summit",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-28T19:30:00.000+00:00",
+    "description": "A summit focused on wellness in Mecca, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E685",
+    "name": "Medina Pilgrimage Expo",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-28T20:00:00.000+00:00",
+    "description": "A expo focused on pilgrimage in Medina, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E686",
+    "name": "Taif Crafts Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-28T21:00:00.000+00:00",
+    "description": "A fair focused on crafts in Taif, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E687",
+    "name": "Digital Media Forum – Abha",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-29T10:30:00.000+00:00",
+    "description": "A forum focused on digital media in Abha, with marketplace booths and product launches."
+  },
+  {
+    "id": "E688",
+    "name": "Gaming Competition – AlUla",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-29T11:00:00.000+00:00",
+    "description": "A competition focused on gaming in AlUla, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E689",
+    "name": "Tabuk E‑Commerce Concert",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-29T12:00:00.000+00:00",
+    "description": "A concert focused on e‑commerce in Tabuk, including guided tours and live performances."
+  },
+  {
+    "id": "E690",
+    "name": "Yanbu AI Workshop",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-29T13:30:00.000+00:00",
+    "description": "A workshop focused on ai in Yanbu, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E691",
+    "name": "Cybersecurity Festival – Riyadh",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-29T16:00:00.000+00:00",
+    "description": "A festival focused on cybersecurity in Riyadh, including guided tours and live performances."
+  },
+  {
+    "id": "E692",
+    "name": "Jeddah Sports Week",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-29T19:30:00.000+00:00",
+    "description": "A exhibition focused on sports in Jeddah, including guided tours and live performances."
+  },
+  {
+    "id": "E693",
+    "name": "Dammam Photography Week",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-29T20:00:00.000+00:00",
+    "description": "A conference focused on photography in Dammam, with keynote talks and expert panels."
+  },
+  {
+    "id": "E694",
+    "name": "Mecca Handicrafts Week",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-29T21:00:00.000+00:00",
+    "description": "A summit focused on handicrafts in Mecca, showcasing local talent and international collaborations."
+  },
+  {
+    "id": "E695",
+    "name": "Biotech Expo – Medina",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-30T09:00:00.000+00:00",
+    "description": "A expo focused on biotech in Medina, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E696",
+    "name": "Taif Fintech Fair",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-30T10:30:00.000+00:00",
+    "description": "A fair focused on fintech in Taif, including guided tours and live performances."
+  },
+  {
+    "id": "E697",
+    "name": "Abha Agritech Forum",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-30T13:30:00.000+00:00",
+    "description": "A forum focused on agritech in Abha, with keynote talks and expert panels."
+  },
+  {
+    "id": "E698",
+    "name": "Aviation Competition – AlUla",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-30T15:00:00.000+00:00",
+    "description": "A competition focused on aviation in AlUla, with keynote talks and expert panels."
+  },
+  {
+    "id": "E699",
+    "name": "Tabuk Automotive Week",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-30T16:00:00.000+00:00",
+    "description": "A concert focused on automotive in Tabuk, with marketplace booths and product launches."
+  },
+  {
+    "id": "E700",
+    "name": "Yanbu Mobility Workshop",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-30T18:00:00.000+00:00",
+    "description": "A workshop focused on mobility in Yanbu, celebrating regional heritage and contemporary trends."
+  },
+  {
+    "id": "E701",
+    "name": "Desert Sports in Riyadh – Festival",
+    "cityName": "Riyadh",
+    "type": "festival",
+    "date": "2025-12-30T19:30:00.000+00:00",
+    "description": "A festival focused on desert sports in Riyadh, with marketplace booths and product launches."
+  },
+  {
+    "id": "E702",
+    "name": "Dates & Spices Exhibition – Jeddah",
+    "cityName": "Jeddah",
+    "type": "exhibition",
+    "date": "2025-12-30T21:00:00.000+00:00",
+    "description": "A exhibition focused on dates & spices in Jeddah, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E703",
+    "name": "Oasis Living Conference – Dammam",
+    "cityName": "Dammam",
+    "type": "conference",
+    "date": "2025-12-31T11:00:00.000+00:00",
+    "description": "A conference focused on oasis living in Dammam, connecting industry leaders, startups, and investors."
+  },
+  {
+    "id": "E704",
+    "name": "Mecca Red Sea Week",
+    "cityName": "Mecca",
+    "type": "summit",
+    "date": "2025-12-31T12:00:00.000+00:00",
+    "description": "A summit focused on red sea in Mecca, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E705",
+    "name": "Coastal Heritage in Medina – Expo",
+    "cityName": "Medina",
+    "type": "expo",
+    "date": "2025-12-31T13:30:00.000+00:00",
+    "description": "A expo focused on coastal heritage in Medina, with networking sessions and pitch competitions."
+  },
+  {
+    "id": "E706",
+    "name": "Urban Planning Fair – Taif",
+    "cityName": "Taif",
+    "type": "fair",
+    "date": "2025-12-31T17:30:00.000+00:00",
+    "description": "A fair focused on urban planning in Taif, with marketplace booths and product launches."
+  },
+  {
+    "id": "E707",
+    "name": "Abha Public Safety Forum Series",
+    "cityName": "Abha",
+    "type": "forum",
+    "date": "2025-12-31T18:00:00.000+00:00",
+    "description": "A forum focused on public safety in Abha, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E708",
+    "name": "Education Technology in AlUla – Competition",
+    "cityName": "AlUla",
+    "type": "competition",
+    "date": "2025-12-31T19:30:00.000+00:00",
+    "description": "A competition focused on education technology in AlUla, highlighting sustainability and community engagement."
+  },
+  {
+    "id": "E709",
+    "name": "Travel Retail Concert – Tabuk",
+    "cityName": "Tabuk",
+    "type": "concert",
+    "date": "2025-12-31T20:00:00.000+00:00",
+    "description": "A concert focused on travel retail in Tabuk, offering certification tracks and masterclasses."
+  },
+  {
+    "id": "E710",
+    "name": "Hospitality in Yanbu – Workshop",
+    "cityName": "Yanbu",
+    "type": "workshop",
+    "date": "2025-12-31T21:00:00.000+00:00",
+    "description": "A workshop focused on hospitality in Yanbu, with networking sessions and pitch competitions."
+  }
+]

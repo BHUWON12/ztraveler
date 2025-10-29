@@ -1,0 +1,4002 @@
+[
+  {
+    "id": "A087",
+    "name": "Mecca Palace Ruins",
+    "cityName": "Mecca",
+    "category": "waterfall",
+    "entry_fee": 75,
+    "description": "A scenic location surrounded by an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A088",
+    "name": "Dammam Crafts Market",
+    "cityName": "Dammam",
+    "category": "mosque",
+    "entry_fee": 20,
+    "description": "A must-visit attraction featuring spectacular views and cultural performances."
+  },
+  {
+    "id": "A089",
+    "name": "Dammam Old Town Souq",
+    "cityName": "Dammam",
+    "category": "nature reserve",
+    "entry_fee": 20,
+    "description": "A historic landmark representing natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A090",
+    "name": "Al-Ahsa Royal Gardens",
+    "cityName": "Al-Ahsa",
+    "category": "museum",
+    "entry_fee": 75,
+    "description": "A popular spot showcasing spectacular views and cultural performances."
+  },
+  {
+    "id": "A091",
+    "name": "Tabuk Crystal Lake",
+    "cityName": "Tabuk",
+    "category": "park",
+    "entry_fee": 50,
+    "description": "A family-friendly area with natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A092",
+    "name": "Buraidah Desert Reserve",
+    "cityName": "Buraidah",
+    "category": "heritage site",
+    "entry_fee": 50,
+    "description": "A cultural gem highlighting historical displays and heritage reenactments."
+  },
+  {
+    "id": "A093",
+    "name": "Abha Wildlife Sanctuary",
+    "cityName": "Abha",
+    "category": "heritage site",
+    "entry_fee": 40,
+    "description": "An immersive experience of interactive exhibits and educational programs."
+  },
+  {
+    "id": "A094",
+    "name": "Al Khobar Mountain Trail",
+    "cityName": "Al Khobar",
+    "category": "market",
+    "entry_fee": 100,
+    "description": "A family-friendly area with spectacular views and cultural performances."
+  },
+  {
+    "id": "A095",
+    "name": "Taif Maritime Heritage",
+    "cityName": "Taif",
+    "category": "art gallery",
+    "entry_fee": 100,
+    "description": "An iconic site known for guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A096",
+    "name": "Jeddah Cave Complex",
+    "cityName": "Jeddah",
+    "category": "museum",
+    "entry_fee": 100,
+    "description": "A family-friendly area with historical displays and heritage reenactments."
+  },
+  {
+    "id": "A097",
+    "name": "Medina Crystal Lake",
+    "cityName": "Medina",
+    "category": "park",
+    "entry_fee": 20,
+    "description": "A popular spot showcasing craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A098",
+    "name": "Al Khobar Cultural Oasis",
+    "cityName": "Al Khobar",
+    "category": "landmark",
+    "entry_fee": 50,
+    "description": "A popular spot showcasing interactive exhibits and educational programs."
+  },
+  {
+    "id": "A099",
+    "name": "Mecca Museum of History",
+    "cityName": "Mecca",
+    "category": "museum",
+    "entry_fee": 0,
+    "description": "A family-friendly area with craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A100",
+    "name": "Buraidah Waterfront Corniche",
+    "cityName": "Buraidah",
+    "category": "art gallery",
+    "entry_fee": 75,
+    "description": "A beautiful destination offering an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A101",
+    "name": "Mecca Historical Fortress",
+    "cityName": "Mecca",
+    "category": "museum",
+    "entry_fee": 0,
+    "description": "An iconic site known for tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A102",
+    "name": "Dammam Art Quarter",
+    "cityName": "Dammam",
+    "category": "nature reserve",
+    "entry_fee": 100,
+    "description": "An iconic site known for guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A103",
+    "name": "Mecca National Museum",
+    "cityName": "Mecca",
+    "category": "mosque",
+    "entry_fee": 30,
+    "description": "An iconic site known for spectacular views and cultural performances."
+  },
+  {
+    "id": "A104",
+    "name": "Abha Crafts Market",
+    "cityName": "Abha",
+    "category": "museum",
+    "entry_fee": 0,
+    "description": "A historic landmark representing interactive exhibits and educational programs."
+  },
+  {
+    "id": "A105",
+    "name": "Buraidah Science Park",
+    "cityName": "Buraidah",
+    "category": "cultural center",
+    "entry_fee": 30,
+    "description": "A scenic location surrounded by craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A106",
+    "name": "Taif Historical Quarter",
+    "cityName": "Taif",
+    "category": "park",
+    "entry_fee": 20,
+    "description": "A scenic location surrounded by interactive exhibits and educational programs."
+  },
+  {
+    "id": "A107",
+    "name": "Riyadh Museum of History",
+    "cityName": "Riyadh",
+    "category": "garden",
+    "entry_fee": 100,
+    "description": "A scenic location surrounded by historical displays and heritage reenactments."
+  },
+  {
+    "id": "A108",
+    "name": "Dammam Mountain Trail",
+    "cityName": "Dammam",
+    "category": "cultural center",
+    "entry_fee": 40,
+    "description": "A scenic location surrounded by historical displays and heritage reenactments."
+  },
+  {
+    "id": "A109",
+    "name": "Tabuk National Museum",
+    "cityName": "Tabuk",
+    "category": "mosque",
+    "entry_fee": 75,
+    "description": "A family-friendly area with guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A110",
+    "name": "Riyadh Cultural Oasis",
+    "cityName": "Riyadh",
+    "category": "art gallery",
+    "entry_fee": 100,
+    "description": "A must-visit attraction featuring an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A111",
+    "name": "Jazan Cave Complex",
+    "cityName": "Jazan",
+    "category": "beach",
+    "entry_fee": 0,
+    "description": "An iconic site known for spectacular views and cultural performances."
+  },
+  {
+    "id": "A112",
+    "name": "Tabuk Date Market",
+    "cityName": "Tabuk",
+    "category": "landmark",
+    "entry_fee": 50,
+    "description": "A scenic location surrounded by an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A113",
+    "name": "AlUla Cave Complex",
+    "cityName": "AlUla",
+    "category": "amusement park",
+    "entry_fee": 20,
+    "description": "A must-visit attraction featuring an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A114",
+    "name": "Medina Heritage Farm",
+    "cityName": "Medina",
+    "category": "nature reserve",
+    "entry_fee": 30,
+    "description": "A family-friendly area with craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A115",
+    "name": "AlUla City Fountain",
+    "cityName": "AlUla",
+    "category": "museum",
+    "entry_fee": 30,
+    "description": "A historic landmark representing historical displays and heritage reenactments."
+  },
+  {
+    "id": "A116",
+    "name": "Mecca Seaside Promenade",
+    "cityName": "Mecca",
+    "category": "historical fort",
+    "entry_fee": 30,
+    "description": "A beautiful destination offering spectacular views and cultural performances."
+  },
+  {
+    "id": "A117",
+    "name": "Mecca Date Market",
+    "cityName": "Mecca",
+    "category": "beach",
+    "entry_fee": 40,
+    "description": "A family-friendly area with spectacular views and cultural performances."
+  },
+  {
+    "id": "A118",
+    "name": "Medina Royal Gardens",
+    "cityName": "Medina",
+    "category": "cultural center",
+    "entry_fee": 0,
+    "description": "An immersive experience of tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A119",
+    "name": "Buraidah Old Town Souq",
+    "cityName": "Buraidah",
+    "category": "museum",
+    "entry_fee": 20,
+    "description": "A family-friendly area with spectacular views and cultural performances."
+  },
+  {
+    "id": "A120",
+    "name": "AlUla Crafts Market",
+    "cityName": "AlUla",
+    "category": "cultural center",
+    "entry_fee": 40,
+    "description": "A cultural gem highlighting historical displays and heritage reenactments."
+  },
+  {
+    "id": "A121",
+    "name": "Riyadh Museum of History",
+    "cityName": "Riyadh",
+    "category": "museum",
+    "entry_fee": 0,
+    "description": "A popular spot showcasing an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A122",
+    "name": "Medina Mountain Trail",
+    "cityName": "Medina",
+    "category": "waterfall",
+    "entry_fee": 40,
+    "description": "An iconic site known for interactive exhibits and educational programs."
+  },
+  {
+    "id": "A123",
+    "name": "AlUla Crystal Lake",
+    "cityName": "AlUla",
+    "category": "mountain",
+    "entry_fee": 50,
+    "description": "An iconic site known for tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A124",
+    "name": "Hail Old Town Souq",
+    "cityName": "Hail",
+    "category": "market",
+    "entry_fee": 20,
+    "description": "A must-visit attraction featuring ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A125",
+    "name": "Abha Eco Park",
+    "cityName": "Abha",
+    "category": "historical fort",
+    "entry_fee": 0,
+    "description": "A historic landmark representing an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A126",
+    "name": "Buraidah Waterfront Corniche",
+    "cityName": "Buraidah",
+    "category": "mosque",
+    "entry_fee": 0,
+    "description": "A family-friendly area with guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A127",
+    "name": "Medina Seaside Promenade",
+    "cityName": "Medina",
+    "category": "garden",
+    "entry_fee": 100,
+    "description": "A family-friendly area with tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A128",
+    "name": "Medina Historical Fortress",
+    "cityName": "Medina",
+    "category": "mosque",
+    "entry_fee": 50,
+    "description": "An iconic site known for an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A129",
+    "name": "Riyadh Museum of History",
+    "cityName": "Riyadh",
+    "category": "park",
+    "entry_fee": 30,
+    "description": "A family-friendly area with spectacular views and cultural performances."
+  },
+  {
+    "id": "A130",
+    "name": "Jeddah Historical Fortress",
+    "cityName": "Jeddah",
+    "category": "nature reserve",
+    "entry_fee": 100,
+    "description": "A historic landmark representing natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A131",
+    "name": "Yanbu Adventure Cliff",
+    "cityName": "Yanbu",
+    "category": "heritage site",
+    "entry_fee": 100,
+    "description": "A scenic location surrounded by natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A132",
+    "name": "Medina Date Market",
+    "cityName": "Medina",
+    "category": "historical fort",
+    "entry_fee": 20,
+    "description": "A beautiful destination offering natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A133",
+    "name": "Mecca Cultural Oasis",
+    "cityName": "Mecca",
+    "category": "nature reserve",
+    "entry_fee": 40,
+    "description": "An immersive experience of tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A134",
+    "name": "Abha Seaside Promenade",
+    "cityName": "Abha",
+    "category": "mosque",
+    "entry_fee": 50,
+    "description": "An immersive experience of interactive exhibits and educational programs."
+  },
+  {
+    "id": "A135",
+    "name": "Jazan Adventure Valley",
+    "cityName": "Jazan",
+    "category": "park",
+    "entry_fee": 50,
+    "description": "An iconic site known for historical displays and heritage reenactments."
+  },
+  {
+    "id": "A136",
+    "name": "Abha Cultural Oasis",
+    "cityName": "Abha",
+    "category": "historical fort",
+    "entry_fee": 20,
+    "description": "A beautiful destination offering spectacular views and cultural performances."
+  },
+  {
+    "id": "A137",
+    "name": "Riyadh Crafts Market",
+    "cityName": "Riyadh",
+    "category": "landmark",
+    "entry_fee": 20,
+    "description": "A cultural gem highlighting craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A138",
+    "name": "Medina Heritage Farm",
+    "cityName": "Medina",
+    "category": "heritage site",
+    "entry_fee": 40,
+    "description": "An immersive experience of tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A139",
+    "name": "Al-Ahsa Desert Reserve",
+    "cityName": "Al-Ahsa",
+    "category": "mountain",
+    "entry_fee": 40,
+    "description": "A historic landmark representing tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A140",
+    "name": "Jazan Adventure Valley",
+    "cityName": "Jazan",
+    "category": "nature reserve",
+    "entry_fee": 100,
+    "description": "A cultural gem highlighting tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A141",
+    "name": "Buraidah Wildlife Sanctuary",
+    "cityName": "Buraidah",
+    "category": "waterfall",
+    "entry_fee": 100,
+    "description": "A scenic location surrounded by ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A142",
+    "name": "Taif Date Market",
+    "cityName": "Taif",
+    "category": "mosque",
+    "entry_fee": 40,
+    "description": "A cultural gem highlighting tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A143",
+    "name": "Hail Crystal Lake",
+    "cityName": "Hail",
+    "category": "art gallery",
+    "entry_fee": 100,
+    "description": "A popular spot showcasing spectacular views and cultural performances."
+  },
+  {
+    "id": "A144",
+    "name": "Najran Skyline Point",
+    "cityName": "Najran",
+    "category": "market",
+    "entry_fee": 50,
+    "description": "An iconic site known for guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A145",
+    "name": "Abha Mountain Trail",
+    "cityName": "Abha",
+    "category": "market",
+    "entry_fee": 20,
+    "description": "A must-visit attraction featuring spectacular views and cultural performances."
+  },
+  {
+    "id": "A146",
+    "name": "Taif Desert Dunes",
+    "cityName": "Taif",
+    "category": "landmark",
+    "entry_fee": 20,
+    "description": "A must-visit attraction featuring historical displays and heritage reenactments."
+  },
+  {
+    "id": "A147",
+    "name": "Yanbu Botanical Garden",
+    "cityName": "Yanbu",
+    "category": "landmark",
+    "entry_fee": 0,
+    "description": "A cultural gem highlighting spectacular views and cultural performances."
+  },
+  {
+    "id": "A148",
+    "name": "Najran Heritage Village",
+    "cityName": "Najran",
+    "category": "museum",
+    "entry_fee": 40,
+    "description": "A must-visit attraction featuring guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A149",
+    "name": "Jeddah Desert Dunes",
+    "cityName": "Jeddah",
+    "category": "landmark",
+    "entry_fee": 50,
+    "description": "An immersive experience of tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A150",
+    "name": "Taif Crafts Market",
+    "cityName": "Taif",
+    "category": "amusement park",
+    "entry_fee": 75,
+    "description": "A historic landmark representing an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A151",
+    "name": "Medina Palace Ruins",
+    "cityName": "Medina",
+    "category": "mountain",
+    "entry_fee": 50,
+    "description": "An immersive experience of craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A152",
+    "name": "Al-Ahsa Art Quarter",
+    "cityName": "Al-Ahsa",
+    "category": "market",
+    "entry_fee": 40,
+    "description": "A beautiful destination offering an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A153",
+    "name": "Al-Ahsa Desert Reserve",
+    "cityName": "Al-Ahsa",
+    "category": "historical fort",
+    "entry_fee": 50,
+    "description": "A must-visit attraction featuring historical displays and heritage reenactments."
+  },
+  {
+    "id": "A154",
+    "name": "Jazan Adventure Cliff",
+    "cityName": "Jazan",
+    "category": "mosque",
+    "entry_fee": 40,
+    "description": "An iconic site known for historical displays and heritage reenactments."
+  },
+  {
+    "id": "A155",
+    "name": "Yanbu Cultural Oasis",
+    "cityName": "Yanbu",
+    "category": "park",
+    "entry_fee": 20,
+    "description": "A historic landmark representing ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A156",
+    "name": "Hail Desert Reserve",
+    "cityName": "Hail",
+    "category": "landmark",
+    "entry_fee": 40,
+    "description": "An iconic site known for craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A157",
+    "name": "Dammam Royal Gardens",
+    "cityName": "Dammam",
+    "category": "art gallery",
+    "entry_fee": 100,
+    "description": "An iconic site known for natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A158",
+    "name": "Tabuk Sky Tower",
+    "cityName": "Tabuk",
+    "category": "museum",
+    "entry_fee": 100,
+    "description": "An iconic site known for spectacular views and cultural performances."
+  },
+  {
+    "id": "A159",
+    "name": "Al-Ahsa Historical Quarter",
+    "cityName": "Al-Ahsa",
+    "category": "market",
+    "entry_fee": 0,
+    "description": "A historic landmark representing natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A160",
+    "name": "Dammam Wildlife Sanctuary",
+    "cityName": "Dammam",
+    "category": "garden",
+    "entry_fee": 100,
+    "description": "A must-visit attraction featuring guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A161",
+    "name": "Mecca Seaside Promenade",
+    "cityName": "Mecca",
+    "category": "historical fort",
+    "entry_fee": 20,
+    "description": "An iconic site known for guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A162",
+    "name": "Hail Art Quarter",
+    "cityName": "Hail",
+    "category": "park",
+    "entry_fee": 0,
+    "description": "An iconic site known for spectacular views and cultural performances."
+  },
+  {
+    "id": "A163",
+    "name": "AlUla Eco Park",
+    "cityName": "AlUla",
+    "category": "beach",
+    "entry_fee": 40,
+    "description": "A popular spot showcasing interactive exhibits and educational programs."
+  },
+  {
+    "id": "A164",
+    "name": "Mecca Palace Ruins",
+    "cityName": "Mecca",
+    "category": "museum",
+    "entry_fee": 75,
+    "description": "An immersive experience of ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A165",
+    "name": "Tabuk Heritage Village",
+    "cityName": "Tabuk",
+    "category": "nature reserve",
+    "entry_fee": 100,
+    "description": "An iconic site known for tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A166",
+    "name": "Taif Oasis Springs",
+    "cityName": "Taif",
+    "category": "heritage site",
+    "entry_fee": 40,
+    "description": "A beautiful destination offering historical displays and heritage reenactments."
+  },
+  {
+    "id": "A167",
+    "name": "Riyadh Palace Ruins",
+    "cityName": "Riyadh",
+    "category": "mountain",
+    "entry_fee": 20,
+    "description": "A must-visit attraction featuring interactive exhibits and educational programs."
+  },
+  {
+    "id": "A168",
+    "name": "Yanbu Oasis Springs",
+    "cityName": "Yanbu",
+    "category": "waterfall",
+    "entry_fee": 30,
+    "description": "A cultural gem highlighting an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A169",
+    "name": "Tabuk Crafts Market",
+    "cityName": "Tabuk",
+    "category": "park",
+    "entry_fee": 75,
+    "description": "A beautiful destination offering tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A170",
+    "name": "Buraidah Seaside Promenade",
+    "cityName": "Buraidah",
+    "category": "nature reserve",
+    "entry_fee": 40,
+    "description": "A scenic location surrounded by historical displays and heritage reenactments."
+  },
+  {
+    "id": "A171",
+    "name": "Medina Desert Dunes",
+    "cityName": "Medina",
+    "category": "park",
+    "entry_fee": 40,
+    "description": "A scenic location surrounded by interactive exhibits and educational programs."
+  },
+  {
+    "id": "A172",
+    "name": "Medina Wildlife Sanctuary",
+    "cityName": "Medina",
+    "category": "nature reserve",
+    "entry_fee": 100,
+    "description": "A family-friendly area with tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A173",
+    "name": "Jazan Art Quarter",
+    "cityName": "Jazan",
+    "category": "garden",
+    "entry_fee": 50,
+    "description": "A must-visit attraction featuring craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A174",
+    "name": "Yanbu Botanical Garden",
+    "cityName": "Yanbu",
+    "category": "cultural center",
+    "entry_fee": 100,
+    "description": "A must-visit attraction featuring guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A175",
+    "name": "Yanbu National Museum",
+    "cityName": "Yanbu",
+    "category": "art gallery",
+    "entry_fee": 30,
+    "description": "A cultural gem highlighting craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A176",
+    "name": "Abha Skyline Point",
+    "cityName": "Abha",
+    "category": "landmark",
+    "entry_fee": 0,
+    "description": "An immersive experience of craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A177",
+    "name": "Jeddah Maritime Heritage",
+    "cityName": "Jeddah",
+    "category": "waterfall",
+    "entry_fee": 40,
+    "description": "A cultural gem highlighting interactive exhibits and educational programs."
+  },
+  {
+    "id": "A178",
+    "name": "Mecca Art Quarter",
+    "cityName": "Mecca",
+    "category": "amusement park",
+    "entry_fee": 20,
+    "description": "A family-friendly area with an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A179",
+    "name": "Riyadh Desert Dunes",
+    "cityName": "Riyadh",
+    "category": "park",
+    "entry_fee": 40,
+    "description": "A scenic location surrounded by guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A180",
+    "name": "Mecca Crafts Market",
+    "cityName": "Mecca",
+    "category": "mountain",
+    "entry_fee": 75,
+    "description": "A must-visit attraction featuring craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A181",
+    "name": "Yanbu Palace Ruins",
+    "cityName": "Yanbu",
+    "category": "art gallery",
+    "entry_fee": 40,
+    "description": "A must-visit attraction featuring spectacular views and cultural performances."
+  },
+  {
+    "id": "A182",
+    "name": "Al-Ahsa Skyline Point",
+    "cityName": "Al-Ahsa",
+    "category": "beach",
+    "entry_fee": 75,
+    "description": "A cultural gem highlighting interactive exhibits and educational programs."
+  },
+  {
+    "id": "A183",
+    "name": "Najran Heritage Village",
+    "cityName": "Najran",
+    "category": "beach",
+    "entry_fee": 0,
+    "description": "A popular spot showcasing tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A184",
+    "name": "Jeddah Crafts Market",
+    "cityName": "Jeddah",
+    "category": "historical fort",
+    "entry_fee": 20,
+    "description": "A must-visit attraction featuring ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A185",
+    "name": "Taif Crystal Lake",
+    "cityName": "Taif",
+    "category": "cultural center",
+    "entry_fee": 40,
+    "description": "A must-visit attraction featuring guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A186",
+    "name": "Dammam Desert Dunes",
+    "cityName": "Dammam",
+    "category": "historical fort",
+    "entry_fee": 50,
+    "description": "A must-visit attraction featuring tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A187",
+    "name": "Buraidah Palace Ruins",
+    "cityName": "Buraidah",
+    "category": "garden",
+    "entry_fee": 20,
+    "description": "A must-visit attraction featuring craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A188",
+    "name": "Jazan City Fountain",
+    "cityName": "Jazan",
+    "category": "waterfall",
+    "entry_fee": 30,
+    "description": "A scenic location surrounded by natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A189",
+    "name": "Mecca Palace Ruins",
+    "cityName": "Mecca",
+    "category": "historical fort",
+    "entry_fee": 0,
+    "description": "An iconic site known for an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A190",
+    "name": "Hail Sky Tower",
+    "cityName": "Hail",
+    "category": "beach",
+    "entry_fee": 75,
+    "description": "An immersive experience of historical displays and heritage reenactments."
+  },
+  {
+    "id": "A191",
+    "name": "Buraidah Eco Park",
+    "cityName": "Buraidah",
+    "category": "amusement park",
+    "entry_fee": 20,
+    "description": "A historic landmark representing natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A192",
+    "name": "Al Khobar Adventure Valley",
+    "cityName": "Al Khobar",
+    "category": "waterfall",
+    "entry_fee": 40,
+    "description": "A scenic location surrounded by guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A193",
+    "name": "Najran Old Town Souq",
+    "cityName": "Najran",
+    "category": "museum",
+    "entry_fee": 30,
+    "description": "A historic landmark representing tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A194",
+    "name": "Najran Palace Ruins",
+    "cityName": "Najran",
+    "category": "cultural center",
+    "entry_fee": 20,
+    "description": "A cultural gem highlighting spectacular views and cultural performances."
+  },
+  {
+    "id": "A195",
+    "name": "Al Khobar Crafts Market",
+    "cityName": "Al Khobar",
+    "category": "historical fort",
+    "entry_fee": 50,
+    "description": "A historic landmark representing spectacular views and cultural performances."
+  },
+  {
+    "id": "A196",
+    "name": "Jazan Seaside Promenade",
+    "cityName": "Jazan",
+    "category": "mountain",
+    "entry_fee": 40,
+    "description": "A scenic location surrounded by spectacular views and cultural performances."
+  },
+  {
+    "id": "A197",
+    "name": "Dammam Skyline Point",
+    "cityName": "Dammam",
+    "category": "amusement park",
+    "entry_fee": 0,
+    "description": "A beautiful destination offering tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A198",
+    "name": "Medina Old Town Souq",
+    "cityName": "Medina",
+    "category": "nature reserve",
+    "entry_fee": 50,
+    "description": "A scenic location surrounded by an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A199",
+    "name": "Najran Adventure Cliff",
+    "cityName": "Najran",
+    "category": "mountain",
+    "entry_fee": 20,
+    "description": "A cultural gem highlighting craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A200",
+    "name": "Riyadh Historical Fortress",
+    "cityName": "Riyadh",
+    "category": "park",
+    "entry_fee": 30,
+    "description": "A family-friendly area with ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A201",
+    "name": "Taif Palace Ruins",
+    "cityName": "Taif",
+    "category": "market",
+    "entry_fee": 40,
+    "description": "A family-friendly area with an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A202",
+    "name": "Tabuk Date Market",
+    "cityName": "Tabuk",
+    "category": "market",
+    "entry_fee": 50,
+    "description": "A family-friendly area with historical displays and heritage reenactments."
+  },
+  {
+    "id": "A203",
+    "name": "Jeddah Date Market",
+    "cityName": "Jeddah",
+    "category": "mosque",
+    "entry_fee": 20,
+    "description": "A family-friendly area with interactive exhibits and educational programs."
+  },
+  {
+    "id": "A204",
+    "name": "Jeddah Desert Dunes",
+    "cityName": "Jeddah",
+    "category": "amusement park",
+    "entry_fee": 0,
+    "description": "An immersive experience of spectacular views and cultural performances."
+  },
+  {
+    "id": "A205",
+    "name": "Riyadh Heritage Farm",
+    "cityName": "Riyadh",
+    "category": "historical fort",
+    "entry_fee": 100,
+    "description": "A cultural gem highlighting interactive exhibits and educational programs."
+  },
+  {
+    "id": "A206",
+    "name": "Mecca City Fountain",
+    "cityName": "Mecca",
+    "category": "park",
+    "entry_fee": 75,
+    "description": "A cultural gem highlighting tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A207",
+    "name": "Al Khobar Desert Reserve",
+    "cityName": "Al Khobar",
+    "category": "nature reserve",
+    "entry_fee": 100,
+    "description": "A cultural gem highlighting ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A208",
+    "name": "Jeddah Eco Park",
+    "cityName": "Jeddah",
+    "category": "heritage site",
+    "entry_fee": 100,
+    "description": "A family-friendly area with guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A209",
+    "name": "Jazan Cultural Oasis",
+    "cityName": "Jazan",
+    "category": "mosque",
+    "entry_fee": 0,
+    "description": "A cultural gem highlighting tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A210",
+    "name": "Jeddah Heritage Village",
+    "cityName": "Jeddah",
+    "category": "mountain",
+    "entry_fee": 100,
+    "description": "A must-visit attraction featuring ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A211",
+    "name": "AlUla Heritage Village",
+    "cityName": "AlUla",
+    "category": "beach",
+    "entry_fee": 20,
+    "description": "A family-friendly area with natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A212",
+    "name": "AlUla Maritime Heritage",
+    "cityName": "AlUla",
+    "category": "amusement park",
+    "entry_fee": 40,
+    "description": "A family-friendly area with tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A213",
+    "name": "Riyadh Maritime Heritage",
+    "cityName": "Riyadh",
+    "category": "heritage site",
+    "entry_fee": 40,
+    "description": "A popular spot showcasing guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A214",
+    "name": "Najran Desert Reserve",
+    "cityName": "Najran",
+    "category": "historical fort",
+    "entry_fee": 0,
+    "description": "A family-friendly area with spectacular views and cultural performances."
+  },
+  {
+    "id": "A215",
+    "name": "Jazan Eco Park",
+    "cityName": "Jazan",
+    "category": "art gallery",
+    "entry_fee": 0,
+    "description": "A must-visit attraction featuring historical displays and heritage reenactments."
+  },
+  {
+    "id": "A216",
+    "name": "Tabuk Historical Quarter",
+    "cityName": "Tabuk",
+    "category": "mosque",
+    "entry_fee": 50,
+    "description": "An iconic site known for ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A217",
+    "name": "Yanbu Crafts Market",
+    "cityName": "Yanbu",
+    "category": "beach",
+    "entry_fee": 30,
+    "description": "A cultural gem highlighting an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A218",
+    "name": "Taif Waterfront Corniche",
+    "cityName": "Taif",
+    "category": "mosque",
+    "entry_fee": 20,
+    "description": "A beautiful destination offering interactive exhibits and educational programs."
+  },
+  {
+    "id": "A219",
+    "name": "Dammam Heritage Village",
+    "cityName": "Dammam",
+    "category": "amusement park",
+    "entry_fee": 75,
+    "description": "An immersive experience of interactive exhibits and educational programs."
+  },
+  {
+    "id": "A220",
+    "name": "Najran Adventure Valley",
+    "cityName": "Najran",
+    "category": "waterfall",
+    "entry_fee": 0,
+    "description": "A family-friendly area with guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A221",
+    "name": "Hail Historical Quarter",
+    "cityName": "Hail",
+    "category": "beach",
+    "entry_fee": 20,
+    "description": "A must-visit attraction featuring natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A222",
+    "name": "Yanbu Adventure Cliff",
+    "cityName": "Yanbu",
+    "category": "park",
+    "entry_fee": 0,
+    "description": "A cultural gem highlighting ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A223",
+    "name": "Al-Ahsa Mountain Trail",
+    "cityName": "Al-Ahsa",
+    "category": "cultural center",
+    "entry_fee": 100,
+    "description": "A must-visit attraction featuring an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A224",
+    "name": "Mecca National Museum",
+    "cityName": "Mecca",
+    "category": "amusement park",
+    "entry_fee": 20,
+    "description": "A cultural gem highlighting tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A225",
+    "name": "AlUla Palace Ruins",
+    "cityName": "AlUla",
+    "category": "museum",
+    "entry_fee": 75,
+    "description": "A cultural gem highlighting historical displays and heritage reenactments."
+  },
+  {
+    "id": "A226",
+    "name": "Buraidah Adventure Valley",
+    "cityName": "Buraidah",
+    "category": "waterfall",
+    "entry_fee": 75,
+    "description": "An immersive experience of interactive exhibits and educational programs."
+  },
+  {
+    "id": "A227",
+    "name": "Najran Heritage Village",
+    "cityName": "Najran",
+    "category": "museum",
+    "entry_fee": 20,
+    "description": "A family-friendly area with tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A228",
+    "name": "AlUla Observation Deck",
+    "cityName": "AlUla",
+    "category": "amusement park",
+    "entry_fee": 0,
+    "description": "A family-friendly area with spectacular views and cultural performances."
+  },
+  {
+    "id": "A229",
+    "name": "Al-Ahsa Old Town Souq",
+    "cityName": "Al-Ahsa",
+    "category": "museum",
+    "entry_fee": 50,
+    "description": "A popular spot showcasing interactive exhibits and educational programs."
+  },
+  {
+    "id": "A230",
+    "name": "Mecca Waterfront Corniche",
+    "cityName": "Mecca",
+    "category": "beach",
+    "entry_fee": 100,
+    "description": "A must-visit attraction featuring spectacular views and cultural performances."
+  },
+  {
+    "id": "A231",
+    "name": "Al-Ahsa Crafts Market",
+    "cityName": "Al-Ahsa",
+    "category": "cultural center",
+    "entry_fee": 0,
+    "description": "A cultural gem highlighting tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A232",
+    "name": "Buraidah Old Town Souq",
+    "cityName": "Buraidah",
+    "category": "waterfall",
+    "entry_fee": 30,
+    "description": "A historic landmark representing tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A233",
+    "name": "Dammam Historical Fortress",
+    "cityName": "Dammam",
+    "category": "market",
+    "entry_fee": 30,
+    "description": "A family-friendly area with spectacular views and cultural performances."
+  },
+  {
+    "id": "A234",
+    "name": "Dammam Sky Tower",
+    "cityName": "Dammam",
+    "category": "museum",
+    "entry_fee": 0,
+    "description": "A cultural gem highlighting guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A235",
+    "name": "Medina Eco Park",
+    "cityName": "Medina",
+    "category": "garden",
+    "entry_fee": 75,
+    "description": "A must-visit attraction featuring guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A236",
+    "name": "Jeddah Cultural Oasis",
+    "cityName": "Jeddah",
+    "category": "market",
+    "entry_fee": 30,
+    "description": "An iconic site known for craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A237",
+    "name": "Jazan Science Park",
+    "cityName": "Jazan",
+    "category": "museum",
+    "entry_fee": 100,
+    "description": "A scenic location surrounded by spectacular views and cultural performances."
+  },
+  {
+    "id": "A238",
+    "name": "Al Khobar Historical Quarter",
+    "cityName": "Al Khobar",
+    "category": "art gallery",
+    "entry_fee": 50,
+    "description": "An iconic site known for spectacular views and cultural performances."
+  },
+  {
+    "id": "A239",
+    "name": "Hail Historical Quarter",
+    "cityName": "Hail",
+    "category": "waterfall",
+    "entry_fee": 50,
+    "description": "A scenic location surrounded by guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A240",
+    "name": "Taif Adventure Cliff",
+    "cityName": "Taif",
+    "category": "nature reserve",
+    "entry_fee": 30,
+    "description": "An iconic site known for craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A241",
+    "name": "Jazan Crafts Market",
+    "cityName": "Jazan",
+    "category": "market",
+    "entry_fee": 100,
+    "description": "A cultural gem highlighting craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A242",
+    "name": "Jazan Adventure Cliff",
+    "cityName": "Jazan",
+    "category": "beach",
+    "entry_fee": 75,
+    "description": "A beautiful destination offering ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A243",
+    "name": "Jeddah Historical Quarter",
+    "cityName": "Jeddah",
+    "category": "waterfall",
+    "entry_fee": 0,
+    "description": "A historic landmark representing an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A244",
+    "name": "Najran Sky Tower",
+    "cityName": "Najran",
+    "category": "mosque",
+    "entry_fee": 75,
+    "description": "A popular spot showcasing craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A245",
+    "name": "Abha Oasis Springs",
+    "cityName": "Abha",
+    "category": "park",
+    "entry_fee": 40,
+    "description": "A must-visit attraction featuring interactive exhibits and educational programs."
+  },
+  {
+    "id": "A246",
+    "name": "Jeddah Heritage Farm",
+    "cityName": "Jeddah",
+    "category": "landmark",
+    "entry_fee": 40,
+    "description": "A beautiful destination offering historical displays and heritage reenactments."
+  },
+  {
+    "id": "A247",
+    "name": "Dammam Historical Fortress",
+    "cityName": "Dammam",
+    "category": "museum",
+    "entry_fee": 0,
+    "description": "A family-friendly area with ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A248",
+    "name": "Yanbu Historical Fortress",
+    "cityName": "Yanbu",
+    "category": "mosque",
+    "entry_fee": 0,
+    "description": "A scenic location surrounded by interactive exhibits and educational programs."
+  },
+  {
+    "id": "A249",
+    "name": "AlUla National Museum",
+    "cityName": "AlUla",
+    "category": "park",
+    "entry_fee": 50,
+    "description": "A beautiful destination offering spectacular views and cultural performances."
+  },
+  {
+    "id": "A250",
+    "name": "Medina Skyline Point",
+    "cityName": "Medina",
+    "category": "mosque",
+    "entry_fee": 0,
+    "description": "An immersive experience of ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A251",
+    "name": "AlUla Historical Fortress",
+    "cityName": "AlUla",
+    "category": "waterfall",
+    "entry_fee": 0,
+    "description": "An iconic site known for tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A252",
+    "name": "Riyadh Waterfront Corniche",
+    "cityName": "Riyadh",
+    "category": "mountain",
+    "entry_fee": 0,
+    "description": "A must-visit attraction featuring spectacular views and cultural performances."
+  },
+  {
+    "id": "A253",
+    "name": "Mecca Adventure Valley",
+    "cityName": "Mecca",
+    "category": "historical fort",
+    "entry_fee": 0,
+    "description": "A beautiful destination offering historical displays and heritage reenactments."
+  },
+  {
+    "id": "A254",
+    "name": "Taif Old Town Souq",
+    "cityName": "Taif",
+    "category": "market",
+    "entry_fee": 75,
+    "description": "An iconic site known for natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A255",
+    "name": "Yanbu Oasis Springs",
+    "cityName": "Yanbu",
+    "category": "beach",
+    "entry_fee": 20,
+    "description": "A scenic location surrounded by interactive exhibits and educational programs."
+  },
+  {
+    "id": "A256",
+    "name": "Taif Crafts Market",
+    "cityName": "Taif",
+    "category": "cultural center",
+    "entry_fee": 30,
+    "description": "A family-friendly area with natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A257",
+    "name": "Medina Crafts Market",
+    "cityName": "Medina",
+    "category": "landmark",
+    "entry_fee": 0,
+    "description": "An iconic site known for interactive exhibits and educational programs."
+  },
+  {
+    "id": "A258",
+    "name": "Najran City Fountain",
+    "cityName": "Najran",
+    "category": "amusement park",
+    "entry_fee": 40,
+    "description": "An iconic site known for tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A259",
+    "name": "Jeddah City Fountain",
+    "cityName": "Jeddah",
+    "category": "garden",
+    "entry_fee": 40,
+    "description": "An iconic site known for ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A260",
+    "name": "Taif Skyline Point",
+    "cityName": "Taif",
+    "category": "mosque",
+    "entry_fee": 0,
+    "description": "An immersive experience of ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A261",
+    "name": "AlUla City Fountain",
+    "cityName": "AlUla",
+    "category": "garden",
+    "entry_fee": 30,
+    "description": "A must-visit attraction featuring natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A262",
+    "name": "Tabuk Date Market",
+    "cityName": "Tabuk",
+    "category": "nature reserve",
+    "entry_fee": 75,
+    "description": "A historic landmark representing an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A263",
+    "name": "Najran Skyline Point",
+    "cityName": "Najran",
+    "category": "nature reserve",
+    "entry_fee": 75,
+    "description": "A historic landmark representing tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A264",
+    "name": "Hail Heritage Farm",
+    "cityName": "Hail",
+    "category": "park",
+    "entry_fee": 40,
+    "description": "A must-visit attraction featuring interactive exhibits and educational programs."
+  },
+  {
+    "id": "A265",
+    "name": "Abha Waterfront Corniche",
+    "cityName": "Abha",
+    "category": "landmark",
+    "entry_fee": 40,
+    "description": "A must-visit attraction featuring interactive exhibits and educational programs."
+  },
+  {
+    "id": "A266",
+    "name": "Al-Ahsa Heritage Village",
+    "cityName": "Al-Ahsa",
+    "category": "heritage site",
+    "entry_fee": 20,
+    "description": "A family-friendly area with guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A267",
+    "name": "Medina Waterfront Corniche",
+    "cityName": "Medina",
+    "category": "waterfall",
+    "entry_fee": 40,
+    "description": "A must-visit attraction featuring natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A268",
+    "name": "Hail Mountain Trail",
+    "cityName": "Hail",
+    "category": "waterfall",
+    "entry_fee": 50,
+    "description": "An iconic site known for craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A269",
+    "name": "Al Khobar Crystal Lake",
+    "cityName": "Al Khobar",
+    "category": "garden",
+    "entry_fee": 50,
+    "description": "An immersive experience of historical displays and heritage reenactments."
+  },
+  {
+    "id": "A270",
+    "name": "Medina Wildlife Sanctuary",
+    "cityName": "Medina",
+    "category": "park",
+    "entry_fee": 40,
+    "description": "A historic landmark representing guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A271",
+    "name": "Riyadh Observation Deck",
+    "cityName": "Riyadh",
+    "category": "waterfall",
+    "entry_fee": 100,
+    "description": "An iconic site known for interactive exhibits and educational programs."
+  },
+  {
+    "id": "A272",
+    "name": "Tabuk Skyline Point",
+    "cityName": "Tabuk",
+    "category": "garden",
+    "entry_fee": 50,
+    "description": "A scenic location surrounded by interactive exhibits and educational programs."
+  },
+  {
+    "id": "A273",
+    "name": "Hail Old Town Souq",
+    "cityName": "Hail",
+    "category": "park",
+    "entry_fee": 100,
+    "description": "A popular spot showcasing spectacular views and cultural performances."
+  },
+  {
+    "id": "A274",
+    "name": "Abha Crystal Lake",
+    "cityName": "Abha",
+    "category": "park",
+    "entry_fee": 20,
+    "description": "A scenic location surrounded by craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A275",
+    "name": "Riyadh City Fountain",
+    "cityName": "Riyadh",
+    "category": "waterfall",
+    "entry_fee": 40,
+    "description": "An immersive experience of spectacular views and cultural performances."
+  },
+  {
+    "id": "A276",
+    "name": "Yanbu Desert Dunes",
+    "cityName": "Yanbu",
+    "category": "nature reserve",
+    "entry_fee": 100,
+    "description": "A family-friendly area with an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A277",
+    "name": "Jeddah Botanical Garden",
+    "cityName": "Jeddah",
+    "category": "art gallery",
+    "entry_fee": 40,
+    "description": "A scenic location surrounded by guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A278",
+    "name": "AlUla Crafts Market",
+    "cityName": "AlUla",
+    "category": "garden",
+    "entry_fee": 40,
+    "description": "A beautiful destination offering tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A279",
+    "name": "Al-Ahsa Historical Quarter",
+    "cityName": "Al-Ahsa",
+    "category": "garden",
+    "entry_fee": 75,
+    "description": "An immersive experience of guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A280",
+    "name": "Riyadh National Museum",
+    "cityName": "Riyadh",
+    "category": "art gallery",
+    "entry_fee": 50,
+    "description": "A historic landmark representing guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A281",
+    "name": "AlUla Science Park",
+    "cityName": "AlUla",
+    "category": "mosque",
+    "entry_fee": 0,
+    "description": "A popular spot showcasing spectacular views and cultural performances."
+  },
+  {
+    "id": "A282",
+    "name": "Taif Adventure Valley",
+    "cityName": "Taif",
+    "category": "landmark",
+    "entry_fee": 0,
+    "description": "A family-friendly area with tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A283",
+    "name": "Jazan Palace Ruins",
+    "cityName": "Jazan",
+    "category": "museum",
+    "entry_fee": 0,
+    "description": "A family-friendly area with natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A284",
+    "name": "Dammam Adventure Valley",
+    "cityName": "Dammam",
+    "category": "mosque",
+    "entry_fee": 30,
+    "description": "A scenic location surrounded by craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A285",
+    "name": "Buraidah Heritage Farm",
+    "cityName": "Buraidah",
+    "category": "beach",
+    "entry_fee": 50,
+    "description": "A cultural gem highlighting an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A286",
+    "name": "Yanbu Seaside Promenade",
+    "cityName": "Yanbu",
+    "category": "landmark",
+    "entry_fee": 40,
+    "description": "A beautiful destination offering historical displays and heritage reenactments."
+  },
+  {
+    "id": "A287",
+    "name": "Medina Sky Tower",
+    "cityName": "Medina",
+    "category": "mountain",
+    "entry_fee": 20,
+    "description": "A must-visit attraction featuring an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A288",
+    "name": "Najran Historical Fortress",
+    "cityName": "Najran",
+    "category": "garden",
+    "entry_fee": 75,
+    "description": "A family-friendly area with spectacular views and cultural performances."
+  },
+  {
+    "id": "A289",
+    "name": "Mecca Eco Park",
+    "cityName": "Mecca",
+    "category": "park",
+    "entry_fee": 0,
+    "description": "A family-friendly area with spectacular views and cultural performances."
+  },
+  {
+    "id": "A290",
+    "name": "Buraidah Sky Tower",
+    "cityName": "Buraidah",
+    "category": "beach",
+    "entry_fee": 75,
+    "description": "A must-visit attraction featuring spectacular views and cultural performances."
+  },
+  {
+    "id": "A291",
+    "name": "Al Khobar National Museum",
+    "cityName": "Al Khobar",
+    "category": "mountain",
+    "entry_fee": 50,
+    "description": "A popular spot showcasing historical displays and heritage reenactments."
+  },
+  {
+    "id": "A292",
+    "name": "Jazan Cultural Oasis",
+    "cityName": "Jazan",
+    "category": "historical fort",
+    "entry_fee": 50,
+    "description": "An immersive experience of tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A293",
+    "name": "Buraidah Heritage Village",
+    "cityName": "Buraidah",
+    "category": "mountain",
+    "entry_fee": 20,
+    "description": "A cultural gem highlighting guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A294",
+    "name": "Tabuk National Museum",
+    "cityName": "Tabuk",
+    "category": "cultural center",
+    "entry_fee": 30,
+    "description": "A beautiful destination offering ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A295",
+    "name": "Dammam Adventure Cliff",
+    "cityName": "Dammam",
+    "category": "landmark",
+    "entry_fee": 50,
+    "description": "An iconic site known for interactive exhibits and educational programs."
+  },
+  {
+    "id": "A296",
+    "name": "Jeddah Oasis Springs",
+    "cityName": "Jeddah",
+    "category": "mosque",
+    "entry_fee": 75,
+    "description": "A historic landmark representing ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A297",
+    "name": "AlUla National Museum",
+    "cityName": "AlUla",
+    "category": "museum",
+    "entry_fee": 30,
+    "description": "A family-friendly area with an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A298",
+    "name": "Hail Wildlife Sanctuary",
+    "cityName": "Hail",
+    "category": "garden",
+    "entry_fee": 75,
+    "description": "An iconic site known for an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A299",
+    "name": "Mecca Maritime Heritage",
+    "cityName": "Mecca",
+    "category": "waterfall",
+    "entry_fee": 100,
+    "description": "A beautiful destination offering an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A300",
+    "name": "AlUla Old Town Souq",
+    "cityName": "AlUla",
+    "category": "museum",
+    "entry_fee": 30,
+    "description": "An immersive experience of ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A301",
+    "name": "Jeddah Art Quarter",
+    "cityName": "Jeddah",
+    "category": "museum",
+    "entry_fee": 40,
+    "description": "A popular spot showcasing spectacular views and cultural performances."
+  },
+  {
+    "id": "A302",
+    "name": "Al-Ahsa Date Market",
+    "cityName": "Al-Ahsa",
+    "category": "museum",
+    "entry_fee": 100,
+    "description": "A beautiful destination offering interactive exhibits and educational programs."
+  },
+  {
+    "id": "A303",
+    "name": "Jeddah Eco Park",
+    "cityName": "Jeddah",
+    "category": "mountain",
+    "entry_fee": 30,
+    "description": "A must-visit attraction featuring craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A304",
+    "name": "Najran Cave Complex",
+    "cityName": "Najran",
+    "category": "museum",
+    "entry_fee": 50,
+    "description": "A cultural gem highlighting guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A305",
+    "name": "AlUla Museum of History",
+    "cityName": "AlUla",
+    "category": "beach",
+    "entry_fee": 75,
+    "description": "A scenic location surrounded by an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A306",
+    "name": "Al-Ahsa Maritime Heritage",
+    "cityName": "Al-Ahsa",
+    "category": "mosque",
+    "entry_fee": 40,
+    "description": "A must-visit attraction featuring historical displays and heritage reenactments."
+  },
+  {
+    "id": "A307",
+    "name": "Medina Sky Tower",
+    "cityName": "Medina",
+    "category": "landmark",
+    "entry_fee": 50,
+    "description": "A family-friendly area with craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A308",
+    "name": "Buraidah Cave Complex",
+    "cityName": "Buraidah",
+    "category": "nature reserve",
+    "entry_fee": 50,
+    "description": "A scenic location surrounded by guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A309",
+    "name": "Al Khobar Seaside Promenade",
+    "cityName": "Al Khobar",
+    "category": "landmark",
+    "entry_fee": 75,
+    "description": "A family-friendly area with historical displays and heritage reenactments."
+  },
+  {
+    "id": "A310",
+    "name": "Mecca Adventure Valley",
+    "cityName": "Mecca",
+    "category": "art gallery",
+    "entry_fee": 75,
+    "description": "A historic landmark representing interactive exhibits and educational programs."
+  },
+  {
+    "id": "A311",
+    "name": "Al-Ahsa Heritage Farm",
+    "cityName": "Al-Ahsa",
+    "category": "mosque",
+    "entry_fee": 40,
+    "description": "A scenic location surrounded by craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A312",
+    "name": "Medina Wildlife Sanctuary",
+    "cityName": "Medina",
+    "category": "mosque",
+    "entry_fee": 50,
+    "description": "A cultural gem highlighting natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A313",
+    "name": "Buraidah City Fountain",
+    "cityName": "Buraidah",
+    "category": "art gallery",
+    "entry_fee": 0,
+    "description": "A scenic location surrounded by craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A314",
+    "name": "Dammam Historical Fortress",
+    "cityName": "Dammam",
+    "category": "historical fort",
+    "entry_fee": 20,
+    "description": "An immersive experience of interactive exhibits and educational programs."
+  },
+  {
+    "id": "A315",
+    "name": "Jazan Waterfront Corniche",
+    "cityName": "Jazan",
+    "category": "cultural center",
+    "entry_fee": 20,
+    "description": "A cultural gem highlighting ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A316",
+    "name": "Taif Crystal Lake",
+    "cityName": "Taif",
+    "category": "garden",
+    "entry_fee": 20,
+    "description": "A scenic location surrounded by an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A317",
+    "name": "Jazan Crystal Lake",
+    "cityName": "Jazan",
+    "category": "amusement park",
+    "entry_fee": 0,
+    "description": "A cultural gem highlighting natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A318",
+    "name": "Riyadh Cave Complex",
+    "cityName": "Riyadh",
+    "category": "amusement park",
+    "entry_fee": 50,
+    "description": "A popular spot showcasing tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A319",
+    "name": "Najran Observation Deck",
+    "cityName": "Najran",
+    "category": "mosque",
+    "entry_fee": 20,
+    "description": "A family-friendly area with an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A320",
+    "name": "Jeddah Desert Reserve",
+    "cityName": "Jeddah",
+    "category": "garden",
+    "entry_fee": 50,
+    "description": "A popular spot showcasing tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A321",
+    "name": "AlUla Royal Gardens",
+    "cityName": "AlUla",
+    "category": "market",
+    "entry_fee": 40,
+    "description": "A beautiful destination offering natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A322",
+    "name": "Riyadh Oasis Springs",
+    "cityName": "Riyadh",
+    "category": "garden",
+    "entry_fee": 100,
+    "description": "A historic landmark representing an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A323",
+    "name": "Dammam Skyline Point",
+    "cityName": "Dammam",
+    "category": "mosque",
+    "entry_fee": 20,
+    "description": "A must-visit attraction featuring guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A324",
+    "name": "AlUla Royal Gardens",
+    "cityName": "AlUla",
+    "category": "heritage site",
+    "entry_fee": 75,
+    "description": "A popular spot showcasing tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A325",
+    "name": "Riyadh Mountain Trail",
+    "cityName": "Riyadh",
+    "category": "mosque",
+    "entry_fee": 30,
+    "description": "A cultural gem highlighting interactive exhibits and educational programs."
+  },
+  {
+    "id": "A326",
+    "name": "Jeddah Mountain Trail",
+    "cityName": "Jeddah",
+    "category": "mosque",
+    "entry_fee": 30,
+    "description": "A popular spot showcasing craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A327",
+    "name": "Al-Ahsa Crafts Market",
+    "cityName": "Al-Ahsa",
+    "category": "art gallery",
+    "entry_fee": 30,
+    "description": "A beautiful destination offering historical displays and heritage reenactments."
+  },
+  {
+    "id": "A328",
+    "name": "Jeddah Royal Gardens",
+    "cityName": "Jeddah",
+    "category": "nature reserve",
+    "entry_fee": 75,
+    "description": "A beautiful destination offering interactive exhibits and educational programs."
+  },
+  {
+    "id": "A329",
+    "name": "Medina Crafts Market",
+    "cityName": "Medina",
+    "category": "cultural center",
+    "entry_fee": 100,
+    "description": "A historic landmark representing natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A330",
+    "name": "Jeddah Oasis Springs",
+    "cityName": "Jeddah",
+    "category": "museum",
+    "entry_fee": 40,
+    "description": "A popular spot showcasing ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A331",
+    "name": "Jazan Science Park",
+    "cityName": "Jazan",
+    "category": "mountain",
+    "entry_fee": 100,
+    "description": "A historic landmark representing historical displays and heritage reenactments."
+  },
+  {
+    "id": "A332",
+    "name": "AlUla Royal Gardens",
+    "cityName": "AlUla",
+    "category": "waterfall",
+    "entry_fee": 75,
+    "description": "A popular spot showcasing ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A333",
+    "name": "Al-Ahsa Science Park",
+    "cityName": "Al-Ahsa",
+    "category": "amusement park",
+    "entry_fee": 0,
+    "description": "An iconic site known for tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A334",
+    "name": "Dammam Royal Gardens",
+    "cityName": "Dammam",
+    "category": "art gallery",
+    "entry_fee": 0,
+    "description": "An iconic site known for ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A335",
+    "name": "Dammam Date Market",
+    "cityName": "Dammam",
+    "category": "garden",
+    "entry_fee": 20,
+    "description": "A historic landmark representing natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A336",
+    "name": "Jazan National Museum",
+    "cityName": "Jazan",
+    "category": "art gallery",
+    "entry_fee": 40,
+    "description": "A family-friendly area with ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A337",
+    "name": "Medina Botanical Garden",
+    "cityName": "Medina",
+    "category": "garden",
+    "entry_fee": 50,
+    "description": "A scenic location surrounded by craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A338",
+    "name": "Al Khobar Historical Fortress",
+    "cityName": "Al Khobar",
+    "category": "garden",
+    "entry_fee": 20,
+    "description": "A scenic location surrounded by an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A339",
+    "name": "Al Khobar Palace Ruins",
+    "cityName": "Al Khobar",
+    "category": "museum",
+    "entry_fee": 20,
+    "description": "A must-visit attraction featuring guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A340",
+    "name": "Abha Sky Tower",
+    "cityName": "Abha",
+    "category": "market",
+    "entry_fee": 0,
+    "description": "An iconic site known for natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A341",
+    "name": "Abha Historical Fortress",
+    "cityName": "Abha",
+    "category": "landmark",
+    "entry_fee": 20,
+    "description": "A popular spot showcasing craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A342",
+    "name": "Medina Palace Ruins",
+    "cityName": "Medina",
+    "category": "mountain",
+    "entry_fee": 50,
+    "description": "A scenic location surrounded by craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A343",
+    "name": "Abha National Museum",
+    "cityName": "Abha",
+    "category": "garden",
+    "entry_fee": 75,
+    "description": "A popular spot showcasing interactive exhibits and educational programs."
+  },
+  {
+    "id": "A344",
+    "name": "Al Khobar Sky Tower",
+    "cityName": "Al Khobar",
+    "category": "market",
+    "entry_fee": 30,
+    "description": "An iconic site known for guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A345",
+    "name": "Najran Waterfront Corniche",
+    "cityName": "Najran",
+    "category": "garden",
+    "entry_fee": 75,
+    "description": "A historic landmark representing interactive exhibits and educational programs."
+  },
+  {
+    "id": "A346",
+    "name": "Najran Observation Deck",
+    "cityName": "Najran",
+    "category": "landmark",
+    "entry_fee": 40,
+    "description": "A must-visit attraction featuring an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A347",
+    "name": "Medina Waterfront Corniche",
+    "cityName": "Medina",
+    "category": "amusement park",
+    "entry_fee": 40,
+    "description": "An iconic site known for guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A348",
+    "name": "Tabuk Observation Deck",
+    "cityName": "Tabuk",
+    "category": "historical fort",
+    "entry_fee": 40,
+    "description": "A historic landmark representing historical displays and heritage reenactments."
+  },
+  {
+    "id": "A349",
+    "name": "Hail City Fountain",
+    "cityName": "Hail",
+    "category": "beach",
+    "entry_fee": 40,
+    "description": "A popular spot showcasing craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A350",
+    "name": "Al-Ahsa Waterfront Corniche",
+    "cityName": "Al-Ahsa",
+    "category": "museum",
+    "entry_fee": 40,
+    "description": "A beautiful destination offering ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A351",
+    "name": "Jazan City Fountain",
+    "cityName": "Jazan",
+    "category": "garden",
+    "entry_fee": 20,
+    "description": "A scenic location surrounded by interactive exhibits and educational programs."
+  },
+  {
+    "id": "A352",
+    "name": "Abha Cultural Oasis",
+    "cityName": "Abha",
+    "category": "mountain",
+    "entry_fee": 40,
+    "description": "An iconic site known for historical displays and heritage reenactments."
+  },
+  {
+    "id": "A353",
+    "name": "Dammam Heritage Farm",
+    "cityName": "Dammam",
+    "category": "nature reserve",
+    "entry_fee": 40,
+    "description": "A cultural gem highlighting an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A354",
+    "name": "Yanbu Cave Complex",
+    "cityName": "Yanbu",
+    "category": "art gallery",
+    "entry_fee": 50,
+    "description": "A cultural gem highlighting spectacular views and cultural performances."
+  },
+  {
+    "id": "A355",
+    "name": "Jazan Crafts Market",
+    "cityName": "Jazan",
+    "category": "garden",
+    "entry_fee": 0,
+    "description": "A cultural gem highlighting guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A356",
+    "name": "Taif Cave Complex",
+    "cityName": "Taif",
+    "category": "heritage site",
+    "entry_fee": 100,
+    "description": "A popular spot showcasing interactive exhibits and educational programs."
+  },
+  {
+    "id": "A357",
+    "name": "Abha Skyline Point",
+    "cityName": "Abha",
+    "category": "mountain",
+    "entry_fee": 40,
+    "description": "A cultural gem highlighting ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A358",
+    "name": "Najran Observation Deck",
+    "cityName": "Najran",
+    "category": "market",
+    "entry_fee": 40,
+    "description": "An immersive experience of tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A359",
+    "name": "Medina Art Quarter",
+    "cityName": "Medina",
+    "category": "landmark",
+    "entry_fee": 100,
+    "description": "A beautiful destination offering spectacular views and cultural performances."
+  },
+  {
+    "id": "A360",
+    "name": "Al Khobar Desert Reserve",
+    "cityName": "Al Khobar",
+    "category": "museum",
+    "entry_fee": 20,
+    "description": "An immersive experience of an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A361",
+    "name": "Dammam Date Market",
+    "cityName": "Dammam",
+    "category": "amusement park",
+    "entry_fee": 40,
+    "description": "A scenic location surrounded by ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A362",
+    "name": "Jazan Crystal Lake",
+    "cityName": "Jazan",
+    "category": "mountain",
+    "entry_fee": 20,
+    "description": "A scenic location surrounded by craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A363",
+    "name": "Al Khobar Botanical Garden",
+    "cityName": "Al Khobar",
+    "category": "park",
+    "entry_fee": 50,
+    "description": "An iconic site known for spectacular views and cultural performances."
+  },
+  {
+    "id": "A364",
+    "name": "Yanbu Cultural Oasis",
+    "cityName": "Yanbu",
+    "category": "amusement park",
+    "entry_fee": 40,
+    "description": "A beautiful destination offering craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A365",
+    "name": "Tabuk Historical Fortress",
+    "cityName": "Tabuk",
+    "category": "mosque",
+    "entry_fee": 50,
+    "description": "A scenic location surrounded by interactive exhibits and educational programs."
+  },
+  {
+    "id": "A366",
+    "name": "Jeddah Desert Dunes",
+    "cityName": "Jeddah",
+    "category": "mountain",
+    "entry_fee": 0,
+    "description": "A beautiful destination offering craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A367",
+    "name": "Abha Historical Fortress",
+    "cityName": "Abha",
+    "category": "heritage site",
+    "entry_fee": 20,
+    "description": "A popular spot showcasing spectacular views and cultural performances."
+  },
+  {
+    "id": "A368",
+    "name": "Al-Ahsa Heritage Farm",
+    "cityName": "Al-Ahsa",
+    "category": "art gallery",
+    "entry_fee": 50,
+    "description": "A cultural gem highlighting historical displays and heritage reenactments."
+  },
+  {
+    "id": "A369",
+    "name": "Dammam Desert Reserve",
+    "cityName": "Dammam",
+    "category": "mountain",
+    "entry_fee": 0,
+    "description": "An iconic site known for craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A370",
+    "name": "Abha City Fountain",
+    "cityName": "Abha",
+    "category": "mosque",
+    "entry_fee": 20,
+    "description": "A beautiful destination offering guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A371",
+    "name": "Taif Adventure Cliff",
+    "cityName": "Taif",
+    "category": "mountain",
+    "entry_fee": 50,
+    "description": "A cultural gem highlighting historical displays and heritage reenactments."
+  },
+  {
+    "id": "A372",
+    "name": "AlUla Desert Dunes",
+    "cityName": "AlUla",
+    "category": "mountain",
+    "entry_fee": 100,
+    "description": "A family-friendly area with an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A373",
+    "name": "Al-Ahsa Cave Complex",
+    "cityName": "Al-Ahsa",
+    "category": "park",
+    "entry_fee": 20,
+    "description": "A cultural gem highlighting craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A374",
+    "name": "Mecca Historical Fortress",
+    "cityName": "Mecca",
+    "category": "park",
+    "entry_fee": 20,
+    "description": "A family-friendly area with an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A375",
+    "name": "Al Khobar Seaside Promenade",
+    "cityName": "Al Khobar",
+    "category": "amusement park",
+    "entry_fee": 75,
+    "description": "A beautiful destination offering tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A376",
+    "name": "Al-Ahsa Desert Dunes",
+    "cityName": "Al-Ahsa",
+    "category": "mountain",
+    "entry_fee": 0,
+    "description": "An iconic site known for historical displays and heritage reenactments."
+  },
+  {
+    "id": "A377",
+    "name": "Najran Royal Gardens",
+    "cityName": "Najran",
+    "category": "cultural center",
+    "entry_fee": 100,
+    "description": "A cultural gem highlighting an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A378",
+    "name": "Najran Botanical Garden",
+    "cityName": "Najran",
+    "category": "amusement park",
+    "entry_fee": 0,
+    "description": "A cultural gem highlighting craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A379",
+    "name": "Abha Old Town Souq",
+    "cityName": "Abha",
+    "category": "mountain",
+    "entry_fee": 40,
+    "description": "A beautiful destination offering tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A380",
+    "name": "Hail National Museum",
+    "cityName": "Hail",
+    "category": "waterfall",
+    "entry_fee": 0,
+    "description": "A beautiful destination offering historical displays and heritage reenactments."
+  },
+  {
+    "id": "A381",
+    "name": "Abha Botanical Garden",
+    "cityName": "Abha",
+    "category": "mountain",
+    "entry_fee": 75,
+    "description": "A historic landmark representing tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A382",
+    "name": "Dammam Date Market",
+    "cityName": "Dammam",
+    "category": "art gallery",
+    "entry_fee": 20,
+    "description": "A cultural gem highlighting an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A383",
+    "name": "Hail Heritage Farm",
+    "cityName": "Hail",
+    "category": "art gallery",
+    "entry_fee": 40,
+    "description": "A historic landmark representing historical displays and heritage reenactments."
+  },
+  {
+    "id": "A384",
+    "name": "AlUla Crystal Lake",
+    "cityName": "AlUla",
+    "category": "historical fort",
+    "entry_fee": 30,
+    "description": "An immersive experience of craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A385",
+    "name": "Abha Adventure Valley",
+    "cityName": "Abha",
+    "category": "beach",
+    "entry_fee": 40,
+    "description": "A popular spot showcasing tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A386",
+    "name": "Abha Waterfront Corniche",
+    "cityName": "Abha",
+    "category": "heritage site",
+    "entry_fee": 75,
+    "description": "A cultural gem highlighting an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A387",
+    "name": "Buraidah Historical Quarter",
+    "cityName": "Buraidah",
+    "category": "amusement park",
+    "entry_fee": 40,
+    "description": "An immersive experience of an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A388",
+    "name": "Mecca Desert Dunes",
+    "cityName": "Mecca",
+    "category": "mountain",
+    "entry_fee": 75,
+    "description": "An immersive experience of interactive exhibits and educational programs."
+  },
+  {
+    "id": "A389",
+    "name": "Medina Palace Ruins",
+    "cityName": "Medina",
+    "category": "cultural center",
+    "entry_fee": 75,
+    "description": "A must-visit attraction featuring ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A390",
+    "name": "Al Khobar Crafts Market",
+    "cityName": "Al Khobar",
+    "category": "mosque",
+    "entry_fee": 20,
+    "description": "A family-friendly area with ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A391",
+    "name": "Buraidah Royal Gardens",
+    "cityName": "Buraidah",
+    "category": "art gallery",
+    "entry_fee": 75,
+    "description": "An immersive experience of historical displays and heritage reenactments."
+  },
+  {
+    "id": "A392",
+    "name": "Al-Ahsa Historical Fortress",
+    "cityName": "Al-Ahsa",
+    "category": "landmark",
+    "entry_fee": 100,
+    "description": "A historic landmark representing spectacular views and cultural performances."
+  },
+  {
+    "id": "A393",
+    "name": "Dammam Botanical Garden",
+    "cityName": "Dammam",
+    "category": "mountain",
+    "entry_fee": 30,
+    "description": "A scenic location surrounded by historical displays and heritage reenactments."
+  },
+  {
+    "id": "A394",
+    "name": "Buraidah Historical Quarter",
+    "cityName": "Buraidah",
+    "category": "heritage site",
+    "entry_fee": 30,
+    "description": "A beautiful destination offering historical displays and heritage reenactments."
+  },
+  {
+    "id": "A395",
+    "name": "Abha Desert Reserve",
+    "cityName": "Abha",
+    "category": "beach",
+    "entry_fee": 100,
+    "description": "A cultural gem highlighting historical displays and heritage reenactments."
+  },
+  {
+    "id": "A396",
+    "name": "Najran Heritage Village",
+    "cityName": "Najran",
+    "category": "mosque",
+    "entry_fee": 30,
+    "description": "An iconic site known for historical displays and heritage reenactments."
+  },
+  {
+    "id": "A397",
+    "name": "Medina Heritage Farm",
+    "cityName": "Medina",
+    "category": "heritage site",
+    "entry_fee": 0,
+    "description": "A historic landmark representing tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A398",
+    "name": "Al Khobar Desert Dunes",
+    "cityName": "Al Khobar",
+    "category": "landmark",
+    "entry_fee": 50,
+    "description": "A historic landmark representing ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A399",
+    "name": "Jazan Palace Ruins",
+    "cityName": "Jazan",
+    "category": "nature reserve",
+    "entry_fee": 40,
+    "description": "An immersive experience of an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A400",
+    "name": "Yanbu Old Town Souq",
+    "cityName": "Yanbu",
+    "category": "museum",
+    "entry_fee": 100,
+    "description": "A must-visit attraction featuring craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A401",
+    "name": "Yanbu National Museum",
+    "cityName": "Yanbu",
+    "category": "museum",
+    "entry_fee": 20,
+    "description": "A popular spot showcasing historical displays and heritage reenactments."
+  },
+  {
+    "id": "A402",
+    "name": "Abha Science Park",
+    "cityName": "Abha",
+    "category": "nature reserve",
+    "entry_fee": 0,
+    "description": "An iconic site known for spectacular views and cultural performances."
+  },
+  {
+    "id": "A403",
+    "name": "Tabuk Observation Deck",
+    "cityName": "Tabuk",
+    "category": "beach",
+    "entry_fee": 100,
+    "description": "A cultural gem highlighting historical displays and heritage reenactments."
+  },
+  {
+    "id": "A404",
+    "name": "Yanbu Old Town Souq",
+    "cityName": "Yanbu",
+    "category": "heritage site",
+    "entry_fee": 50,
+    "description": "A family-friendly area with spectacular views and cultural performances."
+  },
+  {
+    "id": "A405",
+    "name": "Jazan Seaside Promenade",
+    "cityName": "Jazan",
+    "category": "waterfall",
+    "entry_fee": 75,
+    "description": "An immersive experience of tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A406",
+    "name": "Hail Cultural Oasis",
+    "cityName": "Hail",
+    "category": "amusement park",
+    "entry_fee": 50,
+    "description": "An immersive experience of tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A407",
+    "name": "Al Khobar City Fountain",
+    "cityName": "Al Khobar",
+    "category": "garden",
+    "entry_fee": 0,
+    "description": "An immersive experience of natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A408",
+    "name": "Taif Desert Dunes",
+    "cityName": "Taif",
+    "category": "nature reserve",
+    "entry_fee": 30,
+    "description": "A historic landmark representing ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A409",
+    "name": "Jeddah Mountain Trail",
+    "cityName": "Jeddah",
+    "category": "historical fort",
+    "entry_fee": 100,
+    "description": "A historic landmark representing guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A410",
+    "name": "Najran Adventure Cliff",
+    "cityName": "Najran",
+    "category": "museum",
+    "entry_fee": 20,
+    "description": "A beautiful destination offering natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A411",
+    "name": "Tabuk Seaside Promenade",
+    "cityName": "Tabuk",
+    "category": "mountain",
+    "entry_fee": 0,
+    "description": "A cultural gem highlighting interactive exhibits and educational programs."
+  },
+  {
+    "id": "A412",
+    "name": "Yanbu Heritage Farm",
+    "cityName": "Yanbu",
+    "category": "garden",
+    "entry_fee": 0,
+    "description": "A popular spot showcasing historical displays and heritage reenactments."
+  },
+  {
+    "id": "A413",
+    "name": "Mecca Maritime Heritage",
+    "cityName": "Mecca",
+    "category": "cultural center",
+    "entry_fee": 30,
+    "description": "An immersive experience of interactive exhibits and educational programs."
+  },
+  {
+    "id": "A414",
+    "name": "Jazan Date Market",
+    "cityName": "Jazan",
+    "category": "landmark",
+    "entry_fee": 100,
+    "description": "A family-friendly area with guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A415",
+    "name": "Buraidah Science Park",
+    "cityName": "Buraidah",
+    "category": "landmark",
+    "entry_fee": 20,
+    "description": "A beautiful destination offering interactive exhibits and educational programs."
+  },
+  {
+    "id": "A416",
+    "name": "Tabuk Seaside Promenade",
+    "cityName": "Tabuk",
+    "category": "mountain",
+    "entry_fee": 30,
+    "description": "A popular spot showcasing natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A417",
+    "name": "AlUla Eco Park",
+    "cityName": "AlUla",
+    "category": "nature reserve",
+    "entry_fee": 20,
+    "description": "A popular spot showcasing craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A418",
+    "name": "Al-Ahsa Desert Dunes",
+    "cityName": "Al-Ahsa",
+    "category": "museum",
+    "entry_fee": 75,
+    "description": "A popular spot showcasing tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A419",
+    "name": "Riyadh Desert Dunes",
+    "cityName": "Riyadh",
+    "category": "heritage site",
+    "entry_fee": 100,
+    "description": "A popular spot showcasing craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A420",
+    "name": "Abha Sky Tower",
+    "cityName": "Abha",
+    "category": "mosque",
+    "entry_fee": 30,
+    "description": "An iconic site known for spectacular views and cultural performances."
+  },
+  {
+    "id": "A421",
+    "name": "AlUla Oasis Springs",
+    "cityName": "AlUla",
+    "category": "waterfall",
+    "entry_fee": 20,
+    "description": "A cultural gem highlighting interactive exhibits and educational programs."
+  },
+  {
+    "id": "A422",
+    "name": "Al Khobar Museum of History",
+    "cityName": "Al Khobar",
+    "category": "nature reserve",
+    "entry_fee": 50,
+    "description": "A historic landmark representing natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A423",
+    "name": "Medina National Museum",
+    "cityName": "Medina",
+    "category": "park",
+    "entry_fee": 100,
+    "description": "An iconic site known for spectacular views and cultural performances."
+  },
+  {
+    "id": "A424",
+    "name": "Abha Art Quarter",
+    "cityName": "Abha",
+    "category": "waterfall",
+    "entry_fee": 30,
+    "description": "A historic landmark representing tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A425",
+    "name": "Dammam National Museum",
+    "cityName": "Dammam",
+    "category": "mosque",
+    "entry_fee": 75,
+    "description": "A must-visit attraction featuring interactive exhibits and educational programs."
+  },
+  {
+    "id": "A426",
+    "name": "Jazan Historical Fortress",
+    "cityName": "Jazan",
+    "category": "cultural center",
+    "entry_fee": 30,
+    "description": "An immersive experience of natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A427",
+    "name": "Al-Ahsa Waterfront Corniche",
+    "cityName": "Al-Ahsa",
+    "category": "heritage site",
+    "entry_fee": 30,
+    "description": "An iconic site known for tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A428",
+    "name": "Medina Observation Deck",
+    "cityName": "Medina",
+    "category": "market",
+    "entry_fee": 30,
+    "description": "A beautiful destination offering spectacular views and cultural performances."
+  },
+  {
+    "id": "A429",
+    "name": "Najran Botanical Garden",
+    "cityName": "Najran",
+    "category": "beach",
+    "entry_fee": 30,
+    "description": "A beautiful destination offering historical displays and heritage reenactments."
+  },
+  {
+    "id": "A430",
+    "name": "Buraidah Crystal Lake",
+    "cityName": "Buraidah",
+    "category": "park",
+    "entry_fee": 0,
+    "description": "An immersive experience of tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A431",
+    "name": "Abha Museum of History",
+    "cityName": "Abha",
+    "category": "historical fort",
+    "entry_fee": 75,
+    "description": "An immersive experience of tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A432",
+    "name": "Hail Observation Deck",
+    "cityName": "Hail",
+    "category": "garden",
+    "entry_fee": 75,
+    "description": "A scenic location surrounded by spectacular views and cultural performances."
+  },
+  {
+    "id": "A433",
+    "name": "Taif Mountain Trail",
+    "cityName": "Taif",
+    "category": "market",
+    "entry_fee": 20,
+    "description": "A cultural gem highlighting historical displays and heritage reenactments."
+  },
+  {
+    "id": "A434",
+    "name": "Jazan Art Quarter",
+    "cityName": "Jazan",
+    "category": "beach",
+    "entry_fee": 40,
+    "description": "A popular spot showcasing an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A435",
+    "name": "Riyadh Museum of History",
+    "cityName": "Riyadh",
+    "category": "historical fort",
+    "entry_fee": 0,
+    "description": "A scenic location surrounded by tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A436",
+    "name": "Mecca Heritage Farm",
+    "cityName": "Mecca",
+    "category": "heritage site",
+    "entry_fee": 50,
+    "description": "A popular spot showcasing historical displays and heritage reenactments."
+  },
+  {
+    "id": "A437",
+    "name": "Dammam Crafts Market",
+    "cityName": "Dammam",
+    "category": "heritage site",
+    "entry_fee": 40,
+    "description": "A historic landmark representing tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A438",
+    "name": "Dammam Museum of History",
+    "cityName": "Dammam",
+    "category": "heritage site",
+    "entry_fee": 30,
+    "description": "A beautiful destination offering natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A439",
+    "name": "Medina Mountain Trail",
+    "cityName": "Medina",
+    "category": "mosque",
+    "entry_fee": 75,
+    "description": "A scenic location surrounded by spectacular views and cultural performances."
+  },
+  {
+    "id": "A440",
+    "name": "AlUla Historical Fortress",
+    "cityName": "AlUla",
+    "category": "waterfall",
+    "entry_fee": 30,
+    "description": "An iconic site known for ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A441",
+    "name": "Medina Museum of History",
+    "cityName": "Medina",
+    "category": "cultural center",
+    "entry_fee": 0,
+    "description": "A must-visit attraction featuring natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A442",
+    "name": "Dammam Historical Fortress",
+    "cityName": "Dammam",
+    "category": "cultural center",
+    "entry_fee": 50,
+    "description": "A cultural gem highlighting an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A443",
+    "name": "Najran Science Park",
+    "cityName": "Najran",
+    "category": "waterfall",
+    "entry_fee": 100,
+    "description": "An immersive experience of an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A444",
+    "name": "Tabuk Skyline Point",
+    "cityName": "Tabuk",
+    "category": "mosque",
+    "entry_fee": 20,
+    "description": "A scenic location surrounded by historical displays and heritage reenactments."
+  },
+  {
+    "id": "A445",
+    "name": "Hail Date Market",
+    "cityName": "Hail",
+    "category": "garden",
+    "entry_fee": 50,
+    "description": "A cultural gem highlighting natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A446",
+    "name": "Riyadh National Museum",
+    "cityName": "Riyadh",
+    "category": "cultural center",
+    "entry_fee": 20,
+    "description": "A scenic location surrounded by guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A447",
+    "name": "Taif Cultural Oasis",
+    "cityName": "Taif",
+    "category": "garden",
+    "entry_fee": 0,
+    "description": "A popular spot showcasing ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A448",
+    "name": "Yanbu Cultural Oasis",
+    "cityName": "Yanbu",
+    "category": "heritage site",
+    "entry_fee": 40,
+    "description": "A popular spot showcasing ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A449",
+    "name": "Tabuk Adventure Cliff",
+    "cityName": "Tabuk",
+    "category": "historical fort",
+    "entry_fee": 30,
+    "description": "A historic landmark representing historical displays and heritage reenactments."
+  },
+  {
+    "id": "A450",
+    "name": "Tabuk Art Quarter",
+    "cityName": "Tabuk",
+    "category": "heritage site",
+    "entry_fee": 0,
+    "description": "An iconic site known for guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A451",
+    "name": "Jazan Adventure Cliff",
+    "cityName": "Jazan",
+    "category": "garden",
+    "entry_fee": 30,
+    "description": "An iconic site known for spectacular views and cultural performances."
+  },
+  {
+    "id": "A452",
+    "name": "Riyadh Royal Gardens",
+    "cityName": "Riyadh",
+    "category": "amusement park",
+    "entry_fee": 30,
+    "description": "A historic landmark representing craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A453",
+    "name": "Dammam Museum of History",
+    "cityName": "Dammam",
+    "category": "garden",
+    "entry_fee": 0,
+    "description": "An immersive experience of guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A454",
+    "name": "Jazan Mountain Trail",
+    "cityName": "Jazan",
+    "category": "market",
+    "entry_fee": 30,
+    "description": "A cultural gem highlighting ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A455",
+    "name": "Najran Museum of History",
+    "cityName": "Najran",
+    "category": "market",
+    "entry_fee": 75,
+    "description": "A scenic location surrounded by craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A456",
+    "name": "Tabuk Museum of History",
+    "cityName": "Tabuk",
+    "category": "garden",
+    "entry_fee": 75,
+    "description": "A popular spot showcasing historical displays and heritage reenactments."
+  },
+  {
+    "id": "A457",
+    "name": "Jazan Eco Park",
+    "cityName": "Jazan",
+    "category": "market",
+    "entry_fee": 40,
+    "description": "An immersive experience of natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A458",
+    "name": "Buraidah Date Market",
+    "cityName": "Buraidah",
+    "category": "mosque",
+    "entry_fee": 75,
+    "description": "A must-visit attraction featuring historical displays and heritage reenactments."
+  },
+  {
+    "id": "A459",
+    "name": "Al Khobar Heritage Farm",
+    "cityName": "Al Khobar",
+    "category": "amusement park",
+    "entry_fee": 50,
+    "description": "A must-visit attraction featuring natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A460",
+    "name": "Al-Ahsa Cave Complex",
+    "cityName": "Al-Ahsa",
+    "category": "garden",
+    "entry_fee": 0,
+    "description": "A popular spot showcasing craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A461",
+    "name": "Tabuk Cultural Oasis",
+    "cityName": "Tabuk",
+    "category": "market",
+    "entry_fee": 40,
+    "description": "A cultural gem highlighting craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A462",
+    "name": "Buraidah Maritime Heritage",
+    "cityName": "Buraidah",
+    "category": "mountain",
+    "entry_fee": 100,
+    "description": "A beautiful destination offering natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A463",
+    "name": "AlUla Maritime Heritage",
+    "cityName": "AlUla",
+    "category": "nature reserve",
+    "entry_fee": 30,
+    "description": "A historic landmark representing craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A464",
+    "name": "Al Khobar Seaside Promenade",
+    "cityName": "Al Khobar",
+    "category": "amusement park",
+    "entry_fee": 0,
+    "description": "An iconic site known for historical displays and heritage reenactments."
+  },
+  {
+    "id": "A465",
+    "name": "Riyadh Date Market",
+    "cityName": "Riyadh",
+    "category": "cultural center",
+    "entry_fee": 30,
+    "description": "An immersive experience of interactive exhibits and educational programs."
+  },
+  {
+    "id": "A466",
+    "name": "Abha Cave Complex",
+    "cityName": "Abha",
+    "category": "historical fort",
+    "entry_fee": 40,
+    "description": "A family-friendly area with craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A467",
+    "name": "Yanbu Date Market",
+    "cityName": "Yanbu",
+    "category": "mosque",
+    "entry_fee": 30,
+    "description": "A must-visit attraction featuring historical displays and heritage reenactments."
+  },
+  {
+    "id": "A468",
+    "name": "AlUla Historical Fortress",
+    "cityName": "AlUla",
+    "category": "beach",
+    "entry_fee": 100,
+    "description": "An iconic site known for interactive exhibits and educational programs."
+  },
+  {
+    "id": "A469",
+    "name": "Taif Museum of History",
+    "cityName": "Taif",
+    "category": "market",
+    "entry_fee": 75,
+    "description": "A popular spot showcasing historical displays and heritage reenactments."
+  },
+  {
+    "id": "A470",
+    "name": "Yanbu Crafts Market",
+    "cityName": "Yanbu",
+    "category": "art gallery",
+    "entry_fee": 40,
+    "description": "A popular spot showcasing historical displays and heritage reenactments."
+  },
+  {
+    "id": "A471",
+    "name": "AlUla Cave Complex",
+    "cityName": "AlUla",
+    "category": "park",
+    "entry_fee": 100,
+    "description": "A family-friendly area with craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A472",
+    "name": "Al-Ahsa Oasis Springs",
+    "cityName": "Al-Ahsa",
+    "category": "nature reserve",
+    "entry_fee": 50,
+    "description": "A beautiful destination offering craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A473",
+    "name": "Mecca Royal Gardens",
+    "cityName": "Mecca",
+    "category": "mountain",
+    "entry_fee": 0,
+    "description": "An iconic site known for interactive exhibits and educational programs."
+  },
+  {
+    "id": "A474",
+    "name": "Hail Heritage Village",
+    "cityName": "Hail",
+    "category": "waterfall",
+    "entry_fee": 100,
+    "description": "A must-visit attraction featuring an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A475",
+    "name": "Buraidah Waterfront Corniche",
+    "cityName": "Buraidah",
+    "category": "cultural center",
+    "entry_fee": 50,
+    "description": "A historic landmark representing spectacular views and cultural performances."
+  },
+  {
+    "id": "A476",
+    "name": "Abha Heritage Village",
+    "cityName": "Abha",
+    "category": "art gallery",
+    "entry_fee": 30,
+    "description": "A historic landmark representing craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A477",
+    "name": "Hail Wildlife Sanctuary",
+    "cityName": "Hail",
+    "category": "market",
+    "entry_fee": 75,
+    "description": "A popular spot showcasing natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A478",
+    "name": "Jazan Desert Dunes",
+    "cityName": "Jazan",
+    "category": "museum",
+    "entry_fee": 20,
+    "description": "An iconic site known for interactive exhibits and educational programs."
+  },
+  {
+    "id": "A479",
+    "name": "Yanbu Botanical Garden",
+    "cityName": "Yanbu",
+    "category": "garden",
+    "entry_fee": 75,
+    "description": "A scenic location surrounded by spectacular views and cultural performances."
+  },
+  {
+    "id": "A480",
+    "name": "Hail Oasis Springs",
+    "cityName": "Hail",
+    "category": "heritage site",
+    "entry_fee": 100,
+    "description": "A popular spot showcasing tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A481",
+    "name": "Jazan Royal Gardens",
+    "cityName": "Jazan",
+    "category": "art gallery",
+    "entry_fee": 40,
+    "description": "A must-visit attraction featuring tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A482",
+    "name": "Abha City Fountain",
+    "cityName": "Abha",
+    "category": "nature reserve",
+    "entry_fee": 0,
+    "description": "A must-visit attraction featuring guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A483",
+    "name": "Dammam Historical Quarter",
+    "cityName": "Dammam",
+    "category": "amusement park",
+    "entry_fee": 50,
+    "description": "A popular spot showcasing an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A484",
+    "name": "Abha Oasis Springs",
+    "cityName": "Abha",
+    "category": "landmark",
+    "entry_fee": 30,
+    "description": "A family-friendly area with craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A485",
+    "name": "Medina Art Quarter",
+    "cityName": "Medina",
+    "category": "museum",
+    "entry_fee": 40,
+    "description": "An iconic site known for guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A486",
+    "name": "Riyadh Cave Complex",
+    "cityName": "Riyadh",
+    "category": "museum",
+    "entry_fee": 100,
+    "description": "A must-visit attraction featuring natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A487",
+    "name": "Buraidah Seaside Promenade",
+    "cityName": "Buraidah",
+    "category": "mountain",
+    "entry_fee": 100,
+    "description": "A family-friendly area with guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A488",
+    "name": "Dammam National Museum",
+    "cityName": "Dammam",
+    "category": "nature reserve",
+    "entry_fee": 20,
+    "description": "A scenic location surrounded by tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A489",
+    "name": "Taif Crystal Lake",
+    "cityName": "Taif",
+    "category": "museum",
+    "entry_fee": 40,
+    "description": "A must-visit attraction featuring natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A490",
+    "name": "Riyadh Skyline Point",
+    "cityName": "Riyadh",
+    "category": "mosque",
+    "entry_fee": 30,
+    "description": "A historic landmark representing tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A491",
+    "name": "Buraidah Museum of History",
+    "cityName": "Buraidah",
+    "category": "museum",
+    "entry_fee": 75,
+    "description": "A beautiful destination offering spectacular views and cultural performances."
+  },
+  {
+    "id": "A492",
+    "name": "Jazan Observation Deck",
+    "cityName": "Jazan",
+    "category": "amusement park",
+    "entry_fee": 75,
+    "description": "A family-friendly area with historical displays and heritage reenactments."
+  },
+  {
+    "id": "A493",
+    "name": "Mecca Old Town Souq",
+    "cityName": "Mecca",
+    "category": "mosque",
+    "entry_fee": 50,
+    "description": "A beautiful destination offering interactive exhibits and educational programs."
+  },
+  {
+    "id": "A494",
+    "name": "Dammam Cultural Oasis",
+    "cityName": "Dammam",
+    "category": "landmark",
+    "entry_fee": 20,
+    "description": "A family-friendly area with historical displays and heritage reenactments."
+  },
+  {
+    "id": "A495",
+    "name": "Al-Ahsa Maritime Heritage",
+    "cityName": "Al-Ahsa",
+    "category": "heritage site",
+    "entry_fee": 0,
+    "description": "A family-friendly area with interactive exhibits and educational programs."
+  },
+  {
+    "id": "A496",
+    "name": "Jazan Royal Gardens",
+    "cityName": "Jazan",
+    "category": "historical fort",
+    "entry_fee": 30,
+    "description": "A family-friendly area with tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A497",
+    "name": "Hail Maritime Heritage",
+    "cityName": "Hail",
+    "category": "park",
+    "entry_fee": 75,
+    "description": "A historic landmark representing historical displays and heritage reenactments."
+  },
+  {
+    "id": "A498",
+    "name": "Najran Skyline Point",
+    "cityName": "Najran",
+    "category": "cultural center",
+    "entry_fee": 75,
+    "description": "A historic landmark representing an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A499",
+    "name": "Jazan Cave Complex",
+    "cityName": "Jazan",
+    "category": "beach",
+    "entry_fee": 50,
+    "description": "A historic landmark representing an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A500",
+    "name": "Medina Waterfront Corniche",
+    "cityName": "Medina",
+    "category": "garden",
+    "entry_fee": 50,
+    "description": "A cultural gem highlighting historical displays and heritage reenactments."
+  },
+  {
+    "id": "A501",
+    "name": "Yanbu Sky Tower",
+    "cityName": "Yanbu",
+    "category": "market",
+    "entry_fee": 40,
+    "description": "A scenic location surrounded by an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A502",
+    "name": "Yanbu Wildlife Sanctuary",
+    "cityName": "Yanbu",
+    "category": "waterfall",
+    "entry_fee": 40,
+    "description": "A family-friendly area with interactive exhibits and educational programs."
+  },
+  {
+    "id": "A503",
+    "name": "Yanbu Oasis Springs",
+    "cityName": "Yanbu",
+    "category": "garden",
+    "entry_fee": 100,
+    "description": "A popular spot showcasing historical displays and heritage reenactments."
+  },
+  {
+    "id": "A504",
+    "name": "Riyadh Cave Complex",
+    "cityName": "Riyadh",
+    "category": "heritage site",
+    "entry_fee": 75,
+    "description": "A scenic location surrounded by guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A505",
+    "name": "Buraidah Palace Ruins",
+    "cityName": "Buraidah",
+    "category": "cultural center",
+    "entry_fee": 40,
+    "description": "A historic landmark representing spectacular views and cultural performances."
+  },
+  {
+    "id": "A506",
+    "name": "Al-Ahsa Heritage Farm",
+    "cityName": "Al-Ahsa",
+    "category": "mosque",
+    "entry_fee": 50,
+    "description": "A scenic location surrounded by craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A507",
+    "name": "Jeddah Mountain Trail",
+    "cityName": "Jeddah",
+    "category": "heritage site",
+    "entry_fee": 30,
+    "description": "An immersive experience of craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A508",
+    "name": "Al Khobar National Museum",
+    "cityName": "Al Khobar",
+    "category": "market",
+    "entry_fee": 0,
+    "description": "A must-visit attraction featuring guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A509",
+    "name": "Al Khobar Old Town Souq",
+    "cityName": "Al Khobar",
+    "category": "cultural center",
+    "entry_fee": 100,
+    "description": "A cultural gem highlighting ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A510",
+    "name": "Al-Ahsa Botanical Garden",
+    "cityName": "Al-Ahsa",
+    "category": "historical fort",
+    "entry_fee": 50,
+    "description": "An immersive experience of guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A511",
+    "name": "Al-Ahsa City Fountain",
+    "cityName": "Al-Ahsa",
+    "category": "garden",
+    "entry_fee": 20,
+    "description": "An iconic site known for spectacular views and cultural performances."
+  },
+  {
+    "id": "A512",
+    "name": "Mecca Museum of History",
+    "cityName": "Mecca",
+    "category": "amusement park",
+    "entry_fee": 20,
+    "description": "A historic landmark representing tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A513",
+    "name": "Buraidah National Museum",
+    "cityName": "Buraidah",
+    "category": "beach",
+    "entry_fee": 50,
+    "description": "An iconic site known for craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A514",
+    "name": "Al Khobar Heritage Farm",
+    "cityName": "Al Khobar",
+    "category": "landmark",
+    "entry_fee": 75,
+    "description": "A scenic location surrounded by an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A515",
+    "name": "Jeddah Desert Reserve",
+    "cityName": "Jeddah",
+    "category": "park",
+    "entry_fee": 30,
+    "description": "A popular spot showcasing ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A516",
+    "name": "Yanbu Adventure Cliff",
+    "cityName": "Yanbu",
+    "category": "historical fort",
+    "entry_fee": 75,
+    "description": "A beautiful destination offering ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A517",
+    "name": "Hail Cave Complex",
+    "cityName": "Hail",
+    "category": "heritage site",
+    "entry_fee": 75,
+    "description": "An immersive experience of interactive exhibits and educational programs."
+  },
+  {
+    "id": "A518",
+    "name": "Jazan Science Park",
+    "cityName": "Jazan",
+    "category": "historical fort",
+    "entry_fee": 40,
+    "description": "A beautiful destination offering an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A519",
+    "name": "Riyadh Heritage Farm",
+    "cityName": "Riyadh",
+    "category": "market",
+    "entry_fee": 40,
+    "description": "A must-visit attraction featuring guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A520",
+    "name": "Taif Skyline Point",
+    "cityName": "Taif",
+    "category": "nature reserve",
+    "entry_fee": 40,
+    "description": "A must-visit attraction featuring natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A521",
+    "name": "Medina Royal Gardens",
+    "cityName": "Medina",
+    "category": "museum",
+    "entry_fee": 30,
+    "description": "A family-friendly area with an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A522",
+    "name": "Abha Seaside Promenade",
+    "cityName": "Abha",
+    "category": "historical fort",
+    "entry_fee": 50,
+    "description": "An iconic site known for ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A523",
+    "name": "Najran Royal Gardens",
+    "cityName": "Najran",
+    "category": "historical fort",
+    "entry_fee": 20,
+    "description": "A family-friendly area with interactive exhibits and educational programs."
+  },
+  {
+    "id": "A524",
+    "name": "Tabuk National Museum",
+    "cityName": "Tabuk",
+    "category": "nature reserve",
+    "entry_fee": 50,
+    "description": "A cultural gem highlighting historical displays and heritage reenactments."
+  },
+  {
+    "id": "A525",
+    "name": "Dammam Sky Tower",
+    "cityName": "Dammam",
+    "category": "cultural center",
+    "entry_fee": 20,
+    "description": "A cultural gem highlighting an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A526",
+    "name": "Najran Waterfront Corniche",
+    "cityName": "Najran",
+    "category": "market",
+    "entry_fee": 100,
+    "description": "A family-friendly area with spectacular views and cultural performances."
+  },
+  {
+    "id": "A527",
+    "name": "Dammam National Museum",
+    "cityName": "Dammam",
+    "category": "mountain",
+    "entry_fee": 40,
+    "description": "A family-friendly area with historical displays and heritage reenactments."
+  },
+  {
+    "id": "A528",
+    "name": "Buraidah City Fountain",
+    "cityName": "Buraidah",
+    "category": "mosque",
+    "entry_fee": 100,
+    "description": "A must-visit attraction featuring natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A529",
+    "name": "Abha Sky Tower",
+    "cityName": "Abha",
+    "category": "beach",
+    "entry_fee": 30,
+    "description": "A family-friendly area with historical displays and heritage reenactments."
+  },
+  {
+    "id": "A530",
+    "name": "Taif Adventure Valley",
+    "cityName": "Taif",
+    "category": "cultural center",
+    "entry_fee": 20,
+    "description": "An iconic site known for ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A531",
+    "name": "Hail Eco Park",
+    "cityName": "Hail",
+    "category": "amusement park",
+    "entry_fee": 30,
+    "description": "A must-visit attraction featuring spectacular views and cultural performances."
+  },
+  {
+    "id": "A532",
+    "name": "Mecca National Museum",
+    "cityName": "Mecca",
+    "category": "historical fort",
+    "entry_fee": 20,
+    "description": "A scenic location surrounded by natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A533",
+    "name": "Taif Waterfront Corniche",
+    "cityName": "Taif",
+    "category": "beach",
+    "entry_fee": 75,
+    "description": "A family-friendly area with natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A534",
+    "name": "Jeddah Historical Quarter",
+    "cityName": "Jeddah",
+    "category": "beach",
+    "entry_fee": 75,
+    "description": "A scenic location surrounded by natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A535",
+    "name": "Mecca Sky Tower",
+    "cityName": "Mecca",
+    "category": "mountain",
+    "entry_fee": 0,
+    "description": "A must-visit attraction featuring spectacular views and cultural performances."
+  },
+  {
+    "id": "A536",
+    "name": "Jazan Desert Reserve",
+    "cityName": "Jazan",
+    "category": "beach",
+    "entry_fee": 100,
+    "description": "A cultural gem highlighting an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A537",
+    "name": "Mecca National Museum",
+    "cityName": "Mecca",
+    "category": "art gallery",
+    "entry_fee": 20,
+    "description": "A scenic location surrounded by tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A538",
+    "name": "AlUla National Museum",
+    "cityName": "AlUla",
+    "category": "historical fort",
+    "entry_fee": 100,
+    "description": "A family-friendly area with ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A539",
+    "name": "Medina Mountain Trail",
+    "cityName": "Medina",
+    "category": "nature reserve",
+    "entry_fee": 100,
+    "description": "A beautiful destination offering natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A540",
+    "name": "Medina Historical Quarter",
+    "cityName": "Medina",
+    "category": "garden",
+    "entry_fee": 50,
+    "description": "A scenic location surrounded by tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A541",
+    "name": "Hail Cultural Oasis",
+    "cityName": "Hail",
+    "category": "market",
+    "entry_fee": 75,
+    "description": "An iconic site known for natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A542",
+    "name": "AlUla Maritime Heritage",
+    "cityName": "AlUla",
+    "category": "market",
+    "entry_fee": 20,
+    "description": "A cultural gem highlighting tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A543",
+    "name": "Hail Royal Gardens",
+    "cityName": "Hail",
+    "category": "mountain",
+    "entry_fee": 50,
+    "description": "A historic landmark representing guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A544",
+    "name": "Hail Waterfront Corniche",
+    "cityName": "Hail",
+    "category": "mountain",
+    "entry_fee": 40,
+    "description": "A family-friendly area with natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A545",
+    "name": "Dammam Historical Fortress",
+    "cityName": "Dammam",
+    "category": "garden",
+    "entry_fee": 30,
+    "description": "An immersive experience of an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A546",
+    "name": "Tabuk Crystal Lake",
+    "cityName": "Tabuk",
+    "category": "art gallery",
+    "entry_fee": 100,
+    "description": "A beautiful destination offering ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A547",
+    "name": "Medina Crystal Lake",
+    "cityName": "Medina",
+    "category": "historical fort",
+    "entry_fee": 20,
+    "description": "A cultural gem highlighting historical displays and heritage reenactments."
+  },
+  {
+    "id": "A548",
+    "name": "AlUla Sky Tower",
+    "cityName": "AlUla",
+    "category": "landmark",
+    "entry_fee": 75,
+    "description": "An iconic site known for guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A549",
+    "name": "Jazan Historical Quarter",
+    "cityName": "Jazan",
+    "category": "landmark",
+    "entry_fee": 40,
+    "description": "A historic landmark representing historical displays and heritage reenactments."
+  },
+  {
+    "id": "A550",
+    "name": "Jazan Museum of History",
+    "cityName": "Jazan",
+    "category": "cultural center",
+    "entry_fee": 40,
+    "description": "A cultural gem highlighting tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A551",
+    "name": "Abha Mountain Trail",
+    "cityName": "Abha",
+    "category": "mountain",
+    "entry_fee": 75,
+    "description": "A historic landmark representing guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A552",
+    "name": "Najran Historical Quarter",
+    "cityName": "Najran",
+    "category": "mountain",
+    "entry_fee": 75,
+    "description": "A family-friendly area with historical displays and heritage reenactments."
+  },
+  {
+    "id": "A553",
+    "name": "Al-Ahsa Cultural Oasis",
+    "cityName": "Al-Ahsa",
+    "category": "heritage site",
+    "entry_fee": 0,
+    "description": "A scenic location surrounded by tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A554",
+    "name": "Abha Seaside Promenade",
+    "cityName": "Abha",
+    "category": "art gallery",
+    "entry_fee": 100,
+    "description": "An immersive experience of historical displays and heritage reenactments."
+  },
+  {
+    "id": "A555",
+    "name": "Abha City Fountain",
+    "cityName": "Abha",
+    "category": "market",
+    "entry_fee": 40,
+    "description": "A popular spot showcasing ancient ruins and modern cultural installations."
+  },
+  {
+    "id": "A556",
+    "name": "Hail Mountain Trail",
+    "cityName": "Hail",
+    "category": "beach",
+    "entry_fee": 30,
+    "description": "A cultural gem highlighting tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A557",
+    "name": "Hail Botanical Garden",
+    "cityName": "Hail",
+    "category": "garden",
+    "entry_fee": 50,
+    "description": "A historic landmark representing an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A558",
+    "name": "Medina Mountain Trail",
+    "cityName": "Medina",
+    "category": "market",
+    "entry_fee": 20,
+    "description": "A family-friendly area with craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A559",
+    "name": "Jazan Observation Deck",
+    "cityName": "Jazan",
+    "category": "waterfall",
+    "entry_fee": 100,
+    "description": "A popular spot showcasing historical displays and heritage reenactments."
+  },
+  {
+    "id": "A560",
+    "name": "Tabuk Adventure Valley",
+    "cityName": "Tabuk",
+    "category": "museum",
+    "entry_fee": 75,
+    "description": "A popular spot showcasing interactive exhibits and educational programs."
+  },
+  {
+    "id": "A561",
+    "name": "Jeddah Seaside Promenade",
+    "cityName": "Jeddah",
+    "category": "cultural center",
+    "entry_fee": 50,
+    "description": "A cultural gem highlighting guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A562",
+    "name": "Riyadh Eco Park",
+    "cityName": "Riyadh",
+    "category": "mosque",
+    "entry_fee": 100,
+    "description": "A beautiful destination offering historical displays and heritage reenactments."
+  },
+  {
+    "id": "A563",
+    "name": "Dammam Historical Fortress",
+    "cityName": "Dammam",
+    "category": "art gallery",
+    "entry_fee": 75,
+    "description": "A cultural gem highlighting historical displays and heritage reenactments."
+  },
+  {
+    "id": "A564",
+    "name": "Al Khobar Science Park",
+    "cityName": "Al Khobar",
+    "category": "historical fort",
+    "entry_fee": 0,
+    "description": "A family-friendly area with natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A565",
+    "name": "Tabuk Date Market",
+    "cityName": "Tabuk",
+    "category": "beach",
+    "entry_fee": 30,
+    "description": "A family-friendly area with an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A566",
+    "name": "Najran Sky Tower",
+    "cityName": "Najran",
+    "category": "landmark",
+    "entry_fee": 40,
+    "description": "A must-visit attraction featuring spectacular views and cultural performances."
+  },
+  {
+    "id": "A567",
+    "name": "Hail Wildlife Sanctuary",
+    "cityName": "Hail",
+    "category": "waterfall",
+    "entry_fee": 0,
+    "description": "A beautiful destination offering interactive exhibits and educational programs."
+  },
+  {
+    "id": "A568",
+    "name": "Abha Waterfront Corniche",
+    "cityName": "Abha",
+    "category": "heritage site",
+    "entry_fee": 40,
+    "description": "A cultural gem highlighting natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A569",
+    "name": "Dammam Wildlife Sanctuary",
+    "cityName": "Dammam",
+    "category": "art gallery",
+    "entry_fee": 50,
+    "description": "A cultural gem highlighting an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A570",
+    "name": "Dammam Heritage Farm",
+    "cityName": "Dammam",
+    "category": "mosque",
+    "entry_fee": 20,
+    "description": "An immersive experience of historical displays and heritage reenactments."
+  },
+  {
+    "id": "A571",
+    "name": "Taif Art Quarter",
+    "cityName": "Taif",
+    "category": "museum",
+    "entry_fee": 30,
+    "description": "An iconic site known for interactive exhibits and educational programs."
+  },
+  {
+    "id": "A572",
+    "name": "Riyadh Desert Reserve",
+    "cityName": "Riyadh",
+    "category": "mosque",
+    "entry_fee": 0,
+    "description": "A scenic location surrounded by craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A573",
+    "name": "Dammam Old Town Souq",
+    "cityName": "Dammam",
+    "category": "mosque",
+    "entry_fee": 100,
+    "description": "A beautiful destination offering historical displays and heritage reenactments."
+  },
+  {
+    "id": "A574",
+    "name": "Abha Skyline Point",
+    "cityName": "Abha",
+    "category": "historical fort",
+    "entry_fee": 30,
+    "description": "A cultural gem highlighting craft workshops, local cuisine, and performances."
+  },
+  {
+    "id": "A575",
+    "name": "Yanbu Historical Fortress",
+    "cityName": "Yanbu",
+    "category": "mountain",
+    "entry_fee": 100,
+    "description": "An immersive experience of guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A576",
+    "name": "Yanbu Heritage Village",
+    "cityName": "Yanbu",
+    "category": "museum",
+    "entry_fee": 100,
+    "description": "A must-visit attraction featuring spectacular views and cultural performances."
+  },
+  {
+    "id": "A577",
+    "name": "AlUla Crystal Lake",
+    "cityName": "AlUla",
+    "category": "mountain",
+    "entry_fee": 50,
+    "description": "A cultural gem highlighting an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A578",
+    "name": "Hail Date Market",
+    "cityName": "Hail",
+    "category": "mountain",
+    "entry_fee": 30,
+    "description": "A historic landmark representing tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A579",
+    "name": "Hail Waterfront Corniche",
+    "cityName": "Hail",
+    "category": "amusement park",
+    "entry_fee": 0,
+    "description": "A must-visit attraction featuring tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A580",
+    "name": "Riyadh Seaside Promenade",
+    "cityName": "Riyadh",
+    "category": "nature reserve",
+    "entry_fee": 50,
+    "description": "An iconic site known for tranquil gardens and open-air exhibits."
+  },
+  {
+    "id": "A581",
+    "name": "Abha Science Park",
+    "cityName": "Abha",
+    "category": "mosque",
+    "entry_fee": 30,
+    "description": "An immersive experience of spectacular views and cultural performances."
+  },
+  {
+    "id": "A582",
+    "name": "AlUla Observation Deck",
+    "cityName": "AlUla",
+    "category": "art gallery",
+    "entry_fee": 0,
+    "description": "A scenic location surrounded by natural trails and eco-friendly facilities."
+  },
+  {
+    "id": "A583",
+    "name": "Buraidah Crystal Lake",
+    "cityName": "Buraidah",
+    "category": "park",
+    "entry_fee": 20,
+    "description": "A cultural gem highlighting an insight into Saudi Arabia’s evolving identity."
+  },
+  {
+    "id": "A584",
+    "name": "Al Khobar Old Town Souq",
+    "cityName": "Al Khobar",
+    "category": "art gallery",
+    "entry_fee": 40,
+    "description": "An immersive experience of historical displays and heritage reenactments."
+  },
+  {
+    "id": "A585",
+    "name": "Riyadh Crystal Lake",
+    "cityName": "Riyadh",
+    "category": "garden",
+    "entry_fee": 40,
+    "description": "A cultural gem highlighting guided tours, local art, and traditional architecture."
+  },
+  {
+    "id": "A586",
+    "name": "Buraidah Science Park",
+    "cityName": "Buraidah",
+    "category": "historical fort",
+    "entry_fee": 0,
+    "description": "A beautiful destination offering an insight into Saudi Arabia’s evolving identity."
+  }
+]

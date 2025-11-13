@@ -1,4 +1,4 @@
-from langchain.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate
 
 itinerary_prompt = ChatPromptTemplate.from_template("""
 You are a professional Saudi travel planner AI. 

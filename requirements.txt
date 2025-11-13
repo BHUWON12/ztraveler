@@ -1,35 +1,20 @@
-# -------------------------------------------------------------
-# ⚡ Core Web Framework
-# -------------------------------------------------------------
+redis[search,hiredis]==5.0.8
+langchain==0.2.16
+langchain-core==0.2.38
+langchain-community==0.2.11
+langchain-google-genai==1.0.7
 fastapi==0.115.2
 uvicorn==0.30.6
-pydantic==2.9.2
-python-dotenv==1.0.1
-
-# -------------------------------------------------------------
-# 🧱 Database & Cache
-# -------------------------------------------------------------
+pymongo==4.6.3
 motor==3.5.1
-redis==5.0.8
-numpy==1.26.4   # ✅ downgrade for langchain 0.3.0 compatibility
-
-# -------------------------------------------------------------
-# 🤖 AI & LangChain Ecosystem (Gemini-compatible)
-# -------------------------------------------------------------
-langchain==0.3.0
-langchain-core==0.3.0
-langchain-community==0.3.0
-langchain-google-genai==3.0.0
-langchain-text-splitters==0.3.0
-
-# -------------------------------------------------------------
-# 🌐 Networking & Protocols
-# -------------------------------------------------------------
+python-dotenv==1.0.1
+numpy==1.26.4
 protobuf==4.25.3
 httpx==0.27.2
-
-# -------------------------------------------------------------
-# 🧩 Optional (Recommended)
-# -------------------------------------------------------------
 tenacity==8.5.0
 requests==2.32.3
+redis==5.0.8
+redisvl==0.3.3
+hiredis==3.3.0
+redis[search]>=5.0.0
+gunicorn

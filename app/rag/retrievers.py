@@ -1,6 +1,11 @@
+# --------------------------------------------------------
+# 🧠 Retrieval + Itinerary Construction (Cloud Run Safe)
+# --------------------------------------------------------
 from typing import List, Dict, Any
 from datetime import datetime
-from app.db.mongo import get_mongo_client
+import traceback
+
+from app.db.mongo import get_mongo_client, init_mongo
 from app.rag.redis_vectorstores import (
     search_hotels,
     search_attractions,
@@ -8,25 +13,79 @@ from app.rag.redis_vectorstores import (
     search_flights,
     search_transports,
 )
-from app.models.itinerary_models import (
-    DayPlan,
-    FlightSegment,
-    ItineraryPlan,
-)
+from app.models.itinerary_models import DayPlan, FlightSegment, ItineraryPlan
 from app.schemas.itinerary_schema import ItineraryPreferences
 
-db = get_mongo_client()
 
 # --------------------------------------------------------
-# 🔹 Retrieval Helpers
+# 🔹 Utility — Lazy Mongo Collection Getter
 # --------------------------------------------------------
+async def get_collection_safe(name: str):
+    """
+    Ensures MongoDB connection is initialized before accessing a collection.
+    Prevents import-time connection errors during Cloud Run startup.
+    """
+    try:
+        await init_mongo()  # ensure live connection (idempotent)
+        db = get_mongo_client()
+    except Exception as e:
+        print(f"❌ Failed to connect to Mongo for '{name}': {e}")
+        traceback.print_exc()
+        raise
+    return db[name]
 
+
+# --------------------------------------------------------
+# 🔹 Safe Redis wrappers (fallback to Mongo on error)
+# --------------------------------------------------------
+async def _fallback_find(collection_name: str, query: Dict[str, Any], limit: int):
+    coll = await get_collection_safe(collection_name)
+    cursor = coll.find(query).limit(limit)
+    return await cursor.to_list(length=limit)
+
+async def _safe_search_hotels(city: str, max_price: float, k: int):
+    try:
+        return search_hotels(city, max_price, k) or []
+    except Exception as e:
+        print(f"[Redis Search Error] hotels: {e}")
+        return []
+
+async def _safe_search_attractions(city: str, interests: List[str], k: int):
+    try:
+        return search_attractions(city, interests, k) or []
+    except Exception as e:
+        print(f"[Redis Search Error] attractions: {e}")
+        return []
+
+async def _safe_search_events(city: str, start_iso: str, end_iso: str, k: int):
+    try:
+        return search_events(city, start_iso, end_iso, k) or []
+    except Exception as e:
+        print(f"[Redis Search Error] events: {e}")
+        return []
+
+async def _safe_search_flights(origin: str, destination: str, k: int):
+    try:
+        return search_flights(origin, destination, k) or []
+    except Exception as e:
+        print(f"[Redis Search Error] flights: {e}")
+        return []
+
+async def _safe_search_transports(city: str, k: int):
+    try:
+        return search_transports(city, k) or []
+    except Exception as e:
+        print(f"[Redis Search Error] transports: {e}")
+        return []
+
+
+# --------------------------------------------------------
+# 🔹 Retrieval Helpers (Hotels / Attractions / Events / Flights / Transports)
+# --------------------------------------------------------
 async def retrieve_hotels(city: str, max_price: float, k: int = 8) -> List[Dict[str, Any]]:
-    docs = search_hotels(city, max_price, k)
+    docs = await _safe_search_hotels(city, max_price, k)
     if not docs:
-        collection = db["hotels"]
-        cursor = collection.find({"cityName": {"$regex": f"^{city}$", "$options": "i"}}).limit(k)
-        docs = await cursor.to_list(length=k)
+        docs = await _fallback_find("hotels", {"cityName": {"$regex": f"^{city}$", "$options": "i"}}, k)
     return [
         {
             "id": str(d.get("_id") or d.get("id")),
@@ -40,13 +99,10 @@ async def retrieve_hotels(city: str, max_price: float, k: int = 8) -> List[Dict[
         for d in docs
     ]
 
-
 async def retrieve_attractions(city: str, interests: List[str], k: int = 12) -> List[Dict[str, Any]]:
-    docs = search_attractions(city, interests, k)
+    docs = await _safe_search_attractions(city, interests, k)
     if not docs:
-        collection = db["attractions"]
-        cursor = collection.find({"cityName": {"$regex": f"^{city}$", "$options": "i"}}).limit(k)
-        docs = await cursor.to_list(length=k)
+        docs = await _fallback_find("attractions", {"cityName": {"$regex": f"^{city}$", "$options": "i"}}, k)
     return [
         {
             "id": str(d.get("_id") or d.get("id")),
@@ -61,13 +117,10 @@ async def retrieve_attractions(city: str, interests: List[str], k: int = 12) -> 
         for d in docs
     ]
 
-
 async def retrieve_events(city: str, start_iso: str, end_iso: str, k: int = 8) -> List[Dict[str, Any]]:
-    docs = search_events(city, start_iso, end_iso, k)
+    docs = await _safe_search_events(city, start_iso, end_iso, k)
     if not docs:
-        collection = db["events"]
-        cursor = collection.find({"cityName": {"$regex": f"^{city}$", "$options": "i"}}).limit(k)
-        docs = await cursor.to_list(length=k)
+        docs = await _fallback_find("events", {"cityName": {"$regex": f"^{city}$", "$options": "i"}}, k)
     return [
         {
             "id": str(d.get("_id") or d.get("id")),
@@ -80,18 +133,15 @@ async def retrieve_events(city: str, start_iso: str, end_iso: str, k: int = 8) -
         for d in docs
     ]
 
-
 async def retrieve_flights(origin: str, destination: str, k: int = 5) -> List[Dict[str, Any]]:
-    docs = search_flights(origin, destination, k)
+    docs = await _safe_search_flights(origin, destination, k)
     if not docs:
-        collection = db["flights"]
-        cursor = collection.find(
-            {
-                "origin": {"$regex": f"^{origin}$", "$options": "i"},
-                "destination": {"$regex": f"^{destination}$", "$options": "i"},
-            }
-        ).limit(k)
-        docs = await cursor.to_list(length=k)
+        docs = await _fallback_find(
+            "flights",
+            {"origin": {"$regex": f"^{origin}$", "$options": "i"},
+             "destination": {"$regex": f"^{destination}$", "$options": "i"}},
+            k,
+        )
     return [
         {
             "id": str(d.get("_id") or d.get("id")),
@@ -106,21 +156,18 @@ async def retrieve_flights(origin: str, destination: str, k: int = 5) -> List[Di
         for d in docs
     ]
 
-
 async def retrieve_transports(city: str, k: int = 5) -> List[Dict[str, Any]]:
-    docs = search_transports(city, k)
+    docs = await _safe_search_transports(city, k)
     if not docs:
-        collection = db["transports"]
-        cursor = collection.find(
-            {
-                "$or": [
-                    {"from_city": {"$regex": f"^{city}$", "$options": "i"}},
-                    {"to_city": {"$regex": f"^{city}$", "$options": "i"}},
-                    {"cityName": {"$regex": f"^{city}$", "$options": "i"}},
-                ]
-            }
-        ).limit(k)
-        docs = await cursor.to_list(length=k)
+        docs = await _fallback_find(
+            "transports",
+            {"$or": [
+                {"from_city": {"$regex": f"^{city}$", "$options": "i"}},
+                {"to_city": {"$regex": f"^{city}$", "$options": "i"}},
+                {"cityName": {"$regex": f"^{city}$", "$options": "i"}},
+            ]},
+            k,
+        )
     return [
         {
             "id": str(d.get("_id") or d.get("id")),
@@ -138,19 +185,32 @@ async def retrieve_transports(city: str, k: int = 5) -> List[Dict[str, Any]]:
 # --------------------------------------------------------
 # 🧭 Build the Complete Itinerary (Round Trip)
 # --------------------------------------------------------
-
 async def build_itinerary(prefs: ItineraryPreferences) -> ItineraryPlan:
+    """
+    Builds a multi-city itinerary plan (hotels, attractions, flights, transports).
+    """
+    try:
+        await init_mongo()
+    except Exception as e:
+        print(f"⚠️ Mongo initialization failed during itinerary build: {e}")
+        traceback.print_exc()
+
     all_days: List[DayPlan] = []
     flights_total = 0
     current_day_index = 1
     num_cities = len(prefs.destination)
 
-    # 1️⃣ Entry flight from source → first destination
-    if prefs.source and prefs.destination:
-        entry_city = prefs.destination[0]
-        print(f"✈️ Entry route: {prefs.source} → {entry_city}")
+    # Use max_budget_per_city if available; else derive from total
+    max_per_city = getattr(prefs, "max_budget_per_city", None) or max(
+        0, (getattr(prefs, "budget_total", 0) or 0) // max(1, num_cities or 1)
+    )
 
-        entry_flight = await retrieve_flights(prefs.source, entry_city)
+    # 1️⃣ Entry flight from origin → first destination   <-- CHANGED: origin
+    if getattr(prefs, "origin", None) and prefs.destination:
+        entry_city = prefs.destination[0]
+        print(f"✈️ Entry route: {prefs.origin} → {entry_city}")
+
+        entry_flight = await retrieve_flights(prefs.origin, entry_city)
         entry_segments = []
 
         if entry_flight:
@@ -167,7 +227,7 @@ async def build_itinerary(prefs: ItineraryPreferences) -> ItineraryPlan:
             )
         else:
             for hub in ["Dubai", "Doha", "Abu Dhabi"]:
-                first_leg = await retrieve_flights(prefs.source, hub)
+                first_leg = await retrieve_flights(prefs.origin, hub)
                 second_leg = await retrieve_flights(hub, entry_city)
                 if first_leg and second_leg:
                     f1 = sorted(first_leg, key=lambda f: f.get("price", 999999))[0]
@@ -182,7 +242,7 @@ async def build_itinerary(prefs: ItineraryPreferences) -> ItineraryPlan:
                 entry_segments.append(
                     FlightSegment(
                         airline="Fallback Route",
-                        from_city=prefs.source,
+                        from_city=prefs.origin,
                         to_city=entry_city,
                         price=1800,
                         duration_minutes=420,
@@ -193,19 +253,19 @@ async def build_itinerary(prefs: ItineraryPreferences) -> ItineraryPlan:
         all_days.append(
             DayPlan(
                 day_index=current_day_index,
-                city=prefs.source,
+                city=prefs.origin,
                 flight=entry_segments[0],
-                notes=f"Travel day from {prefs.source} → {entry_city}",
+                notes=f"Travel day from {prefs.origin} → {entry_city}",
                 estimated_day_cost=0,
             )
         )
         current_day_index += 1
 
-    # 2️⃣ For each destination
+    # 2️⃣ For each destination city
     for idx, city in enumerate(prefs.destination):
         print(f"🏙️ Planning {city}")
 
-        hotels = await retrieve_hotels(city, prefs.max_budget_per_city)
+        hotels = await retrieve_hotels(city, max_per_city)
         hotel = hotels[0] if hotels else None
         attractions = await retrieve_attractions(city, prefs.interests)
         events = await retrieve_events(city, prefs.start_date, prefs.end_date)
@@ -225,7 +285,7 @@ async def build_itinerary(prefs: ItineraryPreferences) -> ItineraryPlan:
         )
         current_day_index += 1
 
-        # ✈️ Handle city-to-city transfers
+        # ✈️ Intercity transfers
         if idx < num_cities - 1:
             next_city = prefs.destination[idx + 1]
             print(f"✈️ Route {city} → {next_city}")
@@ -260,7 +320,9 @@ async def build_itinerary(prefs: ItineraryPreferences) -> ItineraryPlan:
                         ])
                         break
                 if not segments:
-                    segments.append(FlightSegment(airline="Road Route", from_city=city, to_city=next_city, price=300, duration_minutes=360))
+                    segments.append(
+                        FlightSegment(airline="Road Route", from_city=city, to_city=next_city, price=300, duration_minutes=360)
+                    )
                     flights_total += 300
 
             for seg in segments:
@@ -275,12 +337,12 @@ async def build_itinerary(prefs: ItineraryPreferences) -> ItineraryPlan:
                 )
                 current_day_index += 1
 
-    # 3️⃣ Return flight to source
-    if prefs.source and prefs.destination:
+    # 3️⃣ Return flight to origin   <-- CHANGED: origin
+    if getattr(prefs, "origin", None) and prefs.destination:
         last_city = prefs.destination[-1]
-        print(f"🛫 Return route: {last_city} → {prefs.source}")
+        print(f"🛫 Return route: {last_city} → {prefs.origin}")
 
-        return_flight = await retrieve_flights(last_city, prefs.source)
+        return_flight = await retrieve_flights(last_city, prefs.origin)
         return_segments = []
 
         if return_flight:
@@ -298,7 +360,7 @@ async def build_itinerary(prefs: ItineraryPreferences) -> ItineraryPlan:
         else:
             for hub in ["Dubai", "Doha", "Abu Dhabi"]:
                 first_leg = await retrieve_flights(last_city, hub)
-                second_leg = await retrieve_flights(hub, prefs.source)
+                second_leg = await retrieve_flights(hub, prefs.origin)
                 if first_leg and second_leg:
                     f1 = sorted(first_leg, key=lambda f: f.get("price", 999999))[0]
                     f2 = sorted(second_leg, key=lambda f: f.get("price", 999999))[0]
@@ -313,7 +375,7 @@ async def build_itinerary(prefs: ItineraryPreferences) -> ItineraryPlan:
                     FlightSegment(
                         airline="Fallback Route",
                         from_city=last_city,
-                        to_city=prefs.source,
+                        to_city=prefs.origin,
                         price=1800,
                         duration_minutes=420,
                     )
@@ -325,12 +387,12 @@ async def build_itinerary(prefs: ItineraryPreferences) -> ItineraryPlan:
                 day_index=current_day_index,
                 city=last_city,
                 flight=return_segments[0],
-                notes=f"Return flight from {last_city} → {prefs.source}",
+                notes=f"Return flight from {last_city} → {prefs.origin}",
                 estimated_day_cost=0,
             )
         )
 
-    # ✅ Final itinerary plan
+    # ✅ Final itinerary output
     return ItineraryPlan(
         trip_id=f"TRIP-{datetime.utcnow().strftime('%Y%m%d%H%M%S')}",
         created_at=datetime.utcnow(),

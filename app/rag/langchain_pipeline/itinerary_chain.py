@@ -2,7 +2,8 @@ import os
 import re
 import json
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_core.output_parsers import StrOutputParser  # ✅ updated import
+from langchain_core.output_parsers import StrOutputParser
+  # ✅ updated import
 from .itinerary_prompt import itinerary_prompt
 
 

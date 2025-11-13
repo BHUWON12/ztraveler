@@ -1,78 +1,131 @@
-from fastapi import FastAPI
+# -------------------------------------------------------------
+# Travel AI Backend — FastAPI Entrypoint (Cloud Run Ready)
+# -------------------------------------------------------------
+from fastapi import FastAPI, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
+
+# Routers
 from app.api.itinerary_router import router as itinerary_router
-from app.db.mongo import get_mongo_client
-from app.rag.utils.vector_initilizer import (
-    ensure_vector_index,
-    ensure_embeddings_for_collection,
-)
-from app.redis_index import (
-    ensure_hotel_index,
-    ensure_attraction_index,
-    ensure_event_index,
-    ensure_flight_index,
-    ensure_transport_index,
-)
-import redis
+
+# Mongo init
+from app.db.mongo import get_mongo_client, init_mongo
+
+# Redis index management
+from app.redis_index import ensure_all_indexes
+
+# Embeddings / vector utilities
+from app.rag.utils.vector_initilizer import ensure_embeddings_for_collection
+
 from app.config import settings
+import redis
+import asyncio
+import traceback
 
-# Initialize FastAPI
-app = FastAPI(title="Travel AI Backend")
 
-# ✅ Allow CORS from everywhere
+# -------------------------------------------------------------
+# Initialize FastAPI App
+# -------------------------------------------------------------
+app = FastAPI(
+    title="Travel AI Backend",
+    description="FastAPI backend for ZTraveler / Hala Saudi PMS-AI",
+    version="1.0.0",
+)
+
+# Allow all origins (relax later for production)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allow all origins
+    allow_origins=["*"],
     allow_credentials=True,
-    allow_methods=["*"],  # Allow all HTTP methods
-    allow_headers=["*"],  # Allow all headers
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
-# Register routers
+# Register API routers
 app.include_router(itinerary_router)
 
-# Redis connection
-r_sync = redis.Redis.from_url(settings.REDIS_URL, decode_responses=False)
 
-
+# -------------------------------------------------------------
+# Health Check
+# -------------------------------------------------------------
 @app.get("/health")
 def health():
-    """Health check endpoint."""
-    return {"ok": True}
+    return {"status": "ok"}
 
 
+# -------------------------------------------------------------
+# Manual warmup endpoint (optional)
+# -------------------------------------------------------------
+@app.get("/warmup")
+async def warmup(background_tasks: BackgroundTasks):
+    background_tasks.add_task(initialize_services)
+    return {"message": "Warmup initiated — check logs for progress."}
+
+
+# -------------------------------------------------------------
+# Startup Hook — Automatically run initialization
+# -------------------------------------------------------------
 @app.on_event("startup")
-async def setup_vector_indexes():
-    """Startup routine: ensure Redis indexes + Mongo embeddings exist."""
-    print("🔍 Checking Redis vector indexes and Mongo embeddings...")
+async def on_startup():
+    print("Application startup complete.")
+    asyncio.create_task(initialize_services())
 
-    # Ensure indexes exist (Redis schema creation)
-    ensure_hotel_index(r_sync)
-    ensure_attraction_index(r_sync)
-    ensure_event_index(r_sync)
-    ensure_flight_index(r_sync)
-    ensure_transport_index(r_sync)
 
-    # Create or verify vector indexes in Redis
-    ensure_vector_index("idx:hotels", "hotel", "embedding", 384)
-    ensure_vector_index("idx:attractions", "attr", "embedding", 384)
-    ensure_vector_index("idx:events", "event", "embedding", 384)
-    ensure_vector_index("idx:flights", "flight", "embedding", 384)
-    ensure_vector_index("idx:transports", "transport", "embedding", 384)
+# -------------------------------------------------------------
+# Initialization Logic (Redis + MongoDB + Embeddings)
+# -------------------------------------------------------------
+async def initialize_services():
+    try:
+        print("Starting warmup process...")
+        print(f"Environment: {settings.ENV}")
+        print(f"MongoDB URI: {settings.MONGO_URI}")
+        print(f"Redis URL: {settings.REDIS_URL}")
 
-    # Get MongoDB client
-    db = get_mongo_client()
-    hotels = db["hotels"]
-    attractions = db["attractions"]
-    events = db["events"]
-    flights = db["flights"]
-    transports = db["transports"]
+        # -------------------------------------------------
+        # Connect to Redis
+        # -------------------------------------------------
+        r = None
+        try:
+            r = redis.Redis.from_url(settings.REDIS_URL, decode_responses=False)
+            r.ping()
+            print("Connected to Redis.")
+        except Exception as re:
+            print(f"Redis connection failed: {re}")
+            traceback.print_exc()
+            return
 
-    # Generate embeddings for missing documents
-    await ensure_embeddings_for_collection(hotels, "idx:hotels", "hotel", "embedding", 384)
-    await ensure_embeddings_for_collection(attractions, "idx:attractions", "attr", "embedding", 384)
-    await ensure_embeddings_for_collection(events, "idx:events", "event", "embedding", 384)
-    await ensure_embeddings_for_collection(flights, "idx:flights", "flight", "embedding", 384)
-    await ensure_embeddings_for_collection(transports, "idx:transports", "transport", "embedding", 384)
+        # -------------------------------------------------
+        # Create RediSearch vector indexes
+        # -------------------------------------------------
+        print("Ensuring Redis indexes exist...")
+        ensure_all_indexes(r)
 
-    print("✅ All vector indexes and embeddings verified.")
+        # -------------------------------------------------
+        # MongoDB connection
+        # -------------------------------------------------
+        print("Initializing MongoDB connection...")
+        try:
+            await init_mongo()
+            db = get_mongo_client()
+            print("MongoDB connected.")
+        except Exception as me:
+            print(f"MongoDB initialization failed: {me}")
+            traceback.print_exc()
+            return
+
+        # -------------------------------------------------
+        # Ensure embeddings for all Mongo collections
+        # -------------------------------------------------
+        print("Ensuring MongoDB embeddings...")
+        await asyncio.gather(
+            ensure_embeddings_for_collection(db["hotels"], "idx:hotels", "hotel", "embedding", 384),
+            ensure_embeddings_for_collection(db["attractions"], "idx:attractions", "attr", "embedding", 384),
+            ensure_embeddings_for_collection(db["events"], "idx:events", "event", "embedding", 384),
+            ensure_embeddings_for_collection(db["flights"], "idx:flights", "flight", "embedding", 384),
+            ensure_embeddings_for_collection(db["transports"], "idx:transports", "transport", "embedding", 384),
+        )
+
+        print("Warmup completed successfully.")
+
+    except Exception as e:
+        print(f"Warmup process failed: {e}")
+        traceback.print_exc()
